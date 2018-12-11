@@ -1,2 +1,0 @@
-D:\Users\kalav\Documents\Unreal Projects\SibStory\Plugins\StoryGraphPlugin\Source\StoryGraphPluginEditor\StoryGraphPluginEditor.Build.cs
-D:\Users\kalav\Documents\Unreal Projects\SibStory\Plugins\StoryGraphPlugin\Source\StoryGraphPluginRuntime\StoryGraphPluginRuntime.Build.cs
