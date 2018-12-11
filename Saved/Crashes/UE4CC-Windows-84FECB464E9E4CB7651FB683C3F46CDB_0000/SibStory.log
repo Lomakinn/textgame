@@ -1,0 +1,460 @@
+﻿Log file open, 10/18/18 01:20:49
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SibStory
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.300531
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin DlgSystem
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.172s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU:         Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 550 Ti
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -EpicPortal -epicusername="Lomakin" -epicuserid=c2541f5a020946b0bff5d0953c5a2f6d -epiclocale=ru-RU
+LogInit: Base Directory: D:/Program Files (x86)/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.17-18.20.49:931][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.17-18.20.49:931][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.17-18.20.49:947][  0]LogHAL: Display: Platform has ~ 16 GB [17162153984 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.17-18.20.49:947][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.17-18.20.49:947][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.17-18.20.49:947][  0]LogInit: Computer: DESKTOP-7BC9OFJ
+[2018.10.17-18.20.49:947][  0]LogInit: User: kalav
+[2018.10.17-18.20.49:947][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.17-18.20.49:947][  0]LogInit: High frequency timer resolution =3.312794 MHz
+[2018.10.17-18.20.49:947][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.10.17-18.20.49:947][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.17-18.20.49:947][  0]LogMemory: Process Physical Memory: 100.11 MB used, 100.11 MB peak
+[2018.10.17-18.20.49:947][  0]LogMemory: Process Virtual Memory: 90.93 MB used, 90.93 MB peak
+[2018.10.17-18.20.49:947][  0]LogMemory: Physical Memory: 6042.16 MB used,  10324.95 MB free, 16367.11 MB total
+[2018.10.17-18.20.49:947][  0]LogMemory: Virtual Memory: 4644.90 MB used,  10324.95 MB free, 134217728.00 MB total
+[2018.10.17-18.20.49:967][  0]LogInit: Using OS detected language (ru-RU).
+[2018.10.17-18.20.49:967][  0]LogInit: Using OS detected locale (ru-RU).
+[2018.10.17-18.20.49:968][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2018.10.17-18.20.49:972][  0]LogStreaming: Display: Took  0.005s to InitEngineTextLocalization.
+[2018.10.17-18.20.49:972][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.17-18.20.50:003][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.17-18.20.50:003][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.17-18.20.50:352][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.17-18.20.50:352][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.17-18.20.50:397][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 550 Ti' (Feature Level 11_0)
+[2018.10.17-18.20.50:397][  0]LogD3D11RHI:       977/0/8183 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.10.17-18.20.50:399][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.17-18.20.50:399][  0]LogD3D11RHI:       0/0/8183 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.17-18.20.50:399][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.17-18.20.50:404][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.17-18.20.50:404][  0]LogD3D11RHI:     GPU DeviceId: 0x1244 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.17-18.20.50:404][  0]LogWindows: EnumDisplayDevices:
+[2018.10.17-18.20.50:405][  0]LogWindows:    0. 'NVIDIA GeForce GTX 550 Ti' (P:0 D:1)
+[2018.10.17-18.20.50:405][  0]LogWindows:    1. 'NVIDIA GeForce GTX 550 Ti' (P:1 D:1)
+[2018.10.17-18.20.50:405][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2018.10.17-18.20.50:405][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 550 Ti
+[2018.10.17-18.20.50:405][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2018.10.17-18.20.50:405][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2018.10.17-18.20.50:405][  0]LogRHI: Texture pool is 683 MB (70% of 977 MB)
+[2018.10.17-18.20.50:441][  0]LogD3D11RHI: Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2018.10.17-18.20.50:441][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.17-18.20.50:452][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.10.17-18.20.50:500][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (../../../../../../Users/kalav/Documents/Unreal Projects/SibStory/Intermediate/Shaders/WorkingDirectory/5060/).
+[2018.10.17-18.20.50:501][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kalav/AppData/Local/Temp/UnrealShaderWorkingDir/1E5E34404F3360AF54D2138737F03B26/'.
+[2018.10.17-18.20.50:813][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.17-18.20.50:830][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.17-18.20.50:847][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.17-18.20.50:863][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.17-18.20.50:881][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.17-18.20.50:898][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.17-18.20.50:915][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.17-18.20.50:932][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.17-18.20.50:939][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.17-18.20.51:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-18.20.51:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-18.20.51:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-18.20.51:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-18.20.51:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-18.20.51:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-18.20.51:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-18.20.51:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-18.20.51:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-18.20.51:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-18.20.51:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-18.20.51:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-18.20.51:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-18.20.51:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-18.20.51:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-18.20.51:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-18.20.51:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-18.20.51:038][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.17-18.20.51:039][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.17-18.20.51:115][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.17-18.20.51:115][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.17-18.20.51:147][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.17-18.20.51:148][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.17-18.20.51:163][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.17-18.20.51:178][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.17-18.20.51:193][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.17-18.20.51:208][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.17-18.20.51:218][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.17-18.20.51:218][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.17-18.20.51:276][  0]LogXGEController: Cleaning working directory: C:/Users/kalav/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.17-18.20.51:276][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.17-18.20.51:276][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.17-18.20.51:276][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.17-18.20.52:097][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.17-18.20.52:162][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/kalav/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.17-18.20.52:162][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kalav/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.17-18.20.52:163][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kalav/Documents/Unreal Projects/SibStory/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.17-18.20.52:163][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.17-18.20.52:163][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kalav/Documents/Unreal Projects/SibStory/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.17-18.20.52:163][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.17-18.20.52:177][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.17-18.20.52:190][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kalav/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.17-18.20.52:190][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.17-18.20.52:190][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.17-18.20.52:211][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.17-18.20.52:213][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.17-18.20.52:213][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.17-18.20.52:302][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2018.10.17-18.20.52:699][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.17-18.20.52:854][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.17-18.20.52:859][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.17-18.20.52:859][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.17-18.20.52:859][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.17-18.20.52:859][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.17-18.20.52:880][  0]LogNetVersion: SibStory 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 24283779)
+[2018.10.17-18.20.53:488][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 2 prioritized culture(s) in 0.152749 seconds
+[2018.10.17-18.20.53:495][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.17-18.20.53:495][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.17-18.20.53:495][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.17-18.20.54:599][  0]LogDlgSystem: Verbose: Creating new DlgGuid = `C8F075964E54831187233CB770D187DD` for Dialogue = `/Script/DlgSystem.Default__DlgDialogue` because of new created Dialogue.
+[2018.10.17-18.20.54:600][  0]LogDlgSystem: Verbose: Started DlgSystemModule
+[2018.10.17-18.20.54:606][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.17-18.20.54:619][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.17-18.20.54:825][  0]SourceControl: Source control is disabled
+[2018.10.17-18.20.54:825][  0]SourceControl: Source control is disabled
+[2018.10.17-18.20.54:826][  0]SourceControl: Source control is disabled
+[2018.10.17-18.20.54:827][  0]SourceControl: Source control is disabled
+[2018.10.17-18.20.55:003][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.17-18.20.55:094][  0]LogOcInput: OculusInput pre-init called
+[2018.10.17-18.20.55:102][  0]LogDlgSystemEditor: Verbose: Started DlgSystemEditorModule
+[2018.10.17-18.20.55:115][  0]LogDlgSystem: Verbose: Creating graph for Dialogue = `/Game/Blueprints/Dialogue/TestDialogue.TestDialogue`
+[2018.10.17-18.20.55:116][  0]LogDlgSystem: Verbose: Creating new DlgGuid = `4D0BABDF4CED9344AD9F8FB523FADB83` for Dialogue = `/Game/Blueprints/Dialogue/TestDialogue.TestDialogue` because of new created Dialogue.
+[2018.10.17-18.20.55:120][  0]LogDlgSystem: Verbose: Creating graph for Dialogue = `/DlgSystem/TestDialogue.TestDialogue`
+[2018.10.17-18.20.55:120][  0]LogDlgSystem: Verbose: Creating new DlgGuid = `C3D652E745B2F0ECDC58D486E7A791CC` for Dialogue = `/DlgSystem/TestDialogue.TestDialogue` because of new created Dialogue.
+[2018.10.17-18.20.55:121][  0]LogDlgSystem: Refreshing data for Dialogue = `/DlgSystem/TestDialogue.TestDialogue`
+[2018.10.17-18.20.55:121][  0]LogDlgSystemEditor: Verbose: UDlgManager::LoadAllDialoguesIntoMemory loaded 0 Dialogues into Memory
+[2018.10.17-18.20.55:188][  0]LogEngine: Initializing Engine...
+[2018.10.17-18.20.55:188][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.17-18.20.55:190][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.17-18.20.55:190][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.17-18.20.55:190][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.17-18.20.55:190][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.17-18.20.55:441][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.17-18.20.55:450][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.17-18.20.55:471][  0]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.17-18.20.55:487][  0]LogInit: FAudioDevice initialized.
+[2018.10.17-18.20.55:487][  0]LogNetVersion: Set ProjectVersion to 0.0.1p. Version Checksum will be recalculated on next use.
+[2018.10.17-18.20.55:585][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/kalav/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.17-18.20.55:609][  0]LogInit: Texture streaming: Enabled
+[2018.10.17-18.20.55:630][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.17-18.20.55:630][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={CBD637D8-4BBE-B85D-7E4C-8CB600C95BAC}
+[2018.10.17-18.20.55:643][  0]LogInit: Transaction tracking system initialized
+[2018.10.17-18.20.55:664][  0]BlueprintLog: New page: Editor Load
+[2018.10.17-18.20.55:739][  0]LocalizationService: Localization service is disabled
+[2018.10.17-18.20.55:799][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2018.10.17-18.20.55:799][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2018.10.17-18.20.55:799][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/2DSideScrollerBP/2DSideScrollerOverview.2DSideScrollerOverview_C'
+[2018.10.17-18.20.56:018][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.17-18.20.56:018][  0]LogCook: Display: Mobile HDR setting 0
+[2018.10.17-18.20.56:018][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.17-18.20.56:018][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.17-18.20.56:018][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.17-18.20.56:018][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.17-18.20.56:018][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.17-18.20.56:150][  0]LogFileCache: Scanning file cache for directory 'D:/Users/kalav/Documents/Unreal Projects/SibStory/Content/' took 0.01s
+[2018.10.17-18.20.56:150][  0]SourceControl: Source control is disabled
+[2018.10.17-18.20.56:150][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.17-18.20.56:151][  0]LightingResults: New page: Lighting Build
+[2018.10.17-18.20.56:154][  0]MapCheck: New page: Map Check
+[2018.10.17-18.20.56:154][  0]LightingResults: New page: Lighting Build
+[2018.10.17-18.20.56:414][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.10.17-18.20.56:420][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.17-18.20.56:443][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.17-18.20.56:516][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 73,333ms to complete.
+[2018.10.17-18.20.56:516][  0]LogFileHelpers: Loading map 'Template_Default' took 0.367
+[2018.10.17-18.20.56:657][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.17-18.20.56:670][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.17-18.20.56:680][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.17-18.20.56:688][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.17-18.20.56:697][  0]LogCollectionManager: Loaded 0 collections in 0.001782 seconds
+[2018.10.17-18.20.56:742][  0]LogFileCache: Scanning file cache for directory 'D:/Users/kalav/Documents/Unreal Projects/SibStory/Saved/Collections/' took 0.01s
+[2018.10.17-18.20.56:742][  0]LogFileCache: Scanning file cache for directory 'D:/Users/kalav/Documents/Unreal Projects/SibStory/Content/Developers/kalav/Collections/' took 0.01s
+[2018.10.17-18.20.56:742][  0]LogFileCache: Scanning file cache for directory 'D:/Users/kalav/Documents/Unreal Projects/SibStory/Content/Collections/' took 0.01s
+[2018.10.17-18.20.56:742][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.10.17-18.20.56:753][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2618 classes and 618 folders.
+[2018.10.17-18.20.56:761][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.17-18.20.56:832][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.17-18.20.56:837][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.10.17-18.20.56:983][  0]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for ../../../../../../Users/kalav/Documents/Unreal Projects/SibStory/Plugins/. Error: Не удается найти указанный файл. (0x00000002)
+[2018.10.17-18.20.56:987][  0]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.17-18.20.56:991][  0]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.17-18.20.56:996][  0]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.17-18.20.57:055][  0]LogRenderer: Reallocating scene render targets to support 980x592 Format 10 NumSamples 1 (Frame:1).
+[2018.10.17-18.20.57:104][  0]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.17-18.20.57:185][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.10.17-18.20.57:185][  0]LogLoad: (Engine Initialization) Total time: 9.51 seconds
+[2018.10.17-18.20.57:185][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.17-18.20.57:225][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.17-18.20.57:688][  2]LogAssetRegistry: Asset discovery search completed in 5.4078 seconds
+[2018.10.17-18.20.57:690][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.17-18.20.57:690][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000085 seconds (updated 0 objects)
+[2018.10.17-18.20.58:690][  5]LogSlate: Took 0.000583 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.17-18.21.00:358][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-18.21.00:468][ 92]LogAssetEditorManager: Opening Asset editor for DlgDialogue /Game/Blueprints/Dialogue/TestDialogue.TestDialogue
+[2018.10.17-18.21.00:468][ 92]LogDlgSystemEditor: Clicked a Dialogue = `/Game/Blueprints/Dialogue/TestDialogue.TestDialogue`
+[2018.10.17-18.21.00:468][ 92]LogDlgSystem: Compiling Dialogue = `/Game/Blueprints/Dialogue/TestDialogue.TestDialogue` (Graph data -> Dialogue data)`
+[2018.10.17-18.21.00:625][ 92]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Blueprints/UI/GameUI.GameUI
+[2018.10.17-18.21.01:292][ 92]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.10.17-18.21.02:333][ 92]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/SomeActor.SomeActor
+[2018.10.17-18.21.02:858][ 92]LogSlate: Took 0.000328 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.17-18.21.29:075][748]LogDlgSystem: Compiling Dialogue = `/Game/Blueprints/Dialogue/TestDialogue.TestDialogue` (Graph data -> Dialogue data)`
+[2018.10.17-18.21.33:198][152]LogDlgSystem: Compiling Dialogue = `/Game/Blueprints/Dialogue/TestDialogue.TestDialogue` (Graph data -> Dialogue data)`
+[2018.10.17-18.21.35:065][287]LogDlgSystem: Compiling Dialogue = `/Game/Blueprints/Dialogue/TestDialogue.TestDialogue` (Graph data -> Dialogue data)`
+[2018.10.17-18.22.24:914][809]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Dialogue/TestDialogue" FILE="../../../../../../Users/kalav/Documents/Unreal Projects/SibStory/Content/Blueprints/Dialogue/TestDialogue.uasset" SILENT=true
+[2018.10.17-18.22.24:931][809]LogDlgSystem: Compiling Dialogue = `/Game/Blueprints/Dialogue/TestDialogue.TestDialogue` (Graph data -> Dialogue data)`
+[2018.10.17-18.22.24:963][809]LogDlgSystem: Refreshing data for Dialogue = `/Game/Blueprints/Dialogue/TestDialogue.TestDialogue`
+[2018.10.17-18.22.24:963][809]LogDlgSystem: Exporting data for Dialogue = `/Game/Blueprints/Dialogue/TestDialogue.TestDialogue` TO file = `../../../../../../Users/kalav/Documents/Unreal Projects/SibStory/Content/Blueprints/Dialogue/TestDialogue.dlg`
+[2018.10.17-18.22.24:984][809]LogSavePackage: Moving '../../../../../../Users/kalav/Documents/Unreal Projects/SibStory/Saved/TestDialogueA05967D0464D2C341FE6A0A981388A79.tmp' to '../../../../../../Users/kalav/Documents/Unreal Projects/SibStory/Content/Blueprints/Dialogue/TestDialogue.uasset'
+[2018.10.17-18.22.26:407][891]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-18.22.42:861][ 65]LogDlgSystem: Refreshing data for Dialogue = `/Game/Blueprints/Dialogue/TestDialogue.TestDialogue`
+[2018.10.17-18.22.47:217][379]LogDlgSystem: Refreshing data for Dialogue = `/Game/Blueprints/Dialogue/TestDialogue.TestDialogue`
+[2018.10.17-18.23.14:798][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Dialogue/TestDialogue" FILE="../../../../../../Users/kalav/Documents/Unreal Projects/SibStory/Content/Blueprints/Dialogue/TestDialogue.uasset" SILENT=true
+[2018.10.17-18.23.14:806][168]LogDlgSystem: Compiling Dialogue = `/Game/Blueprints/Dialogue/TestDialogue.TestDialogue` (Graph data -> Dialogue data)`
+[2018.10.17-18.23.14:833][168]LogDlgSystem: Refreshing data for Dialogue = `/Game/Blueprints/Dialogue/TestDialogue.TestDialogue`
+[2018.10.17-18.23.14:834][168]LogDlgSystem: Exporting data for Dialogue = `/Game/Blueprints/Dialogue/TestDialogue.TestDialogue` TO file = `../../../../../../Users/kalav/Documents/Unreal Projects/SibStory/Content/Blueprints/Dialogue/TestDialogue.dlg`
+[2018.10.17-18.23.14:854][168]LogSavePackage: Moving '../../../../../../Users/kalav/Documents/Unreal Projects/SibStory/Saved/TestDialogue4E4D41384873F3F06DDA1CA2C3AD9F32.tmp' to '../../../../../../Users/kalav/Documents/Unreal Projects/SibStory/Content/Blueprints/Dialogue/TestDialogue.uasset'
+[2018.10.17-18.23.15:384][198]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-18.23.23:393][497]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2018.10.17-18.23.24:882][624]LogSlate: Window 'TestDialogue' being destroyed
+[2018.10.17-18.23.26:358][800]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-18.23.30:001][219]LogSlate: Window 'SomeActor' being destroyed
+[2018.10.17-18.23.47:151][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Dialogue/TestDialogue" FILE="../../../../../../Users/kalav/Documents/Unreal Projects/SibStory/Content/Blueprints/Dialogue/TestDialogue.uasset" SILENT=true
+[2018.10.17-18.23.47:158][694]LogDlgSystem: Compiling Dialogue = `/Game/Blueprints/Dialogue/TestDialogue.TestDialogue` (Graph data -> Dialogue data)`
+[2018.10.17-18.23.47:190][694]LogDlgSystem: Refreshing data for Dialogue = `/Game/Blueprints/Dialogue/TestDialogue.TestDialogue`
+[2018.10.17-18.23.47:190][694]LogDlgSystem: Exporting data for Dialogue = `/Game/Blueprints/Dialogue/TestDialogue.TestDialogue` TO file = `../../../../../../Users/kalav/Documents/Unreal Projects/SibStory/Content/Blueprints/Dialogue/TestDialogue.dlg`
+[2018.10.17-18.23.47:211][694]LogSavePackage: Moving '../../../../../../Users/kalav/Documents/Unreal Projects/SibStory/Saved/TestDialogue82E0D0E342C94A789767B2A25FA4A0BD.tmp' to '../../../../../../Users/kalav/Documents/Unreal Projects/SibStory/Content/Blueprints/Dialogue/TestDialogue.uasset'
+[2018.10.17-18.23.57:319][788]LogAIModule: Creating AISystem for world MainLevel
+[2018.10.17-18.23.57:325][788]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/MainLevel.MainLevel
+[2018.10.17-18.23.57:363][788]Cmd: MAP LOAD FILE="../../../../../../Users/kalav/Documents/Unreal Projects/SibStory/Content/Maps/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.17-18.23.57:363][788]LightingResults: New page: Lighting Build
+[2018.10.17-18.23.57:364][788]LoadErrors: New page: Loading map: MainLevel.umap
+[2018.10.17-18.23.57:364][788]MapCheck: New page: Map Check
+[2018.10.17-18.23.57:364][788]LightingResults: New page: Lighting Build
+[2018.10.17-18.23.57:486][788]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.17-18.23.57:549][788]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.17-18.23.57:642][788]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 92,945ms to complete.
+[2018.10.17-18.23.57:642][788]LogFileHelpers: Loading map 'MainLevel' took 0.280
+[2018.10.17-18.23.58:838][913]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.17-18.23.58:866][913]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2018.10.17-18.23.58:866][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.17-18.23.58:879][913]PIE: New page: PIE session: MainLevel (18 окт. 2018 г., 8:23:58)
+[2018.10.17-18.23.58:879][913]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainLevel
+[2018.10.17-18.23.58:882][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002387s)
+[2018.10.17-18.23.58:882][913]LogAIModule: Creating AISystem for world MainLevel
+[2018.10.17-18.23.58:882][913]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2018.10.17-18.23.58:882][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainLevel.MainLevel to /Game/Maps/UEDPIE_0_MainLevel.MainLevel (0.003263s)
+[2018.10.17-18.23.58:928][913]LogInit: XAudio2 using 'Динамики (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.17-18.23.58:940][913]LogInit: FAudioDevice initialized.
+[2018.10.17-18.23.58:986][913]LogLoad: Game class is 'GameModeBase'
+[2018.10.17-18.23.58:987][913]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2018.10.18-01.23.58
+[2018.10.17-18.23.58:988][913]LogWorld: Bringing up level for play took: 0.001086
+[2018.10.17-18.23.59:007][913]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2018.10.17-18.23.59:009][913]LogBlueprintUserMessages: [MainLevel_C_11] 111
+[2018.10.17-18.23.59:009][913]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_MainLevel 0,031
+[2018.10.17-18.23.59:009][913]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2018.10.17-18.24.01:283][181]LogBlueprintUserMessages: [MainLevel_C_11] 222
+[2018.10.17-18.24.01:283][181]LogBlueprintUserMessages: [MainLevel_C_11] 1 Next
+[2018.10.17-18.24.03:869][491]LogDlgSystem: Error: Invalid index 1 in UDlgContext::ChooseChildBasedOnAllOptionIndex!
+[2018.10.17-18.24.03:869][491]LogBlueprintUserMessages: [MainLevel_C_11] 222
+[2018.10.17-18.24.03:869][491]LogBlueprintUserMessages: [MainLevel_C_11] 1 Next
+[2018.10.17-18.24.04:428][558]LogDlgSystem: Error: Invalid index 2 in UDlgContext::ChooseChildBasedOnAllOptionIndex!
+[2018.10.17-18.24.04:428][558]LogBlueprintUserMessages: [MainLevel_C_11] 222
+[2018.10.17-18.24.04:428][558]LogBlueprintUserMessages: [MainLevel_C_11] 1 Next
+[2018.10.17-18.24.04:913][616]LogBlueprintUserMessages: [MainLevel_C_11] Что ты делаешь дома в час ночи?
+[2018.10.17-18.24.04:913][616]LogBlueprintUserMessages: [MainLevel_C_11] 1 Next
+[2018.10.17-18.24.04:913][616]LogBlueprintUserMessages: [MainLevel_C_11] 2 тыры-пыры
+[2018.10.17-18.24.04:913][616]LogBlueprintUserMessages: [MainLevel_C_11] 3 
+[2018.10.17-18.24.05:515][688]LogDlgSystem: Error: Index 1 is an unsatisfied edge! (UDlgContext::ChooseChildBasedOnAllOptionIndex!) Call failed!
+[2018.10.17-18.24.05:515][688]LogBlueprintUserMessages: [MainLevel_C_11] Что ты делаешь дома в час ночи?
+[2018.10.17-18.24.05:515][688]LogBlueprintUserMessages: [MainLevel_C_11] 1 Next
+[2018.10.17-18.24.05:515][688]LogBlueprintUserMessages: [MainLevel_C_11] 2 тыры-пыры
+[2018.10.17-18.24.05:515][688]LogBlueprintUserMessages: [MainLevel_C_11] 3 
+[2018.10.17-18.24.05:907][735]LogBlueprintUserMessages: [MainLevel_C_11] Нет
+[2018.10.17-18.24.05:907][735]LogBlueprintUserMessages: [MainLevel_C_11] 1 Finish
+[2018.10.17-18.24.06:492][805]LogBlueprintUserMessages: [MainLevel_C_11] 
+[2018.10.17-18.24.06:492][805]LogBlueprintUserMessages: [MainLevel_C_11] 1 Finish
+[2018.10.17-18.24.06:694][829]LogDlgSystem: Error: Invalid index 1 in UDlgContext::ChooseChildBasedOnAllOptionIndex!
+[2018.10.17-18.24.06:694][829]LogBlueprintUserMessages: [MainLevel_C_11] 
+[2018.10.17-18.24.06:694][829]LogBlueprintUserMessages: [MainLevel_C_11] 1 Finish
+[2018.10.17-18.24.06:827][845]LogDlgSystem: Error: Invalid index 2 in UDlgContext::ChooseChildBasedOnAllOptionIndex!
+[2018.10.17-18.24.06:827][845]LogBlueprintUserMessages: [MainLevel_C_11] 
+[2018.10.17-18.24.06:827][845]LogBlueprintUserMessages: [MainLevel_C_11] 1 Finish
+[2018.10.17-18.24.07:160][885]LogDlgSystem: Error: Invalid index 1 in UDlgContext::ChooseChildBasedOnAllOptionIndex!
+[2018.10.17-18.24.07:160][885]LogBlueprintUserMessages: [MainLevel_C_11] 
+[2018.10.17-18.24.07:161][885]LogBlueprintUserMessages: [MainLevel_C_11] 1 Finish
+[2018.10.17-18.24.07:219][892]LogBlueprintUserMessages: [MainLevel_C_11] 
+[2018.10.17-18.24.07:219][892]LogBlueprintUserMessages: [MainLevel_C_11] 1 Finish
+[2018.10.17-18.24.07:404][914]LogDlgSystem: Error: Invalid index 2 in UDlgContext::ChooseChildBasedOnAllOptionIndex!
+[2018.10.17-18.24.07:404][914]LogBlueprintUserMessages: [MainLevel_C_11] 
+[2018.10.17-18.24.07:404][914]LogBlueprintUserMessages: [MainLevel_C_11] 1 Finish
+[2018.10.17-18.24.07:461][921]LogDlgSystem: Error: Invalid index 1 in UDlgContext::ChooseChildBasedOnAllOptionIndex!
+[2018.10.17-18.24.07:461][921]LogBlueprintUserMessages: [MainLevel_C_11] 
+[2018.10.17-18.24.07:461][921]LogBlueprintUserMessages: [MainLevel_C_11] 1 Finish
+[2018.10.17-18.24.07:560][933]LogBlueprintUserMessages: [MainLevel_C_11] 
+[2018.10.17-18.24.07:560][933]LogBlueprintUserMessages: [MainLevel_C_11] 1 Finish
+[2018.10.17-18.24.07:789][960]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2018.10.17-18.24.07:789][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.17-18.24.07:827][960]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.17-18.24.07:827][960]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Maps/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Maps/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2018.10.17-18.24.07:861][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.17-18.24.07:889][962]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2018.10.17-18.24.11:823][406]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.17-18.24.18:619][195]LogDlgSystem: Compiling Dialogue = `/Game/Blueprints/Dialogue/TestDialogue.TestDialogue` (Graph data -> Dialogue data)`
+[2018.10.17-18.24.53:092][307]LogDlgSystem: Compiling Dialogue = `/Game/Blueprints/Dialogue/TestDialogue.TestDialogue` (Graph data -> Dialogue data)`

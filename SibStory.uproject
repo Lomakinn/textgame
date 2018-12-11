@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.20",
+	"Category": "",
+	"Description": "",
+	"Plugins": [
+		{
+			"Name": "SceneText",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/ff1d47f158af43f3bdefb52f0c037cea"
+		},
+		{
+			"Name": "DlgSystem",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/6d0255a60be340dfa1c556503cc57eb3"
+		}
+	],
+	"TargetPlatforms": [
+		"Android",
+		"HTML5",
+		"IOS"
+	]
+}

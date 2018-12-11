@@ -1,0 +1,478 @@
+DlgVersion 7
+DlgName "TestDialogue"
+DlgGuid {  A 2109133747 B 1113083319 C 711831459 D 1434769077 }
+Node_Speech StartNode
+{
+	Text ""
+	SpeakerState "None"
+	bIsVirtualParent False
+	OwnerName "None"
+	bCheckChildrenOnEvaluation False
+	VoiceSoundWave ""
+	VoiceDialogueWave ""
+	Children { {  TargetIndex 0 Text "НАЧАТЬ ИСТОРИЮ" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+}
+DlgParticipantClasses { {  ParticipantName "StartText" ParticipantClass "" } }
+Node Nodes
+{
+	// 0
+	Node_Speech 
+	{
+		Text "Наконец-то отпуск! Впереди - две недели свободы, разговоры по душам, посиделки у костра, охота, рыбалка. Каждый год вы с друзьями стараетесь выбраться на стоянку, запрятанную в Саянских горах. От Абакана - на автомобиле мимо деревень и по горным дорогам, потом через небольшую деревеньку - к небольшой долине, окруженной древними горами. Там почти нет мобильной свзяи, редко появляются люди. Зато можно встретить россомаху или медведя, а в реках до сих пор ловится хариус и таймень. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 1 Text "Далее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 1
+	Node_Speech 
+	{
+		Text "Большая часть дороги осталась позади - скоро вы доедете до старой охотничьей стоянки. Машина въезжает на узкую извилистую дорогу. С одной  стороны над вашим джипом нависает скала, с другой стороны обочина обрывается крутым, почти вертикальным обрывом к горной реке. В машине вас трое - Алекс, Макс и вы. Алекс ведет машину, Макс сидит на заднем сиденье. Ваше место - рядом с водителем, и из бокового окна видно только серую скалу. 
+- Смотри, Влад! - обращается к вам Алекс, и показывает куда-то налево. Он останавливает машину и вы замечаете, в небе невероятно яркий движущийся предмет. Похоже, это метеорит, причем очень крупный. Он выглядит больше челябинского метеорита. Нужно снять его на видео! "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 2 Text "Снять видео из машины" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 3 Text "Выйти и снять видео" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 2
+	Node_Speech 
+	{
+		Text "Ничего не получается! Алекс мельтешит в окне - он тоже хочет получить эксклюзивное видео. Похоже, придется выйти из машины. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 3 Text "Выйти из машины и снять видео" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 3
+	Node_Speech 
+	{
+		Text "БАДАБУМ!"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 4 Text "Выдохнуть" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 4
+	Node_Speech 
+	{
+		Text "Выйти из машины было правильным решением. Теперь у вас отличный ракурс - вы снимаете фантастическое видео. Над горами, поросшими густым лесом, сияет и переливается огромный шар. Светящийся шар движется по небу и становится все больше. Кажется, он стал больше солнца! Деревья, скалы, машина - все отбрасывает резкие тени.
+В небе нарастает грохот - как будто разом разразились десятки гроз. Вам становится тревожно... Возможно, стоило бы поискать укрытие. Но где? С одной стороны от вас отвесная склала, с другой - пропасть с рекой внизу. 
+Вы продолжаете снимать, несмотря на тревогу. И шар взрывается. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 5 Text "Далее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 5
+	Node_Speech 
+	{
+		Text "Вероятно, вы потеряли сознание ненадолго. Вы лежите на спине и смотрите в удивительно белое небо, без единого облачка. Телефона у вас в руках нет. Вы приподнимаетесь и видите - дорога пуста, машины на ней нет. 
+Вы вскакиваете - и видите машину далеко внизу, в реке. Высота обрыва - не менее несколько десятков метров, вряд ли кто-то выжил при таком падении... 
+Но нет! По реке кто-то плывет, кажется, это Алекс! Ему нужна помощь!"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 6 Text "Броситься в реку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 7 Text "Осмотреться" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 6
+	Node_Speech 
+	{
+		Text "Обрыв слишком высокий, камени слишком острые, а река - холодная и бурная. При падении вы сломали множество костей, но оставались в сознании до самого конца. Последнее, что вы можете осознать - кругом ледяная вода и она захлестывает "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 8 Text "Жаль, но вы умерли..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 7
+	Node_Speech 
+	{
+		Text "Вы вовремя остановились. Голова перестала кружиться, в глазах больше не двоится. И теперь ясно видно - то, что показалось вам головой Алекса, на самом деле - бревно, которое крутит бурный поток. 
+Судьба ваших друзей вам не известна. Выжил ли кто-то в машине, упавшей с обрыва в реку? Добраться до машины, не рискуя серьезно жизнью - невозможно. У вас нет ни альпинистского снаряжения, ни даже веревки. Даже телефон, чтобы вызвать спасателей - и тот куда-то улетел! 
+Вы оглядываетесь и прислушиваетесь. Небо до сих пор полыхает нездешним светом, словно светится само по себе, без солнца. Издалека слышится грохот - взрыв вызвал многочисленные обвалы в горах. 
+Нужно вызвать помощь и вместе со спасателями попробовать найти друзей. Или хотя бы их тела. 
+Можно пойти назад - до ближайшей деревни всего 15 километров. Можно пойти вперед - до стоянки 5 километров. Там можно встретить других охотников или местных пастухов.  "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 9 Text "В деревню" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 10 Text "На стоянку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 8
+	Node_End 
+	{
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+	}
+	// 9
+	Node_Speech 
+	{
+		Text "Это правильное решение - пойти в деревню. На стоянке может никого не оказаться - что там делать без связи, еды и ружья? У вас даже ножа нет. Конечно, идти 15 километров - довольно далеко. Но вы - сильный и выносливый человек, вы справитесь с любыми сложностями. 
+А вот и первая сложность. Обвал перекрыл дорогу - вот откуда вы слышали шум камней. Просто так по дороге не пройти. Что же делать? 
+Вы осматриваетесь и понимаете - завал можно разобрать. Вот тут оттащить большой камень, вот там разгрести... И тогда можно перелезть и пойти по дороге дальше. 
+Еще вы замечаете тропинку, ведущую вверх, к вершине горы. Сложно сказать, куда именно, но пока кажется, что в нужном направлении - в сторону деревни. 
+А еще можно вернуться обратно и пойти к стоянке - вы еще недалеко ушли. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 11 Text "Попробовать разобрать завал" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 12 Text "Пойти по тропинке" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 10 Text "На стоянку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 10
+	Node_Speech 
+	{
+		Text "Это правильное решение - пойти в сторону стоянки. На стоянке есть колодец с чистой водой, избушка, а в ней - аптечка, небольшой запас дров, еды и воды. Мимо избушки не проходят ни охотники, ни рыбаки, ни пастухи. Местные жители часто ходят в горы, рано или поздно кто-то из них доберется до стоянки и поможет вам. 
+Буквально через несколько шагов вы замечаете сумку - она висит, зацепившись за камень на обрыве. Видимо, выпала из машины, когда та улетела в реку. Рукой сумку не достать - придется спуститься вниз, цепляясь за камни. Или можно найти ветку.. . 
+В любом случае - сумку надо достать там может быть что-то ценное. Вода, теплые носки, а еще лучше - телефон! "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 13 Text "Найти ветку подлиннее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 14 Text "Спуститься вниз по обрыву самому" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 11
+	Node_Speech 
+	{
+		Text "Вы немного переоценили свои силы. Разобрать обвал без лопаты, голыми руками оказалось очень сложно. Мелкие камни осыпаются и больно ранят руки. Вы почти разобрали небольшую щель, через которую можно пролезьть, но становится темно. 
+Вам очень хочется есть и пить. Вы очень устали. Наступает ночь. Разбирать обвал дальше просто опасно, нужно отдохнуть. Сил куда-то идти нет, придется заночевать тут. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 15 Text "Заночевать на дороге" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 16 Text "Найти укромное место" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 12
+	Node_Speech 
+	{
+		Text "Вы решаете идти вверх по тропинке - вверх, среди невысоких кустов, травы и маленьких ароматных фиолетовых цветочков. Пока не совсем понятно, куда в итоге должна привести тропинка. 
+Вдруг вы слышите какой-то шум! Вряд ли это человек - слышится громкое сопение, повизгивание и что-то вроде лая. Это животное, причем довольно крупное! На тропинку выскакивает заяц. Он останавливается, и вы замечаете на его боку большую и, похоже, свежую рану. В кустах слышится повизгивание хищника, преследующего зайца. Эх, жаль, что у вас нет ружья! А без ружья с любым хищником встречаться не хочется. Укус любого дикого зверя чреват и столбняком, и бешенством... "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 17 Text "Убежать вперед по тропинке" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 18 Text "Отойдти в сторону и посмотреть, кто выскочит" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 13
+	Node_Speech 
+	{
+		Text "Ветку найти не удалось - зато нашелся кусок толстой проволоки. Черт знает, откуда он тут взялся - видно, отвалился от какой-нибудь местной телеги. Изогнув его на манер интеграла, вы подцепили сумку и открыли ее, надеясь на телефон. Увы, телефона в сумке нет. Да и откуда бы ему взяться? В машине вас было трое, и все три телефона были в руках своих владельцев... 
+Более того, сумка оказалась порвана и больашя часть вещей вывалилась через дыру. У вас в руках только плед и охотничий нож. Судя по гравировке, нож принадлежал Максу. "Он обрадуется, - подумали вы, - когда я верну ему нож." Не хотелось думать, что Макс мертв... 
+Вы накинули плед на плечи и еще раз подумали, что же делать? Пойти к дальше к стоянке? Или развернуться и отправиться в деревню? "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 9 Text "До деревни - 15км." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 19 Text "До стоянки - 5км" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 14
+	Node_Speech 
+	{
+		Text "Обрыв слишком высокий, камени слишком острые, а река - холодная и бурная. При падении вы сломали множество костей, но оставались в сознании до самого конца. Последнее, что вы можете осознать - кругом ледяная вода и она захлестывает вас. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 20 Text "Жаль, но вы умерли..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 15
+	Node_Speech 
+	{
+		Text "Это была плохая идея. Вы очень устали, поэтому крепко заснули, несмотря на холод и острые камни на дороге. Вы даже не поняли, кто на вас напал. Хриплое рычание, огромные зубы, красные глаза... Ваша смерть была мучительной. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 8 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 16
+	Node_Speech 
+	{
+		Text "Спалось беспокойно, но наступило утро... Описание странного неба. Надо решить, что делать дальше. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 21 Text "Продолжить разбирать завал" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 12 Text "Идти по тропинке" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 17
+	Node_Speech 
+	{
+		Text "Вы ускорили шаг и оставили раненого зайца далеко за спиной. Совсем скоро вы услышали жалобный визг - хищник догнал свою добычу. Конечно, вам тоже хочется есть... Но вы еще явно не дошли до того, чтобы отбирать у местного зверья их добычу. К тому же, черт возьми, у вас нет даже зажигалки! "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 22 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 18
+	Node_Speech 
+	{
+		Text "Россомаха преследует зайца. У страха глаза велики, но, кажется, у этой россомахи светятся глаза. На твоих глазах россомаха поймала зайца и убила его. Потом внимательно посмотрела прямо на тебя... и ушла прочь, не забыв зайца"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 22 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 19
+	Node_Speech 
+	{
+		Text "Что видим, какие перспективы, что ожидаем увидеть на стоянке."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 23 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 20
+	Node_End 
+	{
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+	}
+	// 21
+	Node_Speech 
+	{
+		Text "Очень хочется есть, а еще больше - пить. Солнце печет.
+Может быть, все же пойти вперед?"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 24 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 22
+	Node_Speech 
+	{
+		Text "Вы пошли по тропинке дальше. Через полчаса встретили рысь, которая уплетала убитого ею зайца. Попытавшись забрать остатки тушки у зверя, вы гибнете..."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 25 Text "Вы умерли..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 23
+	Node_Speech 
+	{
+		Text "Вдруг вы слышите какой-то шум! Вряд ли это человек - слышится громкое сопение, повизгивание и что-то вроде лая. Это животное, причем довольно крупное! На тропинку выскакивает заяц. Он останавливается, и вы замечаете на его боку большую и, похоже, свежую рану. В кустах слышится повизгивание хищника, преследующего зайца. Эх, жаль, что у вас нет ружья! А без ружья с любым хищником встречаться не хочется. Укус любого дикого зверя чреват и столбняком, и бешенством...  "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 26 Text "Убежать вперед по тропинке" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 27 Text "Отойдти в сторону и посмотреть, кто выскочит" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 24
+	Node_Speech 
+	{
+		Text "Ваши старания вознаграждены - перед вами пустая дорога. Впереди 30 километров пути до ближайшей деревни. Но, если память вам не изменяет, километрах в трех отсюда был родник. До реки, конечно, ближе - метров сто... но вниз. Спускаться со скалистого обрыва без снаряжения - верная смерть. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 28 Text "" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 29 Text "Идти к роднику" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 25
+	Node_End 
+	{
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+	}
+	// 26
+	Node_Speech 
+	{
+		Text "Вы ускорили шаг и оставили раненого зайца далеко за спиной. Совсем скоро вы услышали жалобный визг - хищник догнал свою добычу. Конечно, вам тоже хочется есть... Но вы еще явно не дошли до того, чтобы отбирать у местного зверья их добычу. К тому же, черт возьми, у вас нет даже зажигалки! "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 30 Text "Дальше" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 27
+	Node_Speech 
+	{
+		Text "Россомаха преследует зайца. У страха глаза велики, но, кажется, у этой россомахи светятся глаза. На твоих глазах россомаха поймала зайца и убила его. Потом внимательно посмотрела прямо на тебя... и ушла прочь, не забыв зайца"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 30 Text "Дальше" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 28
+	Node_Speech 
+	{
+		Text "Как ни печально, вы умерли..."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 8 Text "Далее...." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 29
+	Node_Speech 
+	{
+		Text "На пути вы подскользнулись и неудачно напоролись глазом на сухуе ветку. Потеряв сознание от боли вы упали и пролежали практически до полуночи. Запах крови привел волков, которые накинулись на вас как только вы очнулись.
+Не самая приятная смерть..."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 8 Text "Вы умерли..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 30
+	Node_Speech 
+	{
+		Text "Если внимательно присмотреться, становится ясно, что ты приближаешься к эпицентру взрыва. Вокруг поваленные деревья, но нет пожара... Но вот виднеется стоянка - старая покосившаяся избушка и костер, горящий за забором. На заборе висит череп коровы - выглядит страшно, но ты-то знаешь, что это всего лишь шутка."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 31 Text "Поздороваться издалека" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 32 Text "Незаметно подойти ближе" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 31
+	Node_Speech 
+	{
+		Text "Никто не отвечает и тишина. Странно... "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 33 Text "Осторожно подойти ближе" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 32
+	Node_Speech 
+	{
+		Text "Ничего не слышно, как будто тут и нет никого "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 33 Text "Крикнуть на весь лес" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 33
+	Node_Speech 
+	{
+		Text "Вы не ожидали, но отравленная ступень от ракетоносителя "Буран" падает вам на голову."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 25 Text "Вы умерли..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+}
