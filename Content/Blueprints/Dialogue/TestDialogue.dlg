@@ -12,7 +12,7 @@ Node_Speech StartNode
 	VoiceDialogueWave ""
 	Children { {  TargetIndex 0 Text "НАЧАТЬ ИСТОРИЮ" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
 }
-DlgParticipantClasses { {  ParticipantName "StartText" ParticipantClass "" } }
+DlgParticipantClasses { {  ParticipantName "StartText" ParticipantClass "/Game/Blueprints/Parcipiant.Parcipiant_C" } }
 Node Nodes
 {
 	// 0
@@ -25,9 +25,20 @@ Node Nodes
 		bCheckChildrenOnEvaluation False
 		VoiceSoundWave ""
 		VoiceDialogueWave ""
-		Children { {  TargetIndex 1 Text "Далее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+		Children
+		{
+			{  TargetIndex 1 Text "Умереть" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 2 Text "Далее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
 	}
 	// 1
+	Node_End 
+	{
+		OwnerName "StartText"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "StartText" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 2
 	Node_Speech 
 	{
 		Text "Большая часть дороги осталась позади - скоро вы доедете до старой охотничьей стоянки. Машина въезжает на узкую извилистую дорогу. С одной  стороны над вашим джипом нависает скала, с другой стороны обочина обрывается крутым, почти вертикальным обрывом к горной реке. В машине вас трое - Алекс, Макс и вы. Алекс ведет машину, Макс сидит на заднем сиденье. Ваше место - рядом с водителем, и из бокового окна видно только серую скалу. 
@@ -40,11 +51,11 @@ Node Nodes
 		VoiceDialogueWave ""
 		Children
 		{
-			{  TargetIndex 2 Text "Снять видео из машины" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
-			{  TargetIndex 3 Text "Выйти и снять видео" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 3 Text "Снять видео из машины" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 4 Text "Выйти и снять видео" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
 		}
 	}
-	// 2
+	// 3
 	Node_Speech 
 	{
 		Text "Ничего не получается! Алекс мельтешит в окне - он тоже хочет получить эксклюзивное видео. Похоже, придется выйти из машины. "
@@ -54,9 +65,9 @@ Node Nodes
 		bCheckChildrenOnEvaluation False
 		VoiceSoundWave ""
 		VoiceDialogueWave ""
-		Children { {  TargetIndex 3 Text "Выйти из машины и снять видео" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+		Children { {  TargetIndex 4 Text "Выйти из машины и снять видео" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
 	}
-	// 3
+	// 4
 	Node_Speech 
 	{
 		Text "БАДАБУМ!"
@@ -66,9 +77,9 @@ Node Nodes
 		bCheckChildrenOnEvaluation False
 		VoiceSoundWave ""
 		VoiceDialogueWave ""
-		Children { {  TargetIndex 4 Text "Выдохнуть" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+		Children { {  TargetIndex 5 Text "Выдохнуть" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
 	}
-	// 4
+	// 5
 	Node_Speech 
 	{
 		Text "Выйти из машины было правильным решением. Теперь у вас отличный ракурс - вы снимаете фантастическое видео. Над горами, поросшими густым лесом, сияет и переливается огромный шар. Светящийся шар движется по небу и становится все больше. Кажется, он стал больше солнца! Деревья, скалы, машина - все отбрасывает резкие тени.
@@ -80,9 +91,9 @@ Node Nodes
 		bCheckChildrenOnEvaluation False
 		VoiceSoundWave ""
 		VoiceDialogueWave ""
-		Children { {  TargetIndex 5 Text "Далее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+		Children { {  TargetIndex 6 Text "Далее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
 	}
-	// 5
+	// 6
 	Node_Speech 
 	{
 		Text "Вероятно, вы потеряли сознание ненадолго. Вы лежите на спине и смотрите в удивительно белое небо, без единого облачка. Телефона у вас в руках нет. Вы приподнимаетесь и видите - дорога пуста, машины на ней нет. 
@@ -96,11 +107,11 @@ Node Nodes
 		VoiceDialogueWave ""
 		Children
 		{
-			{  TargetIndex 6 Text "Броситься в реку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
-			{  TargetIndex 7 Text "Осмотреться" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 7 Text "Броситься в реку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 8 Text "Осмотреться" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
 		}
 	}
-	// 6
+	// 7
 	Node_Speech 
 	{
 		Text "Обрыв слишком высокий, камени слишком острые, а река - холодная и бурная. При падении вы сломали множество костей, но оставались в сознании до самого конца. Последнее, что вы можете осознать - кругом ледяная вода и она захлестывает "
@@ -110,9 +121,9 @@ Node Nodes
 		bCheckChildrenOnEvaluation False
 		VoiceSoundWave ""
 		VoiceDialogueWave ""
-		Children { {  TargetIndex 8 Text "Жаль, но вы умерли..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+		Children { {  TargetIndex 9 Text "Жаль, но вы умерли..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
 	}
-	// 7
+	// 8
 	Node_Speech 
 	{
 		Text "Вы вовремя остановились. Голова перестала кружиться, в глазах больше не двоится. И теперь ясно видно - то, что показалось вам головой Алекса, на самом деле - бревно, которое крутит бурный поток. 
@@ -128,17 +139,18 @@ Node Nodes
 		VoiceDialogueWave ""
 		Children
 		{
-			{  TargetIndex 9 Text "В деревню" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
-			{  TargetIndex 10 Text "На стоянку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 10 Text "В деревню" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 11 Text "На стоянку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
 		}
 	}
-	// 8
+	// 9
 	Node_End 
 	{
 		OwnerName "StartText"
 		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "StartText" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
 	}
-	// 9
+	// 10
 	Node_Speech 
 	{
 		Text "Это правильное решение - пойти в деревню. На стоянке может никого не оказаться - что там делать без связи, еды и ружья? У вас даже ножа нет. Конечно, идти 15 километров - довольно далеко. Но вы - сильный и выносливый человек, вы справитесь с любыми сложностями. 
@@ -154,12 +166,12 @@ Node Nodes
 		VoiceDialogueWave ""
 		Children
 		{
-			{  TargetIndex 11 Text "Попробовать разобрать завал" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
-			{  TargetIndex 12 Text "Пойти по тропинке" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
-			{  TargetIndex 10 Text "На стоянку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 12 Text "Попробовать разобрать завал" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 13 Text "Пойти по тропинке" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 11 Text "На стоянку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
 		}
 	}
-	// 10
+	// 11
 	Node_Speech 
 	{
 		Text "Это правильное решение - пойти в сторону стоянки. На стоянке есть колодец с чистой водой, избушка, а в ней - аптечка, небольшой запас дров, еды и воды. Мимо избушки не проходят ни охотники, ни рыбаки, ни пастухи. Местные жители часто ходят в горы, рано или поздно кто-то из них доберется до стоянки и поможет вам. 
@@ -173,11 +185,11 @@ Node Nodes
 		VoiceDialogueWave ""
 		Children
 		{
-			{  TargetIndex 13 Text "Найти ветку подлиннее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
-			{  TargetIndex 14 Text "Спуститься вниз по обрыву самому" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 14 Text "Найти ветку подлиннее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 15 Text "Спуститься вниз по обрыву самому" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
 		}
 	}
-	// 11
+	// 12
 	Node_Speech 
 	{
 		Text "Вы немного переоценили свои силы. Разобрать обвал без лопаты, голыми руками оказалось очень сложно. Мелкие камни осыпаются и больно ранят руки. Вы почти разобрали небольшую щель, через которую можно пролезьть, но становится темно. 
@@ -190,11 +202,11 @@ Node Nodes
 		VoiceDialogueWave ""
 		Children
 		{
-			{  TargetIndex 15 Text "Заночевать на дороге" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
-			{  TargetIndex 16 Text "Найти укромное место" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 16 Text "Заночевать на дороге" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 17 Text "Найти укромное место" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
 		}
 	}
-	// 12
+	// 13
 	Node_Speech 
 	{
 		Text "Вы решаете идти вверх по тропинке - вверх, среди невысоких кустов, травы и маленьких ароматных фиолетовых цветочков. Пока не совсем понятно, куда в итоге должна привести тропинка. 
@@ -207,11 +219,11 @@ Node Nodes
 		VoiceDialogueWave ""
 		Children
 		{
-			{  TargetIndex 17 Text "Убежать вперед по тропинке" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
-			{  TargetIndex 18 Text "Отойдти в сторону и посмотреть, кто выскочит" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 18 Text "Убежать вперед по тропинке" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 19 Text "Отойдти в сторону и посмотреть, кто выскочит" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
 		}
 	}
-	// 13
+	// 14
 	Node_Speech 
 	{
 		Text "Ветку найти не удалось - зато нашелся кусок толстой проволоки. Черт знает, откуда он тут взялся - видно, отвалился от какой-нибудь местной телеги. Изогнув его на манер интеграла, вы подцепили сумку и открыли ее, надеясь на телефон. Увы, телефона в сумке нет. Да и откуда бы ему взяться? В машине вас было трое, и все три телефона были в руках своих владельцев... 
@@ -225,11 +237,11 @@ Node Nodes
 		VoiceDialogueWave ""
 		Children
 		{
-			{  TargetIndex 9 Text "До деревни - 15км." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
-			{  TargetIndex 19 Text "До стоянки - 5км" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 10 Text "До деревни - 15км." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 20 Text "До стоянки - 5км" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
 		}
 	}
-	// 14
+	// 15
 	Node_Speech 
 	{
 		Text "Обрыв слишком высокий, камени слишком острые, а река - холодная и бурная. При падении вы сломали множество костей, но оставались в сознании до самого конца. Последнее, что вы можете осознать - кругом ледяная вода и она захлестывает вас. "
@@ -239,9 +251,9 @@ Node Nodes
 		bCheckChildrenOnEvaluation False
 		VoiceSoundWave ""
 		VoiceDialogueWave ""
-		Children { {  TargetIndex 20 Text "Жаль, но вы умерли..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+		Children { {  TargetIndex 21 Text "Жаль, но вы умерли..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
 	}
-	// 15
+	// 16
 	Node_Speech 
 	{
 		Text "Это была плохая идея. Вы очень устали, поэтому крепко заснули, несмотря на холод и острые камни на дороге. Вы даже не поняли, кто на вас напал. Хриплое рычание, огромные зубы, красные глаза... Ваша смерть была мучительной. "
@@ -251,9 +263,9 @@ Node Nodes
 		bCheckChildrenOnEvaluation False
 		VoiceSoundWave ""
 		VoiceDialogueWave ""
-		Children { {  TargetIndex 8 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+		Children { {  TargetIndex 9 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
 	}
-	// 16
+	// 17
 	Node_Speech 
 	{
 		Text "Спалось беспокойно, но наступило утро... Описание странного неба. Надо решить, что делать дальше. "
@@ -265,11 +277,11 @@ Node Nodes
 		VoiceDialogueWave ""
 		Children
 		{
-			{  TargetIndex 21 Text "Продолжить разбирать завал" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
-			{  TargetIndex 12 Text "Идти по тропинке" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 22 Text "Продолжить разбирать завал" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 13 Text "Идти по тропинке" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
 		}
 	}
-	// 17
+	// 18
 	Node_Speech 
 	{
 		Text "Вы ускорили шаг и оставили раненого зайца далеко за спиной. Совсем скоро вы услышали жалобный визг - хищник догнал свою добычу. Конечно, вам тоже хочется есть... Но вы еще явно не дошли до того, чтобы отбирать у местного зверья их добычу. К тому же, черт возьми, у вас нет даже зажигалки! "
@@ -279,9 +291,9 @@ Node Nodes
 		bCheckChildrenOnEvaluation False
 		VoiceSoundWave ""
 		VoiceDialogueWave ""
-		Children { {  TargetIndex 22 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+		Children { {  TargetIndex 23 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
 	}
-	// 18
+	// 19
 	Node_Speech 
 	{
 		Text "Россомаха преследует зайца. У страха глаза велики, но, кажется, у этой россомахи светятся глаза. На твоих глазах россомаха поймала зайца и убила его. Потом внимательно посмотрела прямо на тебя... и ушла прочь, не забыв зайца"
@@ -291,9 +303,9 @@ Node Nodes
 		bCheckChildrenOnEvaluation False
 		VoiceSoundWave ""
 		VoiceDialogueWave ""
-		Children { {  TargetIndex 22 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+		Children { {  TargetIndex 23 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
 	}
-	// 19
+	// 20
 	Node_Speech 
 	{
 		Text "Что видим, какие перспективы, что ожидаем увидеть на стоянке."
@@ -303,15 +315,16 @@ Node Nodes
 		bCheckChildrenOnEvaluation False
 		VoiceSoundWave ""
 		VoiceDialogueWave ""
-		Children { {  TargetIndex 23 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+		Children { {  TargetIndex 24 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
 	}
-	// 20
+	// 21
 	Node_End 
 	{
 		OwnerName "StartText"
 		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "StartText" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
 	}
-	// 21
+	// 22
 	Node_Speech 
 	{
 		Text "Очень хочется есть, а еще больше - пить. Солнце печет.
@@ -322,9 +335,9 @@ Node Nodes
 		bCheckChildrenOnEvaluation False
 		VoiceSoundWave ""
 		VoiceDialogueWave ""
-		Children { {  TargetIndex 24 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+		Children { {  TargetIndex 25 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
 	}
-	// 22
+	// 23
 	Node_Speech 
 	{
 		Text "Вы пошли по тропинке дальше. Через полчаса встретили рысь, которая уплетала убитого ею зайца. Попытавшись забрать остатки тушки у зверя, вы гибнете..."
@@ -334,9 +347,9 @@ Node Nodes
 		bCheckChildrenOnEvaluation False
 		VoiceSoundWave ""
 		VoiceDialogueWave ""
-		Children { {  TargetIndex 25 Text "Вы умерли..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+		Children { {  TargetIndex 26 Text "Вы умерли..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
 	}
-	// 23
+	// 24
 	Node_Speech 
 	{
 		Text "Вдруг вы слышите какой-то шум! Вряд ли это человек - слышится громкое сопение, повизгивание и что-то вроде лая. Это животное, причем довольно крупное! На тропинку выскакивает заяц. Он останавливается, и вы замечаете на его боку большую и, похоже, свежую рану. В кустах слышится повизгивание хищника, преследующего зайца. Эх, жаль, что у вас нет ружья! А без ружья с любым хищником встречаться не хочется. Укус любого дикого зверя чреват и столбняком, и бешенством...  "
@@ -348,11 +361,11 @@ Node Nodes
 		VoiceDialogueWave ""
 		Children
 		{
-			{  TargetIndex 26 Text "Убежать вперед по тропинке" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
-			{  TargetIndex 27 Text "Отойдти в сторону и посмотреть, кто выскочит" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 27 Text "Убежать вперед по тропинке" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 28 Text "Отойдти в сторону и посмотреть, кто выскочит" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
 		}
 	}
-	// 24
+	// 25
 	Node_Speech 
 	{
 		Text "Ваши старания вознаграждены - перед вами пустая дорога. Впереди 30 километров пути до ближайшей деревни. Но, если память вам не изменяет, километрах в трех отсюда был родник. До реки, конечно, ближе - метров сто... но вниз. Спускаться со скалистого обрыва без снаряжения - верная смерть. "
@@ -364,17 +377,18 @@ Node Nodes
 		VoiceDialogueWave ""
 		Children
 		{
-			{  TargetIndex 28 Text "" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
-			{  TargetIndex 29 Text "Идти к роднику" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 29 Text "" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 30 Text "Идти к роднику" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
 		}
 	}
-	// 25
+	// 26
 	Node_End 
 	{
 		OwnerName "StartText"
 		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "StartText" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
 	}
-	// 26
+	// 27
 	Node_Speech 
 	{
 		Text "Вы ускорили шаг и оставили раненого зайца далеко за спиной. Совсем скоро вы услышали жалобный визг - хищник догнал свою добычу. Конечно, вам тоже хочется есть... Но вы еще явно не дошли до того, чтобы отбирать у местного зверья их добычу. К тому же, черт возьми, у вас нет даже зажигалки! "
@@ -384,9 +398,9 @@ Node Nodes
 		bCheckChildrenOnEvaluation False
 		VoiceSoundWave ""
 		VoiceDialogueWave ""
-		Children { {  TargetIndex 30 Text "Дальше" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+		Children { {  TargetIndex 31 Text "Дальше" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
 	}
-	// 27
+	// 28
 	Node_Speech 
 	{
 		Text "Россомаха преследует зайца. У страха глаза велики, но, кажется, у этой россомахи светятся глаза. На твоих глазах россомаха поймала зайца и убила его. Потом внимательно посмотрела прямо на тебя... и ушла прочь, не забыв зайца"
@@ -396,9 +410,9 @@ Node Nodes
 		bCheckChildrenOnEvaluation False
 		VoiceSoundWave ""
 		VoiceDialogueWave ""
-		Children { {  TargetIndex 30 Text "Дальше" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+		Children { {  TargetIndex 31 Text "Дальше" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
 	}
-	// 28
+	// 29
 	Node_Speech 
 	{
 		Text "Как ни печально, вы умерли..."
@@ -408,9 +422,9 @@ Node Nodes
 		bCheckChildrenOnEvaluation False
 		VoiceSoundWave ""
 		VoiceDialogueWave ""
-		Children { {  TargetIndex 8 Text "Далее...." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+		Children { {  TargetIndex 9 Text "Далее...." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
 	}
-	// 29
+	// 30
 	Node_Speech 
 	{
 		Text "На пути вы подскользнулись и неудачно напоролись глазом на сухуе ветку. Потеряв сознание от боли вы упали и пролежали практически до полуночи. Запах крови привел волков, которые накинулись на вас как только вы очнулись.
@@ -421,9 +435,9 @@ Node Nodes
 		bCheckChildrenOnEvaluation False
 		VoiceSoundWave ""
 		VoiceDialogueWave ""
-		Children { {  TargetIndex 8 Text "Вы умерли..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+		Children { {  TargetIndex 9 Text "Вы умерли..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
 	}
-	// 30
+	// 31
 	Node_Speech 
 	{
 		Text "Если внимательно присмотреться, становится ясно, что ты приближаешься к эпицентру взрыва. Вокруг поваленные деревья, но нет пожара... Но вот виднеется стоянка - старая покосившаяся избушка и костер, горящий за забором. На заборе висит череп коровы - выглядит страшно, но ты-то знаешь, что это всего лишь шутка."
@@ -435,11 +449,11 @@ Node Nodes
 		VoiceDialogueWave ""
 		Children
 		{
-			{  TargetIndex 31 Text "Поздороваться издалека" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
-			{  TargetIndex 32 Text "Незаметно подойти ближе" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 32 Text "Поздороваться издалека" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 33 Text "Незаметно подойти ближе" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
 		}
 	}
-	// 31
+	// 32
 	Node_Speech 
 	{
 		Text "Никто не отвечает и тишина. Странно... "
@@ -449,9 +463,9 @@ Node Nodes
 		bCheckChildrenOnEvaluation False
 		VoiceSoundWave ""
 		VoiceDialogueWave ""
-		Children { {  TargetIndex 33 Text "Осторожно подойти ближе" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+		Children { {  TargetIndex 34 Text "Осторожно подойти ближе" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
 	}
-	// 32
+	// 33
 	Node_Speech 
 	{
 		Text "Ничего не слышно, как будто тут и нет никого "
@@ -461,9 +475,9 @@ Node Nodes
 		bCheckChildrenOnEvaluation False
 		VoiceSoundWave ""
 		VoiceDialogueWave ""
-		Children { {  TargetIndex 33 Text "Крикнуть на весь лес" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+		Children { {  TargetIndex 34 Text "Крикнуть на весь лес" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
 	}
-	// 33
+	// 34
 	Node_Speech 
 	{
 		Text "Вы не ожидали, но отравленная ступень от ракетоносителя "Буран" падает вам на голову."
@@ -473,6 +487,6 @@ Node Nodes
 		bCheckChildrenOnEvaluation False
 		VoiceSoundWave ""
 		VoiceDialogueWave ""
-		Children { {  TargetIndex 25 Text "Вы умерли..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+		Children { {  TargetIndex 26 Text "Вы умерли..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
 	}
 }
