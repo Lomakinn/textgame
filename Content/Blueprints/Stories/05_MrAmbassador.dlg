@@ -1,0 +1,13 @@
+DlgVersion 7
+DlgName "05_MrAmbassador"
+DlgGuid {  A -176962245 B 1267441713 C 1323449506 D 588916652 }
+Node_Speech StartNode
+{
+	Text ""
+	SpeakerState "None"
+	bIsVirtualParent False
+	OwnerName "None"
+	bCheckChildrenOnEvaluation False
+	VoiceSoundWave ""
+	VoiceDialogueWave ""
+}

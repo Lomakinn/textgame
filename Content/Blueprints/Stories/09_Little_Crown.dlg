@@ -1,0 +1,13 @@
+DlgVersion 7
+DlgName "09_Little_Crown"
+DlgGuid {  A -1481787253 B 1278728099 C -36110683 D 1790341167 }
+Node_Speech StartNode
+{
+	Text ""
+	SpeakerState "None"
+	bIsVirtualParent False
+	OwnerName "None"
+	bCheckChildrenOnEvaluation False
+	VoiceSoundWave ""
+	VoiceDialogueWave ""
+}

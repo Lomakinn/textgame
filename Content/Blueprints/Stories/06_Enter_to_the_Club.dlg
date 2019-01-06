@@ -1,0 +1,13 @@
+DlgVersion 7
+DlgName "06_Enter_to_the_Club"
+DlgGuid {  A 1159242001 B 1146767081 C -1699596632 D 1229254023 }
+Node_Speech StartNode
+{
+	Text ""
+	SpeakerState "None"
+	bIsVirtualParent False
+	OwnerName "None"
+	bCheckChildrenOnEvaluation False
+	VoiceSoundWave ""
+	VoiceDialogueWave ""
+}

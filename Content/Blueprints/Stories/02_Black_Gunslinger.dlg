@@ -1,0 +1,13 @@
+DlgVersion 7
+DlgName "02_Black_Gunslinger"
+DlgGuid {  A 1548896141 B 1316146226 C 1407831227 D 1398213303 }
+Node_Speech StartNode
+{
+	Text ""
+	SpeakerState "None"
+	bIsVirtualParent False
+	OwnerName "None"
+	bCheckChildrenOnEvaluation False
+	VoiceSoundWave ""
+	VoiceDialogueWave ""
+}

@@ -1,0 +1,13 @@
+DlgVersion 7
+DlgName "03_Long_Space_Farewell"
+DlgGuid {  A -1909189432 B 1222051991 C -2105549171 D -1848321220 }
+Node_Speech StartNode
+{
+	Text ""
+	SpeakerState "None"
+	bIsVirtualParent False
+	OwnerName "None"
+	bCheckChildrenOnEvaluation False
+	VoiceSoundWave ""
+	VoiceDialogueWave ""
+}

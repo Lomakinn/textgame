@@ -1,5 +1,5 @@
 DlgVersion 7
-DlgName "TestDialogue"
+DlgName "Taiga"
 DlgGuid {  A 2109133747 B 1113083319 C 711831459 D 1434769077 }
 Node_Speech StartNode
 {

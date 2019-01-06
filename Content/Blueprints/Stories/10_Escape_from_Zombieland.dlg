@@ -1,0 +1,13 @@
+DlgVersion 7
+DlgName "10_Escape_from_Zombieland"
+DlgGuid {  A 2008379188 B 1262882552 C -1492848467 D 448083179 }
+Node_Speech StartNode
+{
+	Text ""
+	SpeakerState "None"
+	bIsVirtualParent False
+	OwnerName "None"
+	bCheckChildrenOnEvaluation False
+	VoiceSoundWave ""
+	VoiceDialogueWave ""
+}

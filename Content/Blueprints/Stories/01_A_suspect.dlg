@@ -1,0 +1,13 @@
+DlgVersion 7
+DlgName "01_A_suspect"
+DlgGuid {  A 565812275 B 1091307489 C 277627317 D 1954565914 }
+Node_Speech StartNode
+{
+	Text ""
+	SpeakerState "None"
+	bIsVirtualParent False
+	OwnerName "None"
+	bCheckChildrenOnEvaluation False
+	VoiceSoundWave ""
+	VoiceDialogueWave ""
+}

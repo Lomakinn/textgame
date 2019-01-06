@@ -18,6 +18,7 @@
 	"TargetPlatforms": [
 		"Android",
 		"HTML5",
-		"IOS"
+		"IOS",
+		"WindowsNoEditor"
 	]
 }

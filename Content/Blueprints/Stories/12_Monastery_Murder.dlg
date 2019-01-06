@@ -1,0 +1,13 @@
+DlgVersion 7
+DlgName "12_Monastery_Murder"
+DlgGuid {  A -1277265096 B 1122998021 C 237098670 D -1751341497 }
+Node_Speech StartNode
+{
+	Text ""
+	SpeakerState "None"
+	bIsVirtualParent False
+	OwnerName "None"
+	bCheckChildrenOnEvaluation False
+	VoiceSoundWave ""
+	VoiceDialogueWave ""
+}

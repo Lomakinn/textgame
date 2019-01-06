@@ -1,0 +1,13 @@
+DlgVersion 7
+DlgName "08_Shipwreck"
+DlgGuid {  A 1607860284 B 1191290515 C -729367394 D 1278096873 }
+Node_Speech StartNode
+{
+	Text ""
+	SpeakerState "None"
+	bIsVirtualParent False
+	OwnerName "None"
+	bCheckChildrenOnEvaluation False
+	VoiceSoundWave ""
+	VoiceDialogueWave ""
+}

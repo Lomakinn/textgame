@@ -1,0 +1,13 @@
+DlgVersion 7
+DlgName "04_Marriage_or_Poverty"
+DlgGuid {  A 985578237 B 1145557107 C 1184102796 D -1776317680 }
+Node_Speech StartNode
+{
+	Text ""
+	SpeakerState "None"
+	bIsVirtualParent False
+	OwnerName "None"
+	bCheckChildrenOnEvaluation False
+	VoiceSoundWave ""
+	VoiceDialogueWave ""
+}

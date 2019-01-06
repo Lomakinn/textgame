@@ -1,0 +1,13 @@
+DlgVersion 7
+DlgName "11_Cool_Dream"
+DlgGuid {  A 1302669730 B 1258000424 C 1762050470 D 480423432 }
+Node_Speech StartNode
+{
+	Text ""
+	SpeakerState "None"
+	bIsVirtualParent False
+	OwnerName "None"
+	bCheckChildrenOnEvaluation False
+	VoiceSoundWave ""
+	VoiceDialogueWave ""
+}
