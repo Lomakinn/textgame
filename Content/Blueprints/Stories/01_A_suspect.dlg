@@ -6,8 +6,686 @@ Node_Speech StartNode
 	Text ""
 	SpeakerState "None"
 	bIsVirtualParent False
-	OwnerName "None"
+	OwnerName "A Suspect"
 	bCheckChildrenOnEvaluation False
 	VoiceSoundWave ""
 	VoiceDialogueWave ""
+	Children { {  TargetIndex 0 Text "Начать" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+}
+DlgParticipantClasses { {  ParticipantName "A Suspect" ParticipantClass "/Game/Blueprints/Parcipiant.Parcipiant_C" } }
+Node Nodes
+{
+	// 0
+	Node_Speech 
+	{
+		Text "*Стук в дверь*
+Вы открываете глаза. Приподнявшись на кровати, вы видите, что вокруг - абсолютно незнакомая маленькая грязная комната, буквально заваленная газетами. Слабый свет проникает только через щель в заклеенном окне. На столике, также заваленном старыми газетами, лежит пистолет, рядом - магазин к нему
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 1 Text "Открыть дверь" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 2 Text "Ничего не делать" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 3 Text "Взять пистолет и зарядить его" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 1
+	Node_Speech 
+	{
+		Text "Вы подходите к двери и отпираете ее торчащим в замочной скважине ключом. Со скрипом дверь открывается, на пороге стоит офицер полиции и четверо его вооруженных напарников, оружие которых направлено на вас.
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 4 Text ""Эээ... Да?"" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 5 Text "Молчать" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 6 Text "Начать перестрелку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 2
+	Node_Speech 
+	{
+		Text "Спустя несколько секунд дверь выбивают, в комнату входят пятеро полицейских. Один из них (по всей видимости, главный в отряде) обращается к вам:
+"Именем закона штата Нью-Йорк, вы арестованы по подозрению в вооруженном нападении на сотрудников госкорпорации "Дженерик Ltd.", незаконном производстве и распространении биологически опасных веществ, похищении двух человек и убийстве троих стражей порядка. Вы имеете право хранить молчание. Всё, что вы скажете, может и будет использовано против вас в суде. Ваш адвокат может присутствовать при допросе. Если вы не можете оплатить услуги адвоката, он будет предоставлен вам государством. Вы понимаете свои права?""
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 6 Text "Начать перестрелку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 7 Text ""Да"" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 8 Text "Промолчать" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 3
+	Node_Speech 
+	{
+		Text "Вы вставляете магазин в пистолет, слышите глухой щелчок, снимаете оружие с предохранителя."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 1 Text "Открыть дверь" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 9 Text "Укрыться за стопками газет" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 10 Text "Попытаться октрыть окно" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 4
+	Node_Speech 
+	{
+		Text "Вам приказывают встать на колени, после чего надевают на вас наручники, уводят вниз по лестнице и сажают в полицейскую машину, сиденье для подозреваемых в которой отгорожено от водительского не решеткой, а глухим перекрытием. Через 5 минут после начала движения ваше сознание мутнеет, вы отключаетесь."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 11 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 5
+	Node_Speech 
+	{
+		Text ""Я повторяю, Вы понимаете свои права?""
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 4 Text ""Эээ... Да?"" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 12 Text "Ударить полицейского" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 13 Text "Захлопнуть дверь" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 6 Text "Начать перестрелку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 6
+	Node_Speech 
+	{
+		Text "Интересная мысль. Надеюсь, вы взяли пистолет и зарядили его"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 14 Text "Конечно!" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 15 Text "Нет, он остался на столике" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 7
+	Node_Speech 
+	{
+		Text "Вам приказывают встать на колени, после чего надевают на вас наручники, уводят вниз по лестнице и сажают в полицейскую машину, сиденье для подозреваемых в которой отгорожено от водительского не решеткой, а глухим перекрытием. Через 5 минут после начала движения ваше сознание мутнеет, вы отключаетесь."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 16 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 8
+	Node_Speech 
+	{
+		Text "Вам приказывают встать на колени, после чего надевают на вас наручники, уводят вниз по лестнице и сажают в полицейскую машину, сиденье для подозреваемых в которой отгорожено от водительского не решеткой, а глухим перекрытием. Через 5 минут после начала движения ваше сознание мутнеет, вы отключаетесь."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 16 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 9
+	Node_Speech 
+	{
+		Text "Забравшись за газеты, расположенные на некотором расстоянии от стены, вы чувствуете легкие потоки воздуха. Обернувшись, в стене обнаруживаете решетку, небольшую, но достаточную, чтобы туда пролезть."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 17 Text "Попытаться открыть решетку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 18 Text "Остаться в укрытии" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 10
+	Node_Speech 
+	{
+		Text "Окно плотно заклеено клейкой лентой. Открыть не получится, только выбить."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 1 Text "Открыть дверь" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 2 Text "Ничего не делать" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 9 Text "Укрыться за стопками газет" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 19 Text "Выбить окно" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 11
+	Node_End 
+	{
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "A Suspect" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 12
+	Node_Speech 
+	{
+		Text "Как только вы ударяете полицейского, звучат несколько оглушительных выстрелов. Вы чувствуете острую боль, падаете, темнота обволакивает ваше сознание. Последнее, что вы видите - красную жидкость, разливающуюся на пыльном бежевом ковре, на которую падает луч света из щели в заклеенном газетами окне."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 11 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 13
+	Node_Speech 
+	{
+		Text "Со скрипом и громким стуком дверь захлопывается, раздается щелчок - автоматически сработал замок. Времени на раздумья почти нет!"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 20 Text "Прыгнуть за стопки газет" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 21 Text "Осмотреться в поисках лучшего укрытия" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 14
+	Node_Speech 
+	{
+		Text "Вы, почти не целясь, стреляете. Звучит еще несколько оглушительных выстрелов. Вы чувствуете острую боль, падаете на столик. Последнее, что вы видите - троих все еще целящихся в вас полицейских и еще одного, склонившегося над телом дергающегося на полу предводителя отряда. В центре лба у него видна маленькая красная точка."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 16 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 15
+	Node_Speech 
+	{
+		Text ""Я повторяю, Вы понимаете свои права?""
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 7 Text ""Да"" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 8 Text "Промолчать" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 16
+	Node_End 
+	{
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "A Suspect" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 17
+	Node_Speech 
+	{
+		Text "Как?"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 22 Text "Дернуть решетку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 23 Text "Толкнуть решетку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 18
+	Node_Speech 
+	{
+		Text "Дверь выбивают, и в комнату заходят полицейские.
+"Он только что был здесь. ПРОВЕРИТЬ УГЛЫ!""
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 14 Text "Попытаться стрелять" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 24 Text "Сдаться" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 19
+	Node_Speech 
+	{
+		Text "Вы выбиваете окно ногой и выглядываете из него. В полуметре от окна вы видите пожарную лестницу."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 25 Text "Спуститься по пожарной лестнице" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 26 Text "Вернуться в комнату" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 20
+	Node_Speech 
+	{
+		Text "С внезапным проворством вы запрыгиваете за высокую кипу газет. В метре от себя вы видите столик, на котором лежит пистолет. В стене видите решетку, небольшую, но достаточную, чтобы туда пролезть. Дверь необычайно долго для своего состояния держится под ударами полицейских, но вы понимаете, что через пару ударов замок не выдержит."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 27 Text "Взять пистолет и магазин к нему" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 17 Text "Попытаться открыть решетку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 21
+	Node_Speech 
+	{
+		Text "Нет, слишком много газет, так что вариантов немного. Помимо бумажной "баррикады", есть только окно. Дверь необычайно долго для своего состояния держится под ударами полицейских, но вы понимаете, что через пару ударов замок не выдержит."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 28 Text "Приготовиться к перестрелке" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 29 Text "Разбить окно" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 22
+	Node_Speech 
+	{
+		Text "Решетку заклинило! В комнату врываются полицейские."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 30 Text "Попытаться стрелять" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 23
+	Node_Speech 
+	{
+		Text "Решетка подается, вы чувствуете, как оттуда дует слабый ветерок. В эту же секунду дверь открывается, в комнату влетают полицейские. Вы буквально ныряете в открывшийся проход, попутно слегка закрывая решетку ногой. Преодолев пару метров, вы слышите звук падающих газет, ругань и несколько выстрелов. Каким-то чудом, ни одна пуля в вас не попадает, даже рикошетом. Преодолев несколько поворотов и спусков, вы чувствуете, проход внезапно обрывается, и падаете на пол абсолютно темного помещения. Ветер дует слева. Медленно, держа руки перед собой,вы пробираетесь в левую часть комнаты и нащупываете круглую дверную ручку. Нехотя та поддается, в глаза бьет яркий свет, вы оказываетесь в довольно просторном, но ограниченном домами со всех сторон, дворе. В дальнем конце двора вы замечаете решетчатую дверь, очевидно, ведущую в канализацию, и сидящего рядом с ней бомжеватого мужчину. Увидев вас, тот оживляется и жестами показывает, что надо следовать за ним."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 31 Text "Пойти за мужчиной" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 32 Text "Осмотреться еще" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 24
+	Node_Speech 
+	{
+		Text "Вы кладете пистолет на пол и медленно поднимаетесь из-за газетных стопок с поднятыми руками. Все пятеро полицейских направляют оружие в вашу сторону, после чего предводитель отряда подходит к вам: "Именем закона штата Нью-Йорк, вы арестованы по подозрению в вооруженном нападении на сотрудников госкорпорации "Дженерик Ltd.", незаконном производстве и распространении биологически опасных веществ, похищении двух человек и убийстве троих стражей порядка. Вы имеете право хранить молчание. Всё, что вы скажете, может и будет использовано против вас в суде. Ваш адвокат может присутствовать при допросе. Если вы не можете оплатить услуги адвоката, он будет предоставлен вам государством. Вы понимаете свои права?""
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 4 Text ""Эээ... Да?"" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 8 Text "Промолчать" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 25
+	Node_Speech 
+	{
+		Text "Спустившись по лестнице, вы оказываетесь в довольно просторном, но ограниченном домами со всех сторон, дворе. В дальнем конце двора вы замечаете решетчатую дверь, очевидно, ведущую в канализацию, и сидящего рядом с ней бомжеватого мужчину. Увидев вас, тот оживляется и жестами показывает, что надо следовать за ним."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 31 Text "Пойти за мужчиной" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 32 Text "Осмотреться еще" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 26
+	Node_Speech 
+	{
+		Text "По какой-то причине, вы решили не спускаться по лестнице, и ваше положение практически не изменилось. Однако полицейские, услышав звон разбившегося стекла, начали ломать дверь."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 2 Text "Ничего не делать" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 9 Text "Укрыться за газетами" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 27
+	Node_Speech 
+	{
+		Text "Вы хватаете пистолет и вставляете в него магазин. Щелкаете предохранителем, в эту же секунду дверь открывается, в комнату влетают полицейские."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 22 Text "Дернуть за решетку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 30 Text "Попытаться стрелять" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 28
+	Node_Speech 
+	{
+		Text "Вы приводите пистолет в боевое положение. Спустя секунду дверь распахивается, полицеские врываются в комнату."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 33 Text "Поднять руки вверх" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 34 Text "Развернуться и выстрелить" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 29
+	Node_Speech 
+	{
+		Text "Вы выбиваете окно ногой и выглядываете из него. В полуметре от окна вы видите пожарную лестницу.
+Спустившись по лестнице, вы оказываетесь в довольно просторном, но ограниченном домами со всех сторон, дворе. В дальнем конце двора вы замечаете решетчатую дверь, очевидно, ведущую в канализацию, и сидящего рядом с ней бомжеватого мужчину. Увидев вас, тот оживляется и жестами показывает, что надо следовать за ним."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 31 Text "Пойти за мужчиной" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 32 Text "Осмотреться еще" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 30
+	Node_Speech 
+	{
+		Text "Вы, почти не целясь, стреляете. Попадаете в грудь одному из полицейских, но он, по всей видимости, в бронежилете. Все пятеро поворачиваются в сторону стопок газет, за которыми вы прячетесь, и открывают огонь. По комнате разлетаются обрывки бумаги, вас отбрасывает на стену, в которую вмонтирована злополучная решетка. Вы чувствуете острую боль; падая, толкаете решетку. Она чуть подается. В глазах темнеет. Проскакивает последняя мысль: "От себя...""
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 35 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 31
+	Node_Speech 
+	{
+		Text "Как только вы заходите в канализацию, вас бьют чем-то тяжелым по голове. Последнее, что вы видите, прежде чем отключиться, - логотип компании "Дженерик Ltd.", который кажется вам до боли знакомым."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 35 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 32
+	Node_Speech 
+	{
+		Text "Метрах в пяти справа вы видите единственное открытое окно, в котором горит свет."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 31 Text "Пойти за мужчиной" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 36 Text "Залезть в окно" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 33
+	Node_Speech 
+	{
+		Text "Резким движением у вас выхватывают пистолет, ударяют прикладом по спине. После того, как вы упали на колени, на вас надевают наручники, уводят вниз по лестнице и сажают в полицейскую машину, сиденье для подозреваемых в которой отгорожено от водительского не решеткой, а глухим перекрытием. Через 5 минут после начала движения ваше сознание мутнеет, вы отключаетесь."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 37 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 34
+	Node_Speech 
+	{
+		Text "Вы резко поворачиваетесь и, почти не целясь, стреляете. Звучит еще несколько оглушительных выстрелов. Вы чувствуете острую боль, падаете на столик. Последнее, что вы видите - троих все еще целящихся в вас полицейских и еще одного, склонившегося над телом дергающегося на полу предводителя отряда. В центре лба у него видна маленькая красная точка."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 37 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 35
+	Node_End 
+	{
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "A Suspect" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 36
+	Node_Speech 
+	{
+		Text "Добежав до окна и немного подтянувшись, вы попадаете в обычную кухню, на которой никого нет. Пахнет очень вкусно, на кухонном столе лежат жареные куриные ножки."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 38 Text "Взять куриную ножку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 39 Text "Идти к выходу" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 37
+	Node_End 
+	{
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "A Suspect" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 38
+	Node_Speech 
+	{
+		Text "Вы берете еду и откусываете. Действительно, очень вкусно. Но лучше все-таки поскорее убраться отсюда."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 39 Text "Индит к выходу" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 39
+	Node_Speech 
+	{
+		Text "Преодолев кухню и коридор, вы достигаете входной двери. К счастью, она не заперта. Оказавшись на лестничной клетке, вы слышите, как кто-то спрашивает "Что там за шум?!""
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 40 Text "Подняться по лестнице" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 41 Text "Выйти из дома" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 40
+	Node_Speech 
+	{
+		Text "Поднявшись на пару пролетов, вы натыкаетесь на одного из полицейских, стоявших за дверью. Из-за столкновения вы падаете. Теперь на вас направлен пистолет.
+"Лоуренс, он здесь!". Через несколько секунд сверху спускаются еще двое полицейских. На вас надевают наручники, уводят вниз по лестнице и сажают в полицейскую машину, сиденье для подозреваемых в которой отгорожено от водительского не решеткой, а глухим перекрытием. Через 5 минут после начала движения ваше сознание мутнеет, вы отключаетесь."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 42 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 41
+	Node_Speech 
+	{
+		Text "Выйдя из здания, вы видите две стоящие полицейские машины, в одной из них сидит водитель, который замечает вас. Он что-то говорит в рацию и тянется к кобуре. Взглянув налево, вы видите арку, ведущую, предположительно, в соседний двор."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 43 Text "Вернуться в здание" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 44 Text "Побежать в арку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 42
+	Node_End 
+	{
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "A Suspect" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 43
+	Node_Speech 
+	{
+		Text "Кажется, вариантов не так много"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 40 Text "Подняться по лестнице" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 44
+	Node_Speech 
+	{
+		Text "Забежав за угол, вы чувствуете, как чьи-то огромные руки хватают вас и кидают на заднее сиденье черного "Кадиллака". Дверь захлопывается, здоровяк запрыгивает на переднее пассажирское сиденье, машина трогается. К вам поворачивается большая лысая голова: "Мы думали, что ты уже труп, босс"."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 45 Text ""Что произошло?"" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 46 Text ""Кто "мы"?"" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 45
+	Node_Speech 
+	{
+		Text ""Ты совсем ничего не помнишь, да? Ладно, историю целиком послушаешь в следующий раз. Если коротко - мы с тобой из крупнейшего синдиката Нью-Йорка. Я Олег, тот, что за рулем - Пирсон. Мы составили почти идеальный план, чтобы выкрасть новейшую разработку секретного подразделения корпорации "Дженерик". Судя по всему, это какой-то биостимулятор. Только вот зачем ты его себе вколол, когда нас заметили, - загадка. Пока мы перестреливались с охраной, ты благополучно сбежал в неизвестном направлении. Три дня тебя искали, а сегодня утром Займос по своим каналам пробил твое местоположение. Но когда мы приехали, тут уже стояла полиция, и нам оставалось только надеяться, что ты каким-то чудом сможешь спуститься сюда. Уж не знаю, чуйка у тебя сработала или слепая удача улыбнулась, но все прошло именно так, как мы планировали. Минут через двадцать мы приедем к доктору Келлеру, он тебя осмотрит. Надеюсь, с тобой ничего серьезного"."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 47 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 46
+	Node_Speech 
+	{
+		Text ""Хах, если коротко - когда мы проникли в секретный отдел "Дженерики" ты вколол себе какую-то хрень оттуда, положил с десяток охранников и сбежал. Это было три дня назад. Сегодня мы узнали, где ты, и приехали сюда, только весь дом был оцеплен и полицией, и оставалось только надеяться, что ты чудом выберешься. Как видишь, обошлось. Скоро мы будем у Дока, он тебя осмотрит"."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 47 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 47
+	Node_End 
+	{
+		OwnerName "A Suspect"
+		bCheckChildrenOnEvaluation False
+		EnterEvents
+		{
+			{  ParticipantName "A Suspect" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False }
+			{  ParticipantName "A Suspect" EventType "EDlgEventType::DlgEventModifyBool" EventName "IsGoodEnd" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue True }
+		}
+	}
 }
