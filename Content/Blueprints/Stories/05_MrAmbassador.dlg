@@ -10,4 +10,555 @@ Node_Speech StartNode
 	bCheckChildrenOnEvaluation False
 	VoiceSoundWave ""
 	VoiceDialogueWave ""
+	Children { {  TargetIndex 0 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+}
+DlgParticipantClasses { {  ParticipantName "Mr. Ambassador" ParticipantClass "" } }
+Node Nodes
+{
+	// 0
+	Node_Speech 
+	{
+		Text "30 марта 2027 года. В здании Генассамблеи ООН сегодня большое событие - первый контакт с инопланетной расой на официальном уровне.
+
+Вы - спикер от лица человечества. Ваша задача - начать сотрудничество с инопланетянами, чтобы позволить человечеству встать на новую ступень эволюции. 
+
+Вы заходите в здание ООН, и вас встречает один из советников, жадно поедая шоколадный батончик:
+
+- Приветствую, господин посол! Все уже собрались, но я бы хотел с вами поговорить наедине."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 1 Text "- Не сейчас! Мне нужно торопиться. (Пройти мимо)" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 2 Text "- Да, конечно. Давайте пройдём. (Следовать за ним)" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 1
+	Node_Speech 
+	{
+		Text "Вы заходите к большой зал, где собрались представители всех планет. Вокруг вас мерцают вспышки фотоаппаратов журналистов, мелькают человеческие силуэты, копошатся инопланетные сущности.
+
+Пришельцы похожи на больших тараканов, которые упали в чан с удобрением для роста растений.
+
+Вы занимаете своё место, и уже вскоре начинаются переговоры. 
+
+Вас первым приглашают сказать своё слово. Вы подходите к микрофону, оглядываете с интересом наблюдающих за вами инопланетян и говорите:
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 3 Text "- Мизузу! Карамирата фуриосира паланиту! Самаурата фиоримороко!" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 4 Text "- Приветствую вас, друзья... (Произнести речь)" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 2
+	Node_Speech 
+	{
+		Text "Вы идёте за ним. Он на ходу достаёт из кармана какую-то сладость и начинает жадно уплетать.
+
+Он проводит вас через длинные коридоры, пока вы не оказываетесь в какой-то тёмной коморке.
+
+Внезапно вы ощущаете мощный удар по голове и теряете сознание. Напоследок вы слышите, как он говорит с кем-то по рации, что тело очередного политика готово к пересадке в него инопланетного разума. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 5 Text "Далее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 3
+	Node_Speech 
+	{
+		Text "Поедая шоколадные батончики и карамельки, инопланетяне внимательно вас выслушивают, после чего один из них встаёт и громко заявляет:
+
+- Похоже, что Земляне - дебилы! Уничтожить их!
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 6 Text "- О, они разговаривают! Ы-ы-ы!" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 4
+	Node_Speech 
+	{
+		Text "После грандиозного выступления вы под аплодисменты возвращаетесь на своё место и начинаете слушать других.
+
+На сцену один за другим выходят с приветственными речами президенты разных стран. Вы лично знаете многих из них, поэтому вскоре замечаете, что они говорят и ведут себя не так, как обычно. Сначала вы списываете это на волнение, но, заметив, что за вами наблюдают странные люди в чёрных костюмах, вы понимаете, что что-то не так.
+
+Чтобы понять, что происходит, вы подзываете своего советника, который тем временем пробовал шоколадный батончик, подаренный ему одним из пришельцев.
+
+- Что-то не так, господин посол?
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 7 Text "- Вы не замечаете ничего странного?" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 8 Text "- Мне надо на пару минут выйти. Запишите, что они будут говорить. (Выйти)" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 5
+	Node_Speech 
+	{
+		Text "Инопланетяне заменили всех политиков Земли на своих агентов, что позволило им легко подчинить себе всё человечество.
+
+Люди надеялись на вас, а вы так легко их подвели! Спасибо вам, господин посол!"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 9 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 6
+	Node_Speech 
+	{
+		Text "Инопланетяне решили, что люди слишком тупы для того, чтобы пытаться наладить с ними контакт. Поэтому они уничтожили их.
+
+Жители Земли надеялись на вас, а вы их подвели! Спасибо вам, господин посол!
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 9 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 7
+	Node_Speech 
+	{
+		Text "Советник кивает.
+
+- Поэтому я и хотел поговорить с вами! – произнёс он. - Давайте выйдем, пока не поздно?
+ "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 10 Text "- Нет, мне нужно быть здесь!" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 2 Text "- Да, конечно. Давайте пройдём. (Следовать за ним)" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 8
+	Node_Speech 
+	{
+		Text "Вы выходите из зала и бежите к агентам службы безопасности. Когда вы встречаете их, то просите показать записи с камер видеонаблюдения, а также привести сюда двух людей, которые подозрительно на вас смотрели. 
+
+Просматривая записи, вы обнаруживаете, что всех представителей Земли их советники заводили в одну комнату, после чего те выходили оттуда, двигаясь уже довольно странно.
+
+Вдруг приходят агенты безопасности. Они привели тех двух подозрительных людей, которые странно смотрели на вас."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 11 Text "Остаться и допросить этих странных людей" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 12 Text "Бежать в странную комнату, чтобы узнать, что там" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 9
+	Node_End 
+	{
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Mr. Ambassador" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 10
+	Node_Speech 
+	{
+		Text "Президенты Земли уже успели выступить, и теперь свою речь заканчивал последний инопланетянин.
+
+Вы помните свою задачу, что вы должны обсудить условия мира, выдвинуть идеи для взаимовыгодных отношений, предложить помощь им и просить помощи для землян. Ваши начальники надеются, что вы сможете уговорить пришельцев поделиться знаниями, технологиями.
+
+Скоро вновь подойдёт ваша очередь держать слово. Вы понимаете, что от вас зависит судьба целой планеты.
+
+Вы должны выбрать, как поступить."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 13 Text "Предложить им бесконечные поставки сахара в качестве подарка" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 14 Text "Предложить им ресурсы в качестве подарка" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 11
+	Node_Speech 
+	{
+		Text "Вы просите агентов безопасности оставить вас наедине с этими странными людьми. Как только те скрываются за дверью, вы садитесь напротив задержанных и начинаете молча смотреть на них, пытаясь изучить их мимику. Вы замечаете, что они тоже странно двигаются, будто бы недавно родились и ещё не научились толком пользоваться своими телами.
+
+Вдруг один из них не выдерживает и начинает плакать.
+
+- Ладно! – выдавливает из себя он. – Я всё вам расскажу! Только не убивайте меня.
+
+Вы пытаетесь его успокоить, но это заставляет плакать его ещё сильнее.
+
+- Пойдёмте! И я покажу вам, что мы утаиваем! Я расскажу вам всё, что знаю! И если у вас есть шоколадка, то не могли бы вы поделиться?"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 2 Text "- Да, конечно. Давайте пройдём. (Следовать за ним)" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 12
+	Node_Speech 
+	{
+		Text "Вы бежите в странную комнату, надеясь увидеть разгадку тайны. Однако, когда оказываетесь на месте, понимаете, что не могли себе даже представить масштабов того, что происходит.
+
+Вы видите кучу тел инопланетян и советников президентов, которые лежат друг на друге.
+
+Повернув голову влево, вы замечаете странный прибор, который тут же начинаете изучать. И вскоре понимаете, что он нужен для того, чтобы пересаживать разум одного существа в голову другого. Оказывается, что инопланетяне сделали из политиков Земли своих марионеток, чтобы легко и просто поработить всё человечество. Поэтому президенты стран и двигались так странно, ведь это были не они, а инопланетяне, которые не привыкли ещё к своим новым телам. 
+
+Вы понимаете, что ваш советник тоже пытался вас привести в эту комнату, чтобы завладеть вашим телом."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 15 Text "Бежать к агентам безопасности, чтобы просить их помочь остановить пришельцев" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 16 Text "Вернуться в зал, чтобы попытаться предотвратить неизбежное" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 13
+	Node_Speech 
+	{
+		Text "Пришла ваша очередь. Вы встаёте у микрофона. Вновь оглядываете собравшихся. Их тараканьи глазёнки невинно смотрят на вас так невинно.
+
+Вы отбрасываете все сомнения и громко предлагаете им бесконечные поставки сахара, конфет и прочих сладостей в качестве подарка.
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 17 Text "Далее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 14
+	Node_Speech 
+	{
+		Text "Пришла ваша очередь. Вы встаёте у микрофона. Вновь оглядываете собравшихся. Их тараканьи глазёнки невинно смотрят на вас.
+
+Вы отбрасываете все сомнения и громко предлагаете им в подарок любые ресурсы, которые тем нужны.
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 5 Text "Далее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 15
+	Node_Speech 
+	{
+		Text "Вы прибегаете к агентам безопасности. Те уже успели выяснить, что странные люди, которые подозрительно смотрела на вас тогда, являются инопланетянами. Однако времени разбираться с ними сейчас нет. Вы отводите агентов в сторону и рассказываете им всё, что узнали. Они сначала не верят, но вы приводите их в ту комнату, чтобы они убедились сами.
+
+Немного подумав, один из них говорит:
+
+- Значит, если мы их не остановим, то все наши близкие скоро станут просто рабами этих тварей? Ну, уж нет! Надо им помешать!
+
+Вы соглашаетесь и предлагаете план: нужно обратить их оружие против них самих. Вы решаете выманивать инопланетян по одному, чтобы перемещать в их тела сознание агентов безопасности. Для этого двое из них перемещают себя в тела тех двух инопланетян, которых задержали.
+
+Теперь агенты в телах инопланетян ждут вашего сигнала."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 18 Text "Начать выманивать инопланетян сейчас" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 19 Text "Дождаться перерыва переговоров" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 16
+	Node_Speech 
+	{
+		Text "Вы возвращаетесь в зал. К тому моменту, когда вы садитесь на своё место, президенты Земли уже успели выступить, и теперь свою речь заканчивал последний инопланетянин.
+
+Ещё недавно вы должны были обсудить условия мира, выдвинуть идеи для взаимовыгодных отношений, предложить помощь им и просить помощи для землян. Ваши начальники надеялись, что вы сможете уговорить пришельцев поделиться знаниями, технологиями. Но теперь вы сидите здесь и понимаете, что те не хотят сотрудничества. Им просто нужна ваша планета в качестве ресурса. 
+
+Скоро вновь подойдёт ваша очередь держать слово. Вы понимаете, что от вас зависит судьба целой планеты.
+
+Вы должны выбрать, как поступить."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 20 Text "Предложить им бесконечные поставки сахара в качестве подарка" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 21 Text "Предложить им ресурсы в качестве подарка" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 22 Text "Просить пощады для жителей Земли" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 23 Text "Потребовать вернуть президентам их разум" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 17
+	Node_Speech 
+	{
+		Text "Поздравляем! Вам удалось понять, чего хотели инопланетяне, похожие на тараканов и постоянно жующие что-нибудь сладкое. 
+
+Когда вы предложили им то, зачем они вообще прилетели сюда, они увидели, что им нет смысла тратить много времени и сил на получение сахара своими методами.
+
+Вскоре к вам в гости пришёл один из пришельцев, с которым вы договорились поиграть в гольф, и рассказал по секрету, что у них был план. Согласно нему они хотели захватить разум всех глав стран, чтобы с их помощью поработить Землю. И всё это было ради сахара. Однако, когда вам удалось всё урегулировать, они аккуратно вернули всё на свои места. И президенты даже не узнали, что их тела были похищены.
+
+Так вы и стали героем, про чей подвиг никто никогда не узнает. Однако только благодаря вам человечество вступило на новую ступень своего развития. Спасибо вам, господин посол!"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 24 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 18
+	Node_Speech 
+	{
+		Text "Агенты отправились выполнять задание. Они по одному начали выманивать инопланетных захватчиков из зала.
+
+Однако вскоре те стали что-то подозревать, потому что в открытом зале им легко было заметить такое отклонение от их плана. 
+
+Вы сидите в комнате рядом с прибором и ждёте очередного пациента. Вы уже успели подменить пять инопланетян.
+
+Вдруг дверь открывается и вместо ваших агентов в комнату врывается толпа пришельцев. Один из них говорит, что разгадал ваш план.
+
+После этого раздаётся звук выстрела, и вы падаете на пол."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 5 Text "Далее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 19
+	Node_Speech 
+	{
+		Text "Ваши агенты дождались, когда начнётся перерыв. Это позволило им незаметно для остальных заманивать инопланетян в ловушку.
+ 
+Вы сидите в комнате рядом с прибором и ждёте очередного пациента. Вы уже успели подменить много инопланетян. Тут в комнату заходит один из ваших агентов и говорит, что все инопланетяне подменены. И те, что были в своём обличии, и те, которые прятались внутри политиков.
+
+- Каков будет ваш следующий приказ, господин посол?
+
+Вы понимаете, что теперь в вашем подчинении находятся все главы всех государств и планет. Теперь вы – самый могущественное и влиятельное существо во всей вселенной!"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 25 Text " - Давайте наладим Мир!" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 26 Text " - Теперь все эти миры наши!" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 20
+	Node_Speech 
+	{
+		Text "Пришла ваша очередь. Вы встаёте у микрофона. Вновь оглядываете собравшихся. Их тараканьи глазёнки невинно смотрят на вас так невинно.
+
+Вы отбрасываете все сомнения и громко предлагаете им бесконечные поставки сахара, конфет и прочих сладостей в качестве подарка.
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 27 Text "Далее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 21
+	Node_Speech 
+	{
+		Text "Пришла ваша очередь. Вы встаёте у микрофона. Вновь оглядываете собравшихся. Их тараканьи глазёнки невинно смотрят на вас.
+
+Вы отбрасываете все сомнения и громко предлагаете им в подарок любые ресурсы, которые тем нужны.
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 28 Text "Далее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 22
+	Node_Speech 
+	{
+		Text "Пришла ваша очередь. Вы встаёте у микрофона. Вновь оглядываете собравшихся. Их тараканьи глазёнки смотрят на вас так невинно, будто бы они прибыли сюда с самыми честными и дружелюбными намерениями. Но вы теперь знаете правду.
+
+Вы вздыхаете и громко рассказываете, что раскрыли замысел пришельцев. После ваших слов в зале нависает мёртвая тишина. 
+
+Вдруг вы замечаете, что агенты пришельцев начинают тянуться к пистолетам. Поэтому решаете не тянуть время, а сразу упасть на колени и начинаете умалять гостей из космоса пощадить землян."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 29 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 23
+	Node_Speech 
+	{
+		Text "Пришла ваша очередь. Вы встаёте у микрофона. Вновь оглядываете собравшихся. Их тараканьи глазёнки смотрят на вас так невинно, будто бы они прибыли сюда с самыми честными и дружелюбными намерениями. Но вы теперь знаете правду.
+
+Вы вздыхаете и громко рассказываете, что раскрыли замысел пришельцев. После ваших слов в зале нависает мёртвая тишина. 
+
+Вдруг вы замечаете, что агенты пришельцев начинают тянуться к пистолетам. Поэтому решаете не тянуть время, а сразу начинаете угрожать, говоря, что если они не вернут президентов всех стран, то Земля уничтожит их планету.
+
+Вы оборачиваетесь к журналистам, которые ведут прямой эфир на главном телеканале Земли, и призываете человечество защитить свой дом всеми силами. Раздаётся выстрел. И вы падаете на пол под вспышки фотокамер."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 29 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 24
+	Node_End 
+	{
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		EnterEvents
+		{
+			{  ParticipantName "Mr. Ambassador" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False }
+			{  ParticipantName "Mr. Ambassador" EventType "EDlgEventType::DlgEventModifyBool" EventName "IsGoodEnd" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue True }
+		}
+	}
+	// 25
+	Node_Speech 
+	{
+		Text "Поздравляем! Вам удалось наладить мир во всей вселенной. Именно благодаря вам жители всех планет в космосе смогли вздохнуть спокойно, ведь этот мир продлился не одну тысячу лет.
+
+Вы не стали захватывать всю власть себе, а позволили живым существам самим выбирать свой путь. 
+
+О вашем подвиге никто не узнает, но ваше наследие будет жить вечно! Спасибо вам, господин посол!"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 29 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 26
+	Node_Speech 
+	{
+		Text "Поздравляем! Вам удалось предотвратить порабощение Земли. Однако, осознав свою власть, вы сами поработили всю галактику.
+
+Упиваясь этой властью, вы устроили настоящий террор. Много миллиардов живых существ погибло только из-за ваших прихотей, которые с каждым разом становились всё безумнее и кровожаднее. Вскоре вас возненавидели все. 
+
+Однажды, когда вы сидели в туалете и составляли на туалетной бумаге список новых безумных законов, дверь внезапно отворилась, и вы увидели карлика, который держал в руках лазерный арбалет. Вы начали ему угрожать, но он выстрелил вам прямо в сердце.
+
+Так позорно и закончилась ваша история, господин посол."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 29 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 27
+	Node_Speech 
+	{
+		Text "Поздравляем! Вам удалось понять, чего хотели инопланетяне, похожие на тараканов и постоянно жующие что-нибудь сладкое. 
+
+Когда вы предложили им то, зачем они вообще прилетели сюда, они увидели, что им нет смысла тратить много времени и сил на получение сахара своими методами.
+
+Вскоре к вам в гости пришёл один из пришельцев, с которым вы договорились поиграть в гольф, и рассказал по секрету, что у них был план. Согласно нему они хотели захватить разум всех глав стран, чтобы с их помощью поработить Землю. И всё это было ради сахара. Однако, когда вам удалось всё урегулировать, они аккуратно вернули всё на свои места. И президенты даже не узнали, что их тела были похищены.
+
+Так вы и стали героем, про чей подвиг никто никогда не узнает. Однако только благодаря вам человечество вступило на новую ступень своего развития. Спасибо вам, господин посол!"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 30 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 28
+	Node_Speech 
+	{
+		Text "Инопланетяне заменили всех политиков Земли на своих агентов, что позволило им легко подчинить себе всё человечество.
+
+Люди надеялись на вас, а вы так легко их подвели! Спасибо вам, господин посол!"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 31 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 29
+	Node_End 
+	{
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		EnterEvents
+		{
+			{  ParticipantName "Mr. Ambassador" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False }
+			{  ParticipantName "Mr. Ambassador" EventType "EDlgEventType::DlgEventModifyBool" EventName "IsGoodEnd" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue True }
+		}
+	}
+	// 30
+	Node_End 
+	{
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		EnterEvents
+		{
+			{  ParticipantName "Mr. Ambassador" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False }
+			{  ParticipantName "Mr. Ambassador" EventType "EDlgEventType::DlgEventModifyBool" EventName "IsGoodEnd" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue True }
+		}
+	}
+	// 31
+	Node_End 
+	{
+		OwnerName "Mr. Ambassador"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Mr. Ambassador" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
 }

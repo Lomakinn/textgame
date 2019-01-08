@@ -10,4 +10,318 @@ Node_Speech StartNode
 	bCheckChildrenOnEvaluation False
 	VoiceSoundWave ""
 	VoiceDialogueWave ""
+	Children { {  TargetIndex 0 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+}
+DlgParticipantClasses { {  ParticipantName "Long Space Farewell" ParticipantClass "" } }
+Node Nodes
+{
+	// 0
+	Node_Speech 
+	{
+		Text "2519 год
+Космос
+Математик, Физик, Биолог и Геолог - испытатели космического корабля "Омега".
+За кратчайшее время в истории они должны добраться до базы землян в Большом Магеллановом облаке.
+Но сейчас экипаж занят другой проблемой - пять минут назад на корабле произошел взрыв.
+Геолог, придерживая покалеченную руку, добирается до командного отсека. Физик и Биолог уже там.
+
+Математика нет на корабле.
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Long Space Farewell"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 1 Text "Приступить к ремонту корабля" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 2 Text "Приступить к поиску пропавшего" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 1
+	Node_Speech 
+	{
+		Text "Физик определяет, что есть пара способов стабилизировать состояние корабля"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Long Space Farewell"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 3 Text "Снизить мощность бозонного реактора" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 4 Text "Сбросить поврежденные аккумуляторы плазмы" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 2
+	Node_Speech 
+	{
+		Text "Внезапно в отсеке отворяется дверь. Биолог, Физик и Математик оборачиваются.
+Вошел Незнакомец. Он лишь слегка напоминал человека. Скорее, это были клубы дыма, которые держали силуэт человека.
+
+Незнакомец сообщил, что человечество находится на пороге Большого фильтра. Бозонный двигатель корабля "Омега" - сигнал достижения цивилизацией высшего уровня, дальше идет самоуничтожение. 
+
+Бозонный двигатель рвет пространство-время. Вернувшись на Землю без Математика, тем же путем, люди просуществуют еще лет 500. А продолжив поиски, команда "Омеги" рискует разрушить пространство всего за несколько часов. Судьба человечества зависит от троих ученых.
+
+Незнакомец растворяется в воздухе"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Long Space Farewell"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 5 Text "Вернуться домой втроем" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 6 Text "Приступить к поиску пропавшего" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 3
+	Node_Speech 
+	{
+		Text "Физик начинает снижать мощность реактора. Геолог следит за приборной доской. В реакторе неожиданный выброс ионов. Геолог хватается за кнопку интеркома, но поздно. Взрыв."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Long Space Farewell"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 7 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 4
+	Node_Speech 
+	{
+		Text "Физзик предупреждает, что поврежденные аккумуляторы крайне нестабильны и чувствительны к механическому воздействию, и, скорее всего, взорвутся при отключении"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Long Space Farewell"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 8 Text "Затормозить для сброса аккумуляторов" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 9 Text "Не останавливаться и совершить маневр" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 5
+	Node_Speech 
+	{
+		Text "Реверс двигателя не срабатывает, как нужно из-за поломки, и "Омега" оказывается застрявшей в разломе пространства. Натыкаются на спутник, на котором испытывалась технология их корабля. Можно полностью починить корабль.
+
+Кто-то должен выйти в открытое пространство на джетпаке и пригнать спутник к кораблю."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Long Space Farewell"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 10 Text "Отправляется Физик" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 11 Text "Отправляется Геолог" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 12 Text "Отправляется Биолог" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 6
+	Node_Speech 
+	{
+		Text "Состояние корабля близко к критическому, но Физик заблокировал поврежденные отсеки и стабилизировал бозонный двигатель.
+Геолог в это время пытается связаться с Математиком. Тишина на всех диапазонах волн. Молчит даже сигнальный маяк в скафандре пропавшего. 
+
+Значит, искать Математика придется другим способом. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Long Space Farewell"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 13 Text "Попытаться засечь его с помощью тепловых локаторов" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 14 Text "Просчитать траекторию его полета после взрыва" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 7
+	Node_End 
+	{
+		OwnerName "Long Space Farewell"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Long Space Farewell" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 8
+	Node_Speech 
+	{
+		Text "При сбросе аккумуляторы недостаточно далеко отлетают от корабля. Взрыв"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Long Space Farewell"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 7 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 9
+	Node_Speech 
+	{
+		Text "Следует небольшой взрыв, который временно чинит корабль. Теперь предстоит понять, что делать дальше"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Long Space Farewell"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 5 Text "Вернуться домой втроем" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 2 Text "Приступить к поиску пропавшего" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 10
+	Node_Speech 
+	{
+		Text "Спутник успешно доставляется на корабль. После замены бозонного двигателя, команда возвращается на Землю.
+
+В официальных источниках экспедиция признана частично успешной.
+
+Неофициально за 500 лет было запущено еще несколько подобных миссий. Никто не вернулся обратно. Про бозонный двигатель вскоре заб"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Long Space Farewell"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 15 Text "А затем..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 11
+	Node_Speech 
+	{
+		Text "Геолог цепляется за спутник, у того включаются двигатели и уносят в неизвестном направлении. На корабле кончается воздух, энергия и еда. Биолог и Физик погибают.
+
+На Земле в официальных источниках экспедиция признана частично успешной.
+
+Неофициально за 500 лет было запущено еще несколько подобных миссий. Никто не вернулся обратно. Про бозонный двигатель вскоре забыли."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Long Space Farewell"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 15 Text "А затем..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 12
+	Node_Speech 
+	{
+		Text "Пока он летит к спутнику, корабль внезапно исчезает. Биолог пытается включить двигатель на спутнике, но безуспешно.
+
+Корабль оказывается возле Математика. 
+Геолог счастлива. Физик насторожен.
+
+Рядом с Математиком возникает Незнакомец. Все слышат его насмешливый голос в своей голове: "И каждый ведь раз один и тот же выбор. Любопытство. Что ж, прощайте".
+Гаснут звезды. Корабль превращается в клубы дыма. Экипаж "Омеги" распадается на струи дыма, словно распутывающийся клубок ниток."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Long Space Farewell"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 15 Text "А затем..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 13
+	Node_Speech 
+	{
+		Text "Биолог возражает - искать по теплу от тела Математика бессмысленно, скафандр полностью экранирует тепловое излучение. Можно попробовать уловить отраженную от скафандра энергию, но теплолокаторы будут работать на пределе. Лучше поискать другой способ.
+
+Физик сообщает Биологу, чтобы тот не выходил за рамки своих компетенций и направляет всю энергию с плазменных аккумуляторов на теплолокаторы. Взрыв."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Long Space Farewell"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 16 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 14
+	Node_Speech 
+	{
+		Text "За все теоретические расчеты отвечал Математик. Биолог сразу отказывается брать на себя ответственность"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Long Space Farewell"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 17 Text "За расчеты берется Физик" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 18 Text "За расчеты берется Геолог" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 15
+	Node_End 
+	{
+		OwnerName "Long Space Farewell"
+		bCheckChildrenOnEvaluation False
+		EnterEvents
+		{
+			{  ParticipantName "Long Space Farewell" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False }
+			{  ParticipantName "Long Space Farewell" EventType "EDlgEventType::DlgEventModifyBool" EventName "IsGoodEnd" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue True }
+		}
+	}
+	// 16
+	Node_End 
+	{
+		OwnerName "Long Space Farewell"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Long Space Farewell" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 17
+	Node_Speech 
+	{
+		Text "Физик совершает просчет. Корабль врезается в астероид. Взрыв"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Long Space Farewell"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 16 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 18
+	Node_Speech 
+	{
+		Text "Геолог высчитывает траекторию и находит Математика. Биолог начинает уговаривать вернуться домой без Математика. Геолог сообщает, что она не вернется на Землю без мужа.
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Long Space Farewell"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 5 Text "Вернуться домой втроем" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 19 Text "Забрать Математика домой" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 19
+	Node_Speech 
+	{
+		Text "Физик говорит, что неважно, сколько осталось человечеству. И ему интересно,чем всё закончится. Биолог в ярости, Физик и так всегда его принижал в научной среде. Драка неминуема, а Физик уже нажал запуск перелета.
+
+Скачок в пространстве. Математик найден - висит неподвижно в космосе.
+Геолог счастлива. Остальные, остановив бой, насторожены.
+
+Рядом с Математиком возникает Незнакомец. Все слышат его насмешливый голос в своей голове: "И каждый ведь раз один и тот же выбор. Любопытство. Что ж, прощайте".
+Гаснут звезды. Корабль превращается в клубы дыма. Экипаж "Омеги" распадается на струи дыма, словно распутывающийся клубок ниток."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Long Space Farewell"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 15 Text "А затем..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
 }

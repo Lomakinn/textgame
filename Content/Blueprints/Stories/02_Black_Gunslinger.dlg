@@ -10,4 +10,296 @@ Node_Speech StartNode
 	bCheckChildrenOnEvaluation False
 	VoiceSoundWave ""
 	VoiceDialogueWave ""
+	Children { {  TargetIndex 0 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+}
+DlgParticipantClasses { {  ParticipantName "Black Gunslinger" ParticipantClass "" } }
+Node Nodes
+{
+	// 0
+	Node_Speech 
+	{
+		Text ""Чёрт, шляпу просрал" - пробубнил я, глядя на дыру в земле, в которую только что провалился. Я убегал от краснокожих с их побрякушкой, оглянулся на них и вот я здесь. Я понял, что цел и надо бежать. Но сначала я осмотрелся и понял, что лежу в какой-то старой шахте. На куче истлевших трупов. Я закричал, вскочил и судорожно отряхнулся от праха и пыли. Похоже что те варвары использовали шахту, как свалку для своих мёртвых. Странно, ведь я видел рядом с их поселением кладбище. Ладно, решил я, надо двигаться. С одной стороны слегка веял ветерок, с другой, как мне показалось, я слышал какой-то гул."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 1 Text "Идти на ветер." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 2 Text "Идти на гул." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 1
+	Node_Speech 
+	{
+		Text "Я пытался зажечь спичку, но ветер гасил её, и я шёл на ощупь. Эта чёртова шахта казалась бесконечной. Я всё шёл, но не видел ни проблеска света и воздух свежее не становился."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 3 Text "" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 2 Text "Идти на гул." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 2
+	Node_Speech 
+	{
+		Text "Я зажёг спичку и настороженно побрёл по шахте. Что-то потустороннее было в этом звуке, но он будто бы звал меня. Я шёл несколько минут и вдруг шахта закончилась, а передо мной была тяжёлая каменная дверь с какой-то резьбой. Я дёрнул за рычаг справа от неё, и она с треском открылась. Очередную спичку задуло потоком воздуха. Я шагнул в неизвестность. Всё стало каким-то другим. Гул совсем затих, была гробовая тишина. Было холодно. Мне казалось, что на меня со всех сторон кто-то смотрит. Вдруг дверь за мной громко сомкнулась. Я замахал руками в надежде что-то нащупать и почувстовал на стене факел. Удачно. Он даже был смазан. Я зажёг его от очередной спички и увидел коридор, вновь ведущий из тьмы во тьму. Он показался очень древним. Дверь с этой стороны не имела рычага. Вдруг я услышал что-то очень похожее на шаги. Они становились всё громче. Я решил, что кто-то приближается."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 4 Text "Приготовиться к бою." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 5 Text "Бежать прочь." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 3
+	Node_Speech 
+	{
+		Text ""Это никогда не закончится" - думал я."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 6 Text "Продолжать идти на ветер." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 2 Text "Идти на гул." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 4
+	Node_Speech 
+	{
+		Text "Я достал револьвер. Проверил барабан - было ещё 3 патрона. "На одного ублюдка хватит". Шаги замедлились, почти стихли. И на свет моего факела вышел краснокожий мальчишка лет 6. "Так... Ты... Живой?" - вывалил я в ужасе. Мальчик мотнул головой и чьи-то руки вдруг обхватили его шею и закрыли рот. Я увидел лишь очертания человека в чёрном. Он до хруста сдавил тонкую шею, приподнял и бросил мальчишку, как тряпичную куклу об пол. Он тут же побежал прочь. Я отошёл от шока, крикнул ему вслед: "Эй! Стоять!", и выпустил в него два выстрела. Его топот продолжился."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 7 Text "Бежать от него." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 8 Text "Бежать за ним." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 5
+	Node_Speech 
+	{
+		Text "Я решил, что жизнь мне дороже новых знакомств, и бежал в надежде найти наконец выход или хотя бы ещё одну дверь, но казалось, что этот чёртов коридор никогда не кончится."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 4 Text "Приготовиться к бою." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 9 Text "Продолжать бежать." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 6
+	Node_Speech 
+	{
+		Text ""Это никогда не закончится" - думал я."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 3 Text "Продолжать идти на ветер." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 2 Text "Идти на гул." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 7
+	Node_Speech 
+	{
+		Text "Я бежал из последних сил. Ни дверей, ни поворотов, ни рычагов - ничего. Но вдруг я увидел на полу перед собой фигуру. Это был скелет. Я заметил, что он был довольно современно одет. Рядом с ним лежали прогоревший факет и пустая тетрадь в чёрном кожанном переплёте, в которую я всё это и записываю. В руке у мертвеца лежал точно такой же револьвер, что и у меня. Я разжал его пальцы, и заглянул в барабан. Патронов в револьвере не было. Мне стало не по себе. Я поглядел в его пустые глазницы, и он вдруг резко подался на меня. Я отшатнулся, потерял равновесие и ударился затылком об каменную стену."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 10 Text "..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 8
+	Node_Speech 
+	{
+		Text "Убийца что-то уронил и остановился у очередной каменной двери с рычагом. Он скрылся, а дверь за ним тяжело захлопнулась. Я плохо его рассмотрел, но приметил, что шляпа на нём была очень похожа на мою. Уронил он пустую тетрадь в чёрном кожанном переплёте, в которую я всё это и записываю. Я приготовил пистолет с последним патроном и дёрнул за рычаг. Из открывшейся двери меня окатила волна крови, сбив меня с ног. Я упал и ударился затылком об пол."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 10 Text "..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 9
+	Node_Speech 
+	{
+		Text "Силы начали покидать меня, а шаги за спиной не прекращались. У меня не было выбора. Я остановился и повернулся лицом к гнавшей меня сволочи."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 4 Text "Приготовиться к бою." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 10
+	Node_Speech 
+	{
+		Text "Я очнулся на полу в ветхом салуне. Было похоже, что он давно заброшен, за разбитыми окнами была лишь пустыня, но за баром степенно протирая бокал стоят худощавый мужчина лет 40 с усами и залысиной в белой рубашке с красной бабочкой. Он выглядел безопасно, но от него всё же веяло какой-то невероятной силой. Он смотрел на меня с улыбкой, которая при других обстоятельствах могла быть расценена дружелюбно. Но я понял, что гул, который я слышал раньше, исходит будто из него. Холод прокатился по моей спине. "Твоя шляпа, ковбой?" - ехидно спросил он и указал на мою шляпу, лежащую на барной стойке. "Спасибо... - прошептал я растеряно, - Где я?". "На руспетье" - сказал бармен и кивнул мне. "Но сначала - выпей". Бармен громко стукнул бокалом, наполненным какой-то чёрной жижей, об стойку."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 11 Text "Выпить" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 12 Text "Отказаться." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 11
+	Node_Speech 
+	{
+		Text "Жидкость обволокла пищевод и будто направилась по венам прямо в мозг. Рассудок помутился. Зрение расфокусировалось. Перед глазами начали формироваться образы. Я увидел перед собой огромный зал, высокие стены которого были покрыты резьбой схожей на ту, из коридоров. Я разглядел рисунок человека с головой ворона, протянувшего какую-то цепь воину, стоящему перед ним на коленях. С этим рисунком на фоне перед огромной толпой индейцев стоял жрец, одетый в плащь из вороньих перьев. На груди у него весел амулет. "Точно..." - подумал я. Этот амулет из серебра в форме ворона, украшенный мерцающими камнями, лежал сейчас у меня в сумке и пробивал слои материи колючим холодом. Жрец держал в руке кривой кинжал, а перед ним на коленях в ряд стояло четыре связанных индейца. Он поднял над головой кинжал, что-то прокричал, толпа прокричала в ответ, и одним взмахом он срубил всем четверым головы. Камни на амулете загорелись."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 13 Text ">" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 12
+	Node_Speech 
+	{
+		Text ""Нет, я пожалуй пас. Как отсюда выбраться?" - спросил я настороженно. "Как и откуда угодно. Двумя путями. Путём борьбы и путём смирения". Меня охватил страх в перемешку с раздражением и я направился к ближайшей двери. За ней была не пустыня, а тот же холодный мрак, что и в шахте."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 11 Text "Вернуться и выпить." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 14 Text "Шагнуть в пустоту." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 13
+	Node_Speech 
+	{
+		Text "В следующем видении передо мной явился отшельник, сидящий в скалах. Изнемождённый, в крови и песке он смотрел на закат с каким-то железным умировторением старого воина, встречающего смерть. Солнце зашло, камни на амулете совсем потускнели и цепь амулета в одно мгновение сомкнулась на его шее. Голова покатилась по камням."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 15 Text ">>" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 14
+	Node_Speech 
+	{
+		Text "Найденный мной факел уже догорает. Я блуждал в темноте уже очень долго. Я несколько раз отключался и проваливался в липкий и тревожный сон. Похоже, я не выберусь из этого кошмара. К счастью у меня остался ещё один патрон. Пожалуй, я это заслужил..."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 16 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 15
+	Node_Speech 
+	{
+		Text "Потом я увидел альтарь, на котором висел амулет. Вокруг него были разложены кости и черепа животных и птиц. Место было знакомым. Через мгновение я понял почему. Я увидел себя. Оглядываясь, я пробрался к алтарю, взял амулет, оглядел его, бросил в сумку и был готов смотаться, как в палатку зашёл тот самый мальчишка... Я не хотел причинять ему вреда. Я просто хотел заткнуть засранца. Перестарался... И если бы мне удалось уйти незамеченным, может быть я смог бы хоть немного заглушить совесть вырученными за амулет деньгами и свободой. Но пути назад уже не было."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 17 Text ">>>" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 16
+	Node_End 
+	{
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Black Gunslinger" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 17
+	Node_Speech 
+	{
+		Text "Я пришёл в сознание в том же заброшенном салуне, но бармена уже не было. Вместо него за баром сидел большой чёрный ворон с пышной бородой перьев под клювом. Он каркнул на меня, будто бы подгонял. Я достал из сумки амулет. Камни были тусклыми, и я заметил засохшие капли крови на цепочке."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 18 Text "Бросить амулет вороне" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 19 Text "Надеть амулет" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 18
+	Node_Speech 
+	{
+		Text "Ворон сорвался с места и вылетел в разбитое окно. Амулет влетел в ряды пустых бутылок. Я встал и направился к выходу. Но вместо пустыни за дверью меня ждал холод и тьма коридоров подземелья."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 14 Text "Шагнуть в пустоту" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 19
+	Node_Speech 
+	{
+		Text "Я предпочёл судьбу убийцы. Я обречён убивать каждый день, иначе умру сам. Попытаюсь снять амулет - тоже умру. Он даёт невероятные способности, но требует крови взамен. И вот опять, моя плата пришла ко мне сама. Дом окружили охотники за головами. За мою объявили большую награду. Даже приятно. Я уже не вижу в случившемся злого рока. Вижу лишь возможность искупить свой грех. Мои руки и так были в крови, так пусть кровь невинного покроет кровь самых отпетых мерзавцев этих диких краёв, и всех тех, кто встанет на моём пути. Моя совесть не замолкает, тот мальчик всё ещё снится мне, но я понимаю, что всё было не зря. Я делаю добро этому миру, хоть и на службе у самого Дьявола. Или Бога. Хотя один чёрт. Пора заканчивать. Мне уже велят выходить с поднятыми руками. Так я и поступлю.
+Ч.С."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 20 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 20
+	Node_End 
+	{
+		OwnerName "Black Gunslinger"
+		bCheckChildrenOnEvaluation False
+		EnterEvents
+		{
+			{  ParticipantName "Black Gunslinger" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False }
+			{  ParticipantName "Black Gunslinger" EventType "EDlgEventType::DlgEventModifyBool" EventName "IsGoodEnd" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue True }
+		}
+	}
 }

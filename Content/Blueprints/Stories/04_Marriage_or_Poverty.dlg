@@ -10,4 +10,358 @@ Node_Speech StartNode
 	bCheckChildrenOnEvaluation False
 	VoiceSoundWave ""
 	VoiceDialogueWave ""
+	Children { {  TargetIndex 0 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+}
+DlgParticipantClasses { {  ParticipantName "Marriage or Poverty" ParticipantClass "" } }
+Node Nodes
+{
+	// 0
+	Node_Speech 
+	{
+		Text "Торговля ездовыми лошадьми всегда была прибыльным делом, ибо пользуется спросом, а главное, что позволить себе приобрести ездового жеребца могут многие. Учитывая популярность конного спорта, всегда найдется щедрый клиент, готовый вложить значительную часть своего состояния, дабы купить здорового ретивца, который с лихвой вернёт эти вложения и поднимет его репутацию среди таких же богатых дядек."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 1 Text "Далее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 1
+	Node_Speech 
+	{
+		Text "Пару веков назад мой прапрадед Уильям Харт, основал это прибыльное дело и наша семья навсегда забыла, что такое голод и нищета. У каждого в семейном роду, кто перенимал это дело по наследству, были плохие времена, но похоже я единственный кто услышит от отца "Тони, в чём секрет твоей тупости?!"...
+ 	Время идёт и человечество не стоит на месте, технологический прогресс даёт о себе знать. Теперь в моде железяки, способные на колёсах перевозить по несколько физиономий...Состоятельные люди всё больше склоняют свой выбор в пользу машин, которые становятся всё доступнее и доступнее. Не далёк тот час, когда мне придётся считать мелочь в кошельке, чтобы наскребсти себе на буханку хлеба."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 2 Text "Варианты спасения" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 2
+	Node_Speech 
+	{
+		Text "	В общем, мой бизнес сейчас на спаде. Необходимо как-то поравить дела, но на деле это не так просто. Самое очевидное, что приходит на ум, то о чём твердит мне  каждый знакомый человек: "найди себе супругу". Учитывая моё моложение, это было бы отличным решением моих проблем, главное, чтобы невеста была состоятельная, иначе в скором браке нету смысла.
+	Дело это ответственное, так что и подойти к нему стоит осмысленно. на ум приходят два варианта. Первый - это Мэри Свонс, дочь богатого дворянина, поднявшегося с самых низов, с которой меня ещё в юности знакомили наши дома. Её отец довольно суровый дядька и не доверит свою дочь человеку, который имеет шаткое положение с деньгами. Чтобы жениться на его дочке, придётся постараться и впечатлить, как бы не было странно, именно его, а это та ещё задачка. Ну и второй вариант - это Маргарет Флетч, старая вдова, имещая немалое состояние, оставленное ей, её мужем. Однажды, в кондитерском магазине, я выбирал чем бы побаловать себя вечером, как вдруг кто-то жёстко ухватил меня за зад и ущипнул. Сжав свой правый коронный, я развернулся, дабы ответить обидчику, развернувшись я увидел морщинистую гримасу, формировавшую нечто вроде ухмылки. Как вдруг она сказала "Ммм...какая мягкая булочка, можно мне одну с собой?". В тот момент по всему мою телу прошёл холодок и я, растерявшись ответил лишь "Спасибо большое..." и в спешке удалился. С тех пор в заднем кармане штанов я всегда ношу игольчатые кнопки, во избежании синяков на этих булках. Один вариант сложный, другой легче лёгкого, надо определиться."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 3 Text "Маргарет Флетч" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 4 Text "Мэри Свонс" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 3
+	Node_Speech 
+	{
+		Text "	У неё нету супруга, она состоятельна и очевидно, что она не против познакомиться со мной поближе. Она владеет сетью кондитерских магазинов, не удивительно, что я встретил её в подобном магазине. Надо бы наведаться к ней, принарядиться и так и быть, убрать эти чёртовы колючки."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 5 Text "найти ее в одном из магазинов" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 4
+	Node_Speech 
+	{
+		Text "	Через знакомых я узнал адрес, где проживает семейство Свонс. Теперь самое важное, нужно создать образ, что мои дела впорядке и я вовсе не в отчаянии. Пройдясь по паре магазинов, я прикупил себе новый деловой костюм, парфюм и небольшой подарок. Всё должно быть идеально. В голове я представлял это как-то так "О, мистер Генри, здравствуйте, я тут мимо проходил, как вдруг увидел увидел вас в окне, решил может стоит зайти".
+	Позвонив в дверь, ответа не прозвучало. Подумал дома никого нету, как вдруг открывает старик и с недоумевающим взглядом таращится на меня. Я подумав вслух:
+- Генри?
+- Каво?
+- Извините, по этому адресу должна проживать семья Свонс
+- Я Швальц, не знаю никаких Свонс, если ты о старых жильцах, то они ухали то ли в другую страну, то ли город, чёрт их знает.
+	Поблагодарив его, я отдал ему гостинец и ушёл.
+	Печально. Придётся пытать счастье с пожилой креветкой."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 3 Text "Маргарет Флетч" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 5
+	Node_Speech 
+	{
+		Text "	Обойдя пару магазинов, я таки нашёл её. Правда картина, которая предстала предо мной, была не самая удачная. Эта заводная дама, присматривалась к очередной жертве, пухленький мужичок лет 30. Он был застигнут в расплох точно также, как и я в своё время. После её молниеносных движений, несвойственных человеку её лет, мужик явно не ожидал подобного. Я ожидал, что он будет чертовски зол, но когда он повернулся, я видел, что это был мой старый знакомый, "Грязный" Джек. Я слышал, что его дела давно пришли в упадок и он давно уже побирается на улице. Судя по всему он откуда-то узнал про эту женщину и нашёл деньги на примелимый вид. Похоже он только и ждал момента, когда она подойдёт к нему, а по его довольной харе явно можно увидеть, что его план сработал. Насколько же он отчаился, что решил связаться с ней. Вот я... Итак надо действовать, либо он, либо я, это игра на виживание, в которой я не могу проиграть."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 6 Text "Подкупить Джека" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 7 Text "Отвлечь Джека" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 6
+	Node_Speech 
+	{
+		Text "	Немедля ни секунды, я буквально влетел в их намечавшийся диалог.
+-Джек, приятель, давно не виделись, как твои дела?!
+	Он явно не помнил меня, либо это очень хорошая актёрская игра, но он явно не очень хотел, чтобы ему мешали в этот момент.
+-Ты чего, это же я, Тони. Сто лет не виделись. Не хочешь прогуляться, сходить в бар, рассказать как жизнь. Я угощаю.
+	Последняя фраза явно была решающей, учитывая что с деньгами у него проблемы, да и какой мужик не захочет выпить, да ещё и нахаляву. Похоже, решив, что момент испорчен или из-за нежелания, подкатывать к старухе при мне, мы пошли в бар."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 8 Text "Отправиться в бар" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 7
+	Node_Speech 
+	{
+		Text "Подойдя к ним поближе, я сделал вид, что не знаю его.
+-Мистер, на улице женщина в тёмном платье нашла 100 долларов, не может найти потерявшего, вы как раз похожи на человека, который мог потерять такую сумму.
+Его лицо надо было видеть, 5 секунд и его уже не было в магазине.
+Что же, теперь надо как-то начать с ней беседу, или же сделать так, чтобы она сама ей начала."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 9 Text "Поздороваться с Маргарет" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 10 Text "Случайно уронить монетку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 8
+	Node_Speech 
+	{
+		Text "	Мы просидели в баре около двух часов и выпили, столько, сколько не выпьет большая компания друзей. Ну как выпили, скорее он выпил. Это жирная свинья даже не думала скромничать и заказывала всё, что видела в меню. За время, что мы провели в баре, когда мы выпили, он рассказал мне свою историю, как тратил деньги на лево и направо и разорился в скором времени. Я итак знал, что он тот ещё дурак, слушать это было не обязательно. Попытавшись выказать сострадание и понимание, я сказал, что знаю зачем он пришёл в кондитерскую лавку и предложил ему помощь в виде некоторой суммы, которая поможет ему встать на ноги."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 11 Text "Дать 250$" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 12 Text "Дать 500$" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 13 Text "Дать 1000$" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 9
+	Node_Speech 
+	{
+		Text "- Здравсвтвуйте
+- Не убежите, как в прошлый раз?
+- Что вы, просто у меня тогда срочные дела были, сейчас я никуда не тороплюсь.
+- Ого, вот как, может составите мне компанию сегодня вечером?
+- Да, почему бы и нет.
+Надо бы как-то ответить ей напоследок, в её стиле, чтобы она поняла серьёзность моих намерений."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 14 Text "Ущипнуть в ответ" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 15 Text "Подмигнуть" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 16 Text "Наклониться еще раз" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 10
+	Node_Speech 
+	{
+		Text "Я уронил монетку на пол и неловко наклонился за ней. Думаю что из меня получился бы хороший рыбак, ибо эта креветка клюнула, прямо в зад."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 9 Text "Поздороваться с Маргарет" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 11
+	Node_Speech 
+	{
+		Text "-Как насчёт двухсот пятидесяти долларов? Эта бабка не стоит тебя, посмотри на себя, ты молод, красив, холост, найдёшь кого получше.
+-Двести пятьдесят?! Ты что шутишь? этого явно не достаточно. 
+Ну я же говорил, что свинья, "Грязная" свинья."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 12 Text "Дать 500$" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 13 Text "Дать 1000$" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 12
+	Node_Speech 
+	{
+		Text "-Как насчёт пятиста? С такими деньгами ты сможешь найти себе на некоторое время жильё, а там уже подумаешь куда двигаться дальше.
+-А жить на что? У меня же организм развивающийся, постоянно надо что-то есть. Мало...
+*ААА!* Вот паскуда, ты ещё и торговаться будешь?! Сколько же денег надо, чтобы прокормить такую тушу..."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 11 Text "Дать 250$" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 13 Text "Дать 1000$" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 13
+	Node_Speech 
+	{
+		Text "-Вот, всё что у меня есть. Держи, тут чуть больше тысячи.
+	Я выгреб ему всю мелочь из кошелька, и отдал с улыбкой на лицо, но слезами в душе, понимая, что это на благое дело, моё дело.
+-Ого, спасибо тебе дружище, никто не помогал мне, все родные отказались от меня, только ты Тони, ты действительно помог мне. Ты всегда мне нравился, есть в тебе что-то особенное...
+	Минут десять я выслушивал от него какой я хороший, но эта тупица не могла даже подумать, что я просто убираю его со своего пути.
+	Спустя час мы разошлись. На следующий день я собирался попытать своё счастье с мадам Флетч снова."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 17 Text "Отправиться к Маргарет Флетч" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 14
+	Node_Speech 
+	{
+		Text "	Кажется я немного перестарался и оторвал ей кусок плоти. Пора валить. 
+- Увидемся вечером
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 18 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 15
+	Node_Speech 
+	{
+		Text "Я никогда особо не умел подмигивать, но думаю у меня получится. Я улыбнулся и подмигнул ей, только так было в моей голове, на самом е деле, это выглядело так, будто у меня начались судороги. Думаю, мне лучше поскорее валить, пока она не передумала."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 18 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 16
+	Node_Speech 
+	{
+		Text "В этот раз я ничего не ронял, просто сделал пару наклонов. Пусть бабуля порадуется."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 18 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 17
+	Node_Speech 
+	{
+		Text "	Как говорит мой папаня "новый день, новая жизнь". Сегодня точно всё получится. Надеюсь никто больше не решится подкатить свои булки к Маргарет, ведь кошелёк у меня отнудь не резиновый.
+	Подойдя к магазину, я слегка привёл себя в порядок и только я вошёл в магазин, как мой день пошёл не по плану. За столиком, попивая чаёк с конфетами, флиртовала жирная свинья. Нет нет, это была не Маргарет, эту свинью звали Джек.
+И он флиртовал с Маргарет будто они давно знакомы. Как он вообще отошёл после всего выпитого им вчера."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 19 Text "Подойти и поздороваться" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 20 Text "Позвать Джека поговорить" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 18
+	Node_End 
+	{
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Marriage or Poverty" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 19
+	Node_Speech 
+	{
+		Text "Я подошёл к ним и поздоровался.
+-Джек, приятель, что ты тут делаешь? Я смотрю тебе очень сильно полюбилось это место...
+- О, и не говори, тут самые вкусные сладости во всём городе, вдобавок ко всему тут всегда можно поболтать в компании милой дамы, правда Маргарет?
+*Маргарет улыбнулась в ответ и положила ему руку на колено.*
+- Джек, надо поговорить. Наедине.
+Мы вышли с ним на улицу, я было хотел начать разговор, как вдруг Джек сказал:
+- Обидно, да?
+- Всмысле?
+- Ты думал я совсем дурак? Думал я поверю, что тебе есть до меня дело и ты помогаешь мне бескорыстно?! Я знаю, что твои дела идут на спад и ты тоже приметил  Маргарет, как и я, но ты слишком недооценил меня. Я может и не умею обращаться с деньгами, но хитрости мне не занимать.
+- Что? Я и вправду хотел помочь тебе, такой уж я человек. А то что ты надумал там себе про мой бизнес, то это всё чушь, всё отлично.
+- Ах да? Что-то по твоему худенькому кошельку не скажешь...
+- Ты подлая свинья, верни деньги!
+- Ты сам мне их подарил, может попробуешь забрать?
+	Зарядив свой коронный правый, я направил его в область подбородка Джека, но едва я достал его, он увернулся, а я сломал нос мадам Маргарет,которая стояла позади Джека и подслушивала нас. Ну, как говорится, любопытной варваре, нос оторвали, мда... Пока я стоял в шоке от того, что я сделал, подлая свинья втащила мне правый хук, после чего я занял vip места на земле и смотрел как эти двое удаляются, после чего моё тело решило поспать.
+	[[Проснуться]]"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 21 Text "Проснуться" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 20
+	Node_Speech 
+	{
+		Text "	Я постучал по окошку, махая Джеку, чтобы он вышел. Он еле встал и всем видом показывал, что ему не очень то и хочется.
+- Здравствуй, что ты тут делаешь? Разве я не дал тебе денег, чтобы тебе не пришлось встречаться с этой пожилой вдовой?
+	Он лишь посмотрел на меня с коварной улыбкой, будто знал, то чего не знал я, что-то очевидное.
+- Обидно, да?
+- Всмысле?
+- Ты думал я совсем дурак? Думал я поверю, что тебе есть до меня дело и ты помогаешь мне бескорыстно?! Я знаю, что твои дела идут на спад и ты тоже приметил  Маргарет, как и я, но ты слишком недооценил меня. Я может и не умею обращаться с деньгами, но хитрости мне не занимать.
+- Что? Я и вправду хотел помочь тебе, такой уж я человек. А то что ты надумал там себе про мой бизнес, то это всё чушь, всё отлично.
+- Ах да? Что-то по твоему худенькому кошельку не скажешь...
+- Ты подлая свинья, верни деньги!
+- Ты сам мне их подарил, может попробуешь забрать?
+	Зарядив свой коронный правый, я направил его в область подбородка Джека, но едва я достал его, он увернулся, а я сломал нос мадам Маргарет,которая стояла позади Джека и подслушивала нас. Ну, как говорится, любопытной варваре, нос оторвали, мда... Пока я стоял в шоке от того, что я сделал, подлая свинья втащила мне правый хук, после чего я занял vip места на земле и смотрел как эти двое удаляются, после чего моё тело решило поспать. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 21 Text "Проснуться" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 21
+	Node_End 
+	{
+		OwnerName "Marriage or Poverty"
+		bCheckChildrenOnEvaluation False
+		EnterEvents
+		{
+			{  ParticipantName "Marriage or Poverty" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False }
+			{  ParticipantName "Marriage or Poverty" EventType "EDlgEventType::DlgEventModifyBool" EventName "IsGoodEnd" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue True }
+		}
+	}
 }
