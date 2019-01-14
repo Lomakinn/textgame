@@ -10,4 +10,324 @@ Node_Speech StartNode
 	bCheckChildrenOnEvaluation False
 	VoiceSoundWave ""
 	VoiceDialogueWave ""
+	Children { {  TargetIndex 0 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+}
+DlgParticipantClasses { {  ParticipantName "Enter to the Club" ParticipantClass "" } }
+Node Nodes
+{
+	// 0
+	Node_Speech 
+	{
+		Text ""//21 сентября 20...года.
+
+	Мы участвовали в крестовых походах. Мы наблюдали за сожжением Жанны Д’Арк в Руане. Мы были приближенными Марии Стюарт и ужинали с ней за одним столом. Мы стояли у истоков Великой французской революции. Мы видели приход Гитлера к власти. 
+	Мы - бессме...//"
+
+На улице включили ночные фонари. Свет лег на мою тетрадь, и я отвлекся от дневника. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 1 Text "Я продолжил запись" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 2 Text "Я подошел к окну" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 1
+	Node_Speech 
+	{
+		Text ""//...Мы - ~~бессмертные~~. 
+	Мне отведено больше, чем кому-либо из вас. Наверное, многие могли бы позавидовать тому, сколько я прожил на этой земле. Но как можно завидовать человеку, который может только бесконечно наблюдать за миром и не в силах прекратить это течение событий?..//"
+	
+	Нет, все же меня раздражает свет фонаря. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 2 Text "Я подошел к окну" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 2
+	Node_Speech 
+	{
+		Text "На улице стало темно. Фонари светили рыжим. Их свет расстилался по живым изгородям, которые в этом вечернем свете перестали быть зелеными и превратились с серо-оранжевые заборы. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 3 Text "Я зашторил окно" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 4 Text "Краем глаза я заметил тень" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 3
+	Node_Speech 
+	{
+		Text "Я зашторил окно и вернулся к своему письменноум столу, чтобы продолжить записи. На чем же я закончил?.. Я только собрался с мыслями, чтобы продолжить, как услышал стук в дверь."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 5 Text "Кого еще черт принес? Не хочу открывать" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 6 Text "Я пошел к входной двери, чтобы открыть" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 4
+	Node_Speech 
+	{
+		Text "Тень? Что-то явно промелькнуло рядом с моим окном. Но стоит ли удивляться тому, что вечером я заметил тень?"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 7 Text "Ничего необычного, это просто тень" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 8 Text "Это не просто тень..." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 5
+	Node_Speech 
+	{
+		Text "Я никого не ждал, поэтому остался за своим столом. Я продолжил делать записи. За мою многовековую жизнь произошло много событий, о которых я не могу рассказать никому, потому что вынужден держать в тайне свое бессмертие. Только бумага может хранить эту тайну.
+
+Я увлекся письмом, но все же смог услышать какие-то звуки с улицы.
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 9 Text "Я решил узнать, что это за звуки" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 10 Text "Меня это не касается, я останусь за столом" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 6
+	Node_Speech 
+	{
+		Text "Я открыл дверь. На пороге стояла моя любимая. "Ты не предупреждала о своем приходе", - сказал я ей. Она не ответила и только улыбнулась уголком рта (или ухмыльнулась?) и отвела глаза."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 11 Text "Я обнял ее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 12 Text "Я спросил: "Почему ты не позвонила заранее?"" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 7
+	Node_Speech 
+	{
+		Text "Я вернулся к своему письменноум столу, чтобы продолжить записи. На чем же я закончил?.. Я только собрался с мыслями, чтобы продолжить, как услышал стук в дверь."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 5 Text "Кого еще черт принес? Не хочу открывать" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 8
+	Node_Speech 
+	{
+		Text "Да, это не просто тень. За время, что я живу, я научился чуять опасность. Я должен сообщить о тени. Но кому? Я взял телефон и открыл список контактов. В моем телефоне только два контакта: номер секретаря нашего клуба бессм... кх... и номер моей любимой. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 13 Text "Сообщить о тени в клуб" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 14 Text "Сообщить о тени любимой" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 9
+	Node_Speech 
+	{
+		Text "Я подошел к окну. Но было слишком поздно, чтобы что-то изменить. Я увидел, как член клуба убивает мою любимую, и выбежал на улицу. 
+
+Все закончилось к тому коменту, как я прибежал. Он вручил мне какой-то листок и сказал, что это было у нее в кармане. Он сказал, что сам позаботится о теле. Он сказал, что это было вынужденная мера, так как она раскрыла тайну клуба.
+
+Я был слишком опустошен, чтобы что-то ответить, поэтому вернулся в дом. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 15 Text "Дома я раскрыл листок и прочитал его" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 10
+	Node_Speech 
+	{
+		Text "Я остался за столом и продолжил делать записи. Я писал про начало Первой мировой, про свой путь от рядового до командующего взводом. 
+
+...И я почувствовал, как в мою спину входит нож. Он был в ее руке. Она делала это со мной. Я не мог поверить... "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 16 Text ""21 сентября 20...года"" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 11
+	Node_Speech 
+	{
+		Text "Я обнял самого любимого человека в этом мире. В этот же момент я почувствовал, как в мою спину входит нож. 
+
+Он был в ее руке. Она делала это со мной. Я не мог поверить... 
+
+Все закончилось.  
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 16 Text ""21 сентября 20...года"" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 12
+	Node_Speech 
+	{
+		Text ""Почему ты не позвонила?" - спросил я. Она подняла на меня глаза и сказала: "Я знаю, кто ты есть. Я завидовала твоему дару с первого дня, как узнала. И я знаю, как отобрать его у тебя и стать членом клуба. Бессмертный должен принять смерть от самого дорогого ему человека".
+
+Откуда она?.. Я мог проговориться?.. Теперь это совершенно неважно, ведь кодекс клуба требует тайны."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 17 Text "Я предам Кодекс клуба. Я сказал: "Сделай это"" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 18 Text "И я сохраню тайну, убив свою любимую" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 13
+	Node_Speech 
+	{
+		Text "Я сообщил о тени в клуб. Одно из наших правил - не раскрывать себя и помогать другим хранить тайну. Хранить любой ценой. Кто-то должен приехать ко мне, чтобы убедиться, что мою тайну не знает никто. Я успокоился, когда подумал о том, что скоро кто-то заедет. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 3 Text "Я зашторил окно" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 14
+	Node_Speech 
+	{
+		Text "Я написал СМС своей любимой.
+...любимой. Она не знает обо мне. И не знает, что не сможет быть со мной бесконечно. А я желал бы этого, ведь она - вся моя жизнь. Порой я думаю, что жил века только для того, чтобы встретить ее тем ветреным днем... Но наша любовь ограничена отведенными ей годами.
+
+Я услышал стук в дверь."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 5 Text "Кого еще черт принес? Не хочу открывать" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 6 Text "Я пошел к входной двери, чтобы открыть" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 15
+	Node_Speech 
+	{
+		Text "//"21 сентября 20...года.
+
+	Я не думала, что знакомство с тобой сможет изменить всю мою жизнь. Но это произошло. Мы познакомились, когда я шла со стопкой бумаг. Ветер разнес их. Ты подошел и помог собрать листы. Так мы и познакомились. 
+	Через полгода я узнала твою тайну. Я просто заметила одну из твоих дурацких тетрадей. Кодекс клуба бессмертных требует тайны от других людей, но не от самого себя. В личных дневниках можно писать о том, что нельзя никому говорить. 
+	Так я узнала про все. И я решила, что стану членом клуба любой ценой. Из той же татради я узнала способ достижения своей цели. Место бессмертного в клубе займет человек, убивший того, кто не может умереть. А убить бессмертного может только тот, кого он любит. 
+	Моя любовь превратилась в средство достижения цели. Конечно, я не могла мгновенно решиться на убийство. Но меня каждый день выжигало изнутри желание войти в клуб. И я решилась. Я не знаю, чем все завершится, поэтому пишу это послание. Может, оно для тебя. А может, я перечитаю это письмо, когда займу твое место в клубе".// 
+
+Из-за моих дневников убили человека, которого любил. Я не смог сохранить тайну клуба. Но я постараюсь исправить."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 19 Text "Сжечь все тетради" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 16
+	Node_Speech 
+	{
+		Text "Теперь я - часть клуба бессмертных. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 20 Text "Сжечь все дневники" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 17
+	Node_Speech 
+	{
+		Text ""Сделай  это", - повторил я и сделал шаг ей навстречу. Она достала из кармана руку, в которой был нож. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 11 Text "Я обнял ее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 18
+	Node_Speech 
+	{
+		Text "	//"Я убил ее. Убил самого дорогого человека. Убил тем же ножом, с которым она пришла в мой дом. 
+	Как она узнала про клуб? Я не говорил никогда ни ей, ни кому-либо другому про него. Только если она нашла мои дневники. Она могла узнать правду только из записей...//
+	
+	Я убил человека, которого любил. Впредь я не допущу ошибки, которую совершил."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 19 Text "Сжечь все тетради" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 19
+	Node_End 
+	{
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Enter to the Club" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 20
+	Node_End 
+	{
+		OwnerName "Enter to the Club"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Enter to the Club" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
 }
