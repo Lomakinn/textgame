@@ -10,4 +10,517 @@ Node_Speech StartNode
 	bCheckChildrenOnEvaluation False
 	VoiceSoundWave ""
 	VoiceDialogueWave ""
+	Children { {  TargetIndex 0 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+}
+DlgParticipantClasses { {  ParticipantName "Sweet Dream" ParticipantClass "" } }
+Node Nodes
+{
+	// 0
+	Node_Speech 
+	{
+		Text "Больше не с кем сражаться, ха, глупцы, всегда есть с кем сражаться.
+Я живу ради этого, так было, и так будет."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 1 Text "Проснуться" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 1
+	Node_Speech 
+	{
+		Text "Эхх, мои старые сахарости, вставать становится все сложнее.
+А мои доспехи, они всегда были такими тяжелыми? Сколько раз мне предлагали новые. 
+Но нет, это старая добрая карамель, такую уже не варят.
+Еще один спокойный день, хотя последний раз когда я так сказал...
+"Его сластейшество хочет вас видеть, генерал", чутье не подвело, я даже не удивился этим словам мятного слуги. Ну что-ж, работа не ждет. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 2 Text "Тронный зал" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 2
+	Node_Speech 
+	{
+		Text "Вас приглашают в Тронную Зал, и вы предстаете перед КОРОЛЕМ.
+"Над нашим королевством нависла опасность, страшное существо поселилось на шоколадных болотах. Оно губит и пожирает все живое, и только вы, генерал, способны его остановить." "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 3 Text "Предложить возглавить сахарную армию для убийства чудища" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 4 Text "Я сделаю это в одиночку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 3
+	Node_Speech 
+	{
+		Text "Король опечаленно вздохнул и сказал:
+"Я хотел бы дать вам под командование армию целиком, но большая часть войск помогает беженцам бегущим от чудища, небольшой отряд- все что осталось.""
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 5 Text "Лучше чем ничего" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 6 Text "Одному тогда будет быстрее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 4
+	Node_Speech 
+	{
+		Text "Мы ценим вашу храбрость генерал. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 7 Text "Выезжать немедленно" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 8 Text "Но от помощи я не откажусь" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 5
+	Node_Speech 
+	{
+		Text "Недолго думая вы трубите общий сбор, потерянное время измеряется жизнями сладких подданых королевства."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 9 Text "Двинуться в сторону шоколадных болот" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 6
+	Node_Speech 
+	{
+		Text "Мне не впервой проворачивать такие дела в одиночку, не будь я рыцарь белого сахарного песка."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 7 Text "Выезжать немедленно" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 8 Text "Но от помощи я не откажусь" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 7
+	Node_Speech 
+	{
+		Text "Теперь только один путь - на болота, на встречу судьбе.
+И пусть великая сладость будет милостива ко мне."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 10 Text "А кому вообще нужны эти риски, мало ли героев кроме вас, пусть другие сражаются" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 11 Text "На болота" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 8
+	Node_Speech 
+	{
+		Text "...Король внемлет вашим просьбам о хоть какой-нибудь помощи и предлагает на выбор оружие:"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 12 Text "Кнут из лакрицы" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 13 Text "Барбарисова палица" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 14 Text "Леденцовое копье" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 9
+	Node_Speech 
+	{
+		Text "В деревне близ шоколадных болот эвакуация идет полным ходом, но людей не хватает."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 15 Text "Единственное чем мы им можем помочь- быстрее  избавить от твари с болот" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 16 Text "Солдаты, помогите им, так будет больше пользы" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 10
+	Node_Speech 
+	{
+		Text "Долгий переход вдоль границ приводит вас к удитвительно красочному месту, вы решаете остановиться и насладиться закатом.
+Из глубины сознание приходит осознание что рассвета не будет...
+.
+.
+.
+.
+"Мы не успели, черт, обидная смерть...""
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 17 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 11
+	Node_Speech 
+	{
+		Text "Вот и болота, коричневый цвет шоколада сменился на гнилосто зеленый, Тварь где-то рядом. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 18 Text "Нехорошее предчувствие. Вернуться в деревню, проверить что там" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 19 Text "Нехорошее предчувствие. Этот бой вам не пережить- Бежать!" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 20 Text "Еще глубже в болота" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 12
+	Node_Speech 
+	{
+		Text "Гибкий по большей части, но окончание кнута застыло и наносит серьезные повреждения."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 7 Text "Выезжать немедленно" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 8 Text "Но от помощи я не откажусь" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 13
+	Node_Speech 
+	{
+		Text ""
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 7 Text "Выезжать немедленно" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 8 Text "Но от помощи я не откажусь" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 14
+	Node_Speech 
+	{
+		Text ""
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 7 Text "Выезжать немедленно" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 8 Text "Но от помощи я не откажусь" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 15
+	Node_Speech 
+	{
+		Text "Отряд приблежается к болоту, новый запах ударяет в нос, затхлый, чужеродный. 
+Тварь где-то неподалеку."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 21 Text "Продолжать идти" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 16
+	Node_Speech 
+	{
+		Text "Теперь только один путь - на болота, на встречу судьбе.
+И пусть великая сладость будет милостива ко мне."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 11 Text "На болота" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 17
+	Node_End 
+	{
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Sweet Dream" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 18
+	Node_Speech 
+	{
+		Text "Как? Тварь успела побывать тут до вас, все мертвы.
+Земля дрожит под ногами...
+Поверхность под ногами буквально взрывается, и существо вылазит от туда, огромное, неестественное, отвратительное самой природе этого мира."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 22 Text "Выбора нет- в рукопашную" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 19
+	Node_Speech 
+	{
+		Text "Долгий переход вдоль границ приводит вас к удитвительно красочному месту, вы решаете остановиться и насладиться закатом.
+Из глубины сознание приходит осознание что рассвета не будет...
+.
+.
+.
+.
+"Мы не успели, черт, обидная смерть...""
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 17 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 20
+	Node_Speech 
+	{
+		Text "Вы продвигаетесь глубже в болота, внезапно рядом раздается свист."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 23 Text "Выставить оружие в защитной стойке" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 21
+	Node_Speech 
+	{
+		Text "Вот и болота, коричневый цвет шоколада сменился на гнилосто зеленый.
+Внезапно поверхность под ногами буквально взрывается, и существо вылазит от туда, огромное, неестественное, отвратительное самой природе этого мира."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 24 Text "Отряд, построение для атаки" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 25 Text "Отряд, построение для обороны" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 22
+	Node_Speech 
+	{
+		Text "Какую атаку предпримете?"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 26 Text "Попытаться атаковать существо снизу под брюхом" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 27 Text "Забраться по спине на голову" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 28 Text "Лобовая атака" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 23
+	Node_Speech 
+	{
+		Text "Огромный хвост, свист которого вы слышали, вырывается из под земли и ломает оружие в ваших руках. 
+Затем поверхность под ногами буквально взрывается, и существо вылазит от туда, огромное, неестественное, отвратительное самой природе этого мира."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 22 Text "Выбора нет- в рукопашную" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 24
+	Node_Speech 
+	{
+		Text "Воины успевают нанести несколько ударов, но оружие застревает в шкуре чудища, не нанося ему вреда.
+Своими лапами оно разрывает воинов до последнего, теперь вы один на один."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 22 Text "Выбора нет- в рукопашную" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 25
+	Node_Speech 
+	{
+		Text "Крепкие щиты поставленны, но тварь ломает их взмахами своего хвоста, несколько ударов- и от отряда остаются только разбросанные куски сладостей, теперь вы один на один."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 22 Text "Выбора нет- в рукопашную" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 26
+	Node_Speech 
+	{
+		Text "Пару раз удалось ранить существо в более мягкое брюхо, но ощутимого результата это не принесло, тварь хватает вас лапой, подкидывает вверх, и проглатывает."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 29 Text "Вы проглочены" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 27
+	Node_Speech 
+	{
+		Text "Забравшись по спине на голову чудовища удается выколать ему глаз ,в ярости оно сбрасывает вас на землю и проглатывает с куском почвы на которую вы упали."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 29 Text "Вы проглочены" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 28
+	Node_Speech 
+	{
+		Text "Суицидальная атака приносит ожидаемый результат- вы в брюхе чудища. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 29 Text "Вы проглочены" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 29
+	Node_Speech 
+	{
+		Text "Осталось последнее и главное средство- зубы! Это же королевство сладостей, здесь все и все съедобны, хотя в существе в чьем желудке вы оказались вы не уверенны, но выбор небольшой."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 30 Text "Начать прогрызать путь наружу" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 30
+	Node_Speech 
+	{
+		Text "Существо извивается, на вкус оно- полное противоположность слову сладкое, но вы непреклонны...
+.
+.
+.
+.
+.
+"Да глотай же ты", кажется это не ваш голос у вас в голове."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 31 Text "Продолжать грызть" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 31
+	Node_Speech 
+	{
+		Text "Вы прогрызли себе путь наружу, да уж, не такое воспевают в легендах.
+Внезапно ваш живот скрутила жуткая боль, вас будто разрывает изнутри.
+.
+.
+.
+.
+.
+"Ну же", опять этот голос..."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 32 Text "Вы теряете сознание" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 32
+	Node_Speech 
+	{
+		Text "Неужели так все и закончится? Пропадают цвета, звуки... тишина и темнота 
+Только вкус во рту, как же давно я его не чувствовал, вкус победы... сладкий... нет, он горький. Но я же его никогда не чувствовал, откуда я знаю что это значит- горький."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 33 Text "Темнота" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 33
+	Node_Speech 
+	{
+		Text "Сергей! Очнулся!
+Я вообще не знаю как туда попала та конфета.У него же непереносимость сладкого, я же говорил. Лекарство подействовало? 
+Серёга? Серёга..."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 34 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 34
+	Node_End 
+	{
+		OwnerName "Sweet Dream"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Sweet Dream" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
 }

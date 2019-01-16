@@ -10,4 +10,294 @@ Node_Speech StartNode
 	bCheckChildrenOnEvaluation False
 	VoiceSoundWave ""
 	VoiceDialogueWave ""
+	Children { {  TargetIndex 0 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+}
+DlgParticipantClasses { {  ParticipantName "Escape from Zombieland" ParticipantClass "" } }
+Node Nodes
+{
+	// 0
+	Node_Speech 
+	{
+		Text "Глава 1. Нашествие.
+
+Скучные трудовые будни. Карл сидел в офисе и умирал от скуки. Иногда он поглядывал в окно в надежде, что увидит что-нибудь интересное. Краем глаза он заметил непонятную активность на улице. Он присмотрелся и увидел молодую девушку, которая убегает от странного вида мужчины. Будь он в фильме, он бы подумал, что это зомби. Недолго думая, он выбежал, чтобы помочь девушке. И перед ним предстала ужасающая картина. Мужчина был в окрававленной одежде, нижняя его челюсть еле держалась на коже. Карл хотел уже убежать обратно в офис, но увидел как еще несколько таких же "тварей" двигались в его сторону. Вдруг прогремела сирена, и грубый голос мужчины сказал: "Жители Зомбиленда, прошу немедленно двигаться в сторону выезда из города, на выезде стоит пост, военные вас защитят". Карл, с ужасом, едва осознавал всю сложившуюся ситуацию, но времени на раздумья у него не было. Он запрыгнул в свою машину и поехал домой за сыном и дядей Джоном."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 1 Text "Глава 2. Бегом за мной!" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 1
+	Node_Speech 
+	{
+		Text "Глава 2. Бегом за мной!
+
+Спустя всего 7 минут Карл уже был у дома. С криком "Джон, Эш, срочно берите все самое необходимое и бегом на улицу" он забежал в дом. Карлу повезло, что у Эша были каникулы в школе, а дядя сломал ногу и сидит на больничном. На сбор не потребовалось много времени, и уже через 10 минут они были на улице. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 2 Text "Пойти пешком" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 3 Text "Поехать на машине" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 2
+	Node_Speech 
+	{
+		Text "До военного поста от дома Карла было всего 3 километра, но ухудшала ситуацию сломанная нога Джона. Карл раздал каждому по рюкзаку, взял Джона под руку и они пошли быстрым шагом в сторону выезда. Не пройдя и полукилометра они наткнулись на группу из трех зомби, те "закусывали" собакой и не обращали на них внимания. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 4 Text "Спокойно пройти мимо" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 5 Text "Побежать в обратную сторону" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 3
+	Node_Speech 
+	{
+		Text "Отец, сын и дядя сели в пикап Карла и рванули в сторону поста. Но ехать пришлось недолго. На перекрестке, в пятиста метрах от дома, их ждала пробка. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 2 Text "Пойти пешком" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 6 Text "Объехать через соседний квартал" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 4
+	Node_Speech 
+	{
+		Text "Мертвецы не заметили их. "Фух, пронесло" подумал Карл. Пройдя еще пару минут они услышали звук машине, обернувшись они увидели припаркованный рядом с ними синий минивен, за рулем которого сидела девушка. Она предложила им помощь и Карл не смог отказаться. Сев в машину они познакомились с девушкой. Ее звали Анной и она студентка, проживающая в городе одна. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 7 Text "ЕДЕМ" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 5
+	Node_Speech 
+	{
+		Text "Семья бросила наутек. Мертвецы их заметили и побежали за ними. Эш споткнулся о бордюр и упал. Карл посадил Джона и подбежал к Эшу, чтобы поднять, но через плечо заметил как один из троицы выдвинулся в сторону дяди"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 8 Text "Бросить сына и спасти Джона" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 9 Text "Поднять Эша и спастись с ним" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 6
+	Node_Speech 
+	{
+		Text "Семья поехала в обход. Вдруг они увидели девушку, бегущую вдоль дороги. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 10 Text "Помочь девушке" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 11 Text "Ехать дальше" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 7
+	Node_Speech 
+	{
+		Text "Откуда не возьмись на машину выскакивает зомби, разбивая лобовое стекло. Карл выбегает из машины и скидывает зомби на землю. "Как поедем, из-за трещин ничего не видно" спрашивает Анна. Недолго думая Карл решает выбить лобовое стекло окончательно. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 12 Text "Выбить стекло" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 8
+	Node_Speech 
+	{
+		Text "Карл со слезами на глазах побежал в сторону Джона, чтобы поднять его. Спустя мгновение он услышал звук удара. Оттолкнув зомби, он обернулся и увидел синий черный минивен. "Я вижу, вам нужна помощь?" сказала девушка, выйдя из автомобиля.  Посадив Джона в машину, Карл поднял Эша. "Как ваше имя?" спросил Карл у своей спасительницы. "Садись в машину, по пути познакомимся" ответила она. Карл с Эшем сели и вместе они выдвинулись к посту. Оказалось, что девушку зовут Анна, она студентка и живет в городе одна. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 7 Text "ЕДЕМ" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 9
+	Node_Speech 
+	{
+		Text "Карл поднимает сына и не оборачиваясь бежит от зомби, слыша позади страшный крик Джона. Но он понимает, что сделал правильный выбор. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 13 Text "Бежать" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 10
+	Node_Speech 
+	{
+		Text "Карл подъехал к девушке, чтобы подобрать её. Она села в машину и вымолвила дрожащим голосом: "Спасибо вам огромное, вы меня спасли. Меня Анной зовут". Карл представил себя и своих сына с дядей. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 7 Text "ЕДЕМ" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 11
+	Node_Speech 
+	{
+		Text "Карл повернул на перекрестке в сторону базы, и его глаза наполнись страхом. Перед ними была орда зомби, они бесцельно бродили по переулку. Завидев их зомби побежали к машине. Карл попытался развернуться, но старенький пикап предательски заглох. Бежать было поздно, машина была окружена мертвецами. Карл закрыл рукой глаза Эшу и произнес: "Я люблю тебя, сын". 
+
+Все члены семьи мертвы..."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 14 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 12
+	Node_Speech 
+	{
+		Text "Карл сел в машину и выбил стекло ногой. Анна ударила ногой по педале и они понеслись в сторону военной базы."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 15 Text "Прибытие" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 13
+	Node_Speech 
+	{
+		Text "Карл закинул сына на плечо и побежал со всех ног. По пути он видел множество зомби, ковыляющих по переулку, но он не думал о них. Он хотел лишь спасти своего сына. Неожиданно на него выскакивает зомби. 
+Нужно действовать незамедлительно!"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 16 Text "Отпрыгнуть" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 17 Text "Ударить его на бегу" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 14
+	Node_End 
+	{
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Escape from Zombieland" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 15
+	Node_Speech 
+	{
+		Text "Наконец-то, военный пост! Карл, Джон, Эш и Анна вышли из машины. К ним подбежали военные, чтобы проверить на наличие укусов. Укусов не оказалось и сержант произнес: "Садитесь в грузовик"."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 18 Text "Сесть в грузовик" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 16
+	Node_Speech 
+	{
+		Text "Карл ловко уклоняется от зомби и подбегает к посту. Завидев их, военные подбежали, чтобы проверить на наличие укусов. Укусов не оказалось и сержант произнес: "Садитесь в грузовик"."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 19 Text "Сесть в машину" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 17
+	Node_Speech 
+	{
+		Text "Карл со всей силы бьет зомби с локтя, тот падает, а отец бежит со всех ног к посту. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 20 Text "Бежим" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 18
+	Node_Speech 
+	{
+		Text "Уже через каких-то 15 минут, они ехали по пустой трассе вместе с военными и остальными выжившими. "Путь не близкий, но мы справились" произнес Карл, приобняв сына рукой. "Я рада, что встретила вас" ответила Анна... "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 21 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 19
+	Node_Speech 
+	{
+		Text "Карл и Эш благополучно добираются до поста. Серьезного вида военный осматривает их на наличие укусов. "Мужчину пропустить, а мальчика застрелить" приказывает военный. Карл замечает на руке Эша царапину, слезы накататывают моментально. Отец пытается вырвать Эша из рук военных и сбежать, но его тут же скручивают. "Я люблю тебя, сын", в слезах кричит отец. Эш ничего не отвечает, захлебываясь в слезах. Прогремел выстрел..."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 21 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 20
+	Node_Speech 
+	{
+		Text "Карл и Эш благополучно добираются до поста. Серьезного вида военный осматривает их на наличие укусов. "Мужчину пропустить, а мальчика застрелить" приказывает военный. Карл замечает на руке Эша царапину, слезы накататывают моментально. Отец пытается вырвать Эша из рук военных и сбежать, но его тут же скручивают. "Я люблю тебя, сын", в слезах кричит отец. Эш ничего не отвечает, захлебываясь в слезах. Прогремел выстрел..."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 21 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 21
+	Node_End 
+	{
+		OwnerName "Escape from Zombieland"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Escape from Zombieland" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
 }

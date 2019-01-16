@@ -10,4 +10,401 @@ Node_Speech StartNode
 	bCheckChildrenOnEvaluation False
 	VoiceSoundWave ""
 	VoiceDialogueWave ""
+	Children { {  TargetIndex 0 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+}
+DlgParticipantClasses { {  ParticipantName "Little Crown" ParticipantClass "" } }
+Node Nodes
+{
+	// 0
+	Node_Speech 
+	{
+		Text "Наш герой - член мафии, известный своим умением взлома и неимоверной удачей.
+Ради своей семьи он решил бросить бизнес и начать жизнь с чистого листа.
+
+Боссу это явно не по нраву. И всё же он готов отпустить героя, но только после последнего задания: необходимо украсть Малую императорскую корону из Алмазного фонда.
+//"Похитить национальное достояние?!"//
+Для большей уверенности босс взял семью героя в заложники. Каков хитрец!
+Задание действительно рискованное. Понимая, что другого выбора нет, герой соглашается.
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 1 Text "Время ограбления!" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 1
+	Node_Speech 
+	{
+		Text "Ночь. Мы прибыли на место, время осмотреться. С холма и через бинокль, конечно же, всё по старым, добрым традициям.
+
+С южной стороны охранников не наблюдается.
+Там же видно открытое нараспашку окно. Также есть возможность пробраться через крышу.
+
+Около здания герой достаёт свою верную "кошку", запускает гарпун в небеса и начинает свой альпинистский подъём."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 2 Text "Окно" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 3 Text "Крыша" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 2
+	Node_Speech 
+	{
+		Text "Герой пытается пробраться в окно.
+Но вдруг! Около окна стоит охранник, и похоже что-то ищет.
+//"Он стоит на пути. Надо с ним разобраться поскорее, пока его занимают поиски."//"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 4 Text "Вырубить охранника" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 5 Text "Осмотреть комнату получше" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 3
+	Node_Speech 
+	{
+		Text "Забравшись на крышу, герой замечает трубу и окно с решёткой прямо над заветным местом.
+
+Похоже, что железную раму решётки можно будет без труда выкорчевать.
+Да и дым из трубы не идёт, вроде безопасно."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 6 Text "Сигануть бомбочкой в трубу" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 7 Text "Достать ломик и приняться за решётку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 4
+	Node_Speech 
+	{
+		Text "Аккуратно вытащив дубинку у охранника, герой даёт ему по голове с хорошей силой.
+Теперь, когда тот в отключке, можно продолжить свой путь к короне.
+
+Но вдруг заиграла тревога! Чёрт, в этой комнате была камера!
+Герой уже хочет обратно выбежать в окно, но защитные жалюзи быстро перекрыли путь к отступлению. //"Быстро поднять руки!.."//"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 8 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 5
+	Node_Speech 
+	{
+		Text "Герой видит в комнате камеру! Придётся начать с неё, иначе паники не избежать."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 9 Text "Далее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 10 Text "Сломать камеру" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 11 Text "Взломать камеру" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 6
+	Node_Speech 
+	{
+		Text "Ногами вперёд герой грациозно кидает себя в трубу.
+Без подстраховки.
+Летел он недолго, и угли в камине смягчили падение. Неслабый шум привлёк внимание охранников, и, не успел герой опомниться, как его уже заковали в наручники."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 12 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 7
+	Node_Speech 
+	{
+		Text "Стараясь не шуметь, герой снимает-таки решётку. Несмотря на все старания, скрёжета было не избежать, и поэтому охранник решил проверить чердак."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 13 Text "Вырубить охранника" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 8
+	Node_End 
+	{
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Little Crown" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 9
+	Node_Speech 
+	{
+		Text "Герой пытается пробраться в окно.
+Но вдруг! Около окна стоит охранник, и похоже что-то ищет.
+//"Он стоит на пути. Надо с ним разобраться поскорее, пока его занимают поиски."//"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 4 Text "Вырубить охранника" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 10
+	Node_Speech 
+	{
+		Text "Герой достаёт пистолет с глушителем и метит в камеру.
+Пау!.. Мимо.
+Пау!.. Мимо.
+Хм...
+//"..."//
+//"Хм..."// - говорит охранник.
+Кажется, он был слишком близко, чтобы не услышать выстрелов.
+Хорошо, что герой заметил это до того, как его огрели дубинкой!"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 12 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 11
+	Node_Speech 
+	{
+		Text "Герой достаёт смартфон и с помощью своего именного приложения меняет исходное видео на статичную картинку с видом на пустую комнату.
+Охранник всё еще ничего не заподозрил и продолжает поиски."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 14 Text "Вырубить охранника" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 12
+	Node_End 
+	{
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Little Crown" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 13
+	Node_Speech 
+	{
+		Text "Охранник не успел и пикнуть, как наш герой всей своей массой влетел в него. Теперь, когда тот в отключке, можно продолжить свой путь к короне."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 15 Text "Аккуратно осмотреть главную комнату" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 14
+	Node_Speech 
+	{
+		Text "Аккуратно вытащив дубинку у охранника, герой даёт ему по голове с хорошей силой.
+Теперь, когда тот в отключке, можно продолжить свой путь к короне."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 15 Text "Аккуратно осмотреть главную комнату" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 15
+	Node_Speech 
+	{
+		Text "Похоже, что в комнате полно камер. Если даже отключать по одной, охрана заметит.
+Кажется, пришло время для рискованных действий!"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 16 Text "Выключить питание в комнате" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 17 Text "Бросить дымовую завесу" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 16
+	Node_Speech 
+	{
+		Text "Теперь без света герой входит в заветную комнату, и... ничего не видно. Такая кромешная тьма, что уже становится не по себе. К счастью, дополнительный генератор включил свет...
+Теперь, когда наш герой снова хоть что-то видит, он замечает, что дошел до середины главной комнаты. Охранники смотрят на него, он - на охранников. Воистину неловкая ситуация, не так ли?
+
+Героя обнаружили и перевезли в тюрьму. Всё-таки это было слишком сложное задание для него... Но ради семьи он не собирается сдаваться, и готов начать заново!"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 8 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 17
+	Node_Speech 
+	{
+		Text "Герой кидает шашку и продвигается к витрине с короной, пока охранники пытаются справиться с дымом."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 18 Text "Разбить стекло" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 19 Text "Аккуратно разрезать стеклорезом" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 18
+	Node_Speech 
+	{
+		Text "Не раздумывая ни секунды, герой берёт свой лом и вдребезги разбивает витрину. Теперь, когда корона взята, пришло время улепётывать с места преступления!"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 20 Text "Сбежать!" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 19
+	Node_Speech 
+	{
+		Text "Подбежав к витрине, герой начинает резать стекло. Это занимает немного дольше, чем ожидалось, а дым выветривается быстро, и всё из-за того открытого окна.
+Вряд ли охрана планировала такой ход событий, но героя в процессе резки они застали.
+//"Что ж, подождём, пока он закончит..."//
+
+Героя обнаружили и перевезли в тюрьму. Всё-таки это было слишком сложное задание для него... Но ради семьи он не собирается сдаваться, и готов начать заново!"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 21 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 20
+	Node_Speech 
+	{
+		Text "Вернувшись на чердак, герой возвращается на крышу через место, где раньше располагалась решётка. Поставив её на место, он торопится к тросу.
+Спустившись на землю, герой в спешке уходит с места преступления.
+Теперь, когда корона у нас, герой может наконец закончить своё задание."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 22 Text "Отдать корону" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 23 Text "Не отдавать корону" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 21
+	Node_End 
+	{
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Little Crown" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 22
+	Node_Speech 
+	{
+		Text "Отдав корону, босс поздравляет героя с успешно выполненным заданием. Семья освобождена, и все счастливы...
+
+Мирная жизнь требует своих жертв. Теперь герой не сможет больше заниматься ограблениями, и ему нужна нормальная работа. Это будет тяжело, но он сможет поменяться!
+
+--Хорошая концовка--"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 8 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 23
+	Node_Speech 
+	{
+		Text "Ну, хорошо... То есть семью спасать не будем?"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 24 Text "Да" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 25 Text "Нет" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 24
+	Node_Speech 
+	{
+		Text "Герой забрал корону и улетел в другой город.
+Брошенная семья не может в это поверить. Как будто кто-то в него вселился...
+Хм...
+Ну, на этом наша история и заканчивается."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 26 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 25
+	Node_Speech 
+	{
+		Text "Отдав корону, босс поздравляет героя с успешно выполненным заданием. Семья освобождена, и все счастливы...
+
+Но герой всё ещё думает о короне. Деньги, полученные с её продажи, могли бы обеспечить его семью на долгие годы, но теперь она в руках у мафии... Похоже, что сложно будет отказаться от своего "последнего" и самого опасного задания...
+
+--Настоящая концовка--"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 26 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 26
+	Node_End 
+	{
+		OwnerName "Little Crown"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Little Crown" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
 }

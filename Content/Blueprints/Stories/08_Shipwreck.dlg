@@ -10,4 +10,801 @@ Node_Speech StartNode
 	bCheckChildrenOnEvaluation False
 	VoiceSoundWave ""
 	VoiceDialogueWave ""
+	Children { {  TargetIndex 0 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+}
+DlgParticipantClasses { {  ParticipantName "Shipwreck" ParticipantClass "" } }
+Node Nodes
+{
+	// 0
+	Node_Speech 
+	{
+		Text "В далеком XIX веке огромный корабль с пассажирами направлялся из Америки в Лондон. Он был прекрасен во всех смыслах: трехпалубный, с роскошными ресторанами и огромными каютами на борту. 
+
+Но произошло несчастье: корабль натолкнулся на риф и дал течь. Спастись удалось всего одной шлюпке.
+
+И вот трое несчастных плывут одиноко по морю: раненный матрос, один из пассажиров первого класса и прачка. В лодке нет ни еды, ни медикаментов, а воды хватит только на пять дней. Сушу выжившие смогут увидеть не раньше, чем через три недели. 
+
+Вам предстоит серьезный выбор: кого Вы попытаетесь спасти? За какого персонажа Вы будете играть?"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 1 Text "Раненый матрос" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 2 Text "Прачка" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 3 Text "Пассажир первого класса" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 1
+	Node_Speech 
+	{
+		Text "Вы играете за раненного матроса. Что ж, давайте познакомимся с нашим героем поближе. 
+
+Матросу всего 22 года. Он молод и амбициозен. Поступив на службу всего полгода назад, матрос достиг уже больших успехов. Он - душа команды, а капитан всегда прислушивается к его мнению.
+
+Спасаясь с тонущего корабля, матрос думал только об одном: в следующем своем круизе он сделает все, чтобы подобное не повторилось. Море - его страсть. И как бы парадоксально это не звучало, сейчас ему необходимо выжить посреди океана и вернуться домой. И затем снова отправиться в морское путешествие."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 4 Text "Начать историю" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 2
+	Node_Speech 
+	{
+		Text "Вы играете за прачку. Но прежде, чем начать игру, давайте узнаем ее немного ближе.
+
+Наша прачка - мексиканская беженка, много лет назад обосновавшаяся в Америке. В жизни она особо ничего не добилась, работала то прислугой, то поварихой. Теперь ее жизнь забросила на корабль.
+
+У нее никого нет, но это не значит, что ее не нужно спасать. Ведь даже маленькая прачка хочет жить."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 5 Text "Начать историю" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 3
+	Node_Speech 
+	{
+		Text "Вы играете за пассажира первого класса. Давайте же узнаем его чуть лучше.
+
+Он среднего возраста, чуть за тридцать. Возвращается из Америки к своей семье: любимой жене и дочери, которых не видел уже три месяца. Пассажир часто смотри на их фотографию, которая лежит у него в кармане и недоумевает, как он вообще мог согласиться на такую длительную поездку?
+
+Выжив в кораблекрушении, он понимает, что теперь должен сделать все, чтобы снова увидеть свою семью. Ведь на всем свете для него нет ничего дороже."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 6 Text "Начать историю" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 4
+	Node_Speech 
+	{
+		Text "Годы службы на корабле не прошли даром: Вы можете поймать рыбу при помощи всего, что видите. А тут еще и несказанное везение, ведь в лодке оказалась веревка. Чем не инструмент для ловли рыбы?
+
+Казалось бы, все хорошо. Но, спасаясь при кораблекрушении, Вы распороли ногу. Теперь Вы истекаете кровью и не можете ничего делать самостоятельно.
+
+Однако, Вам повезло, ведь и прачка, и пассажир первого класса могут Вам помочь. Как? Очень просто. Прачка - не просто мексиканская беженка, а ведьма, обладающая черной магией вуду. Пассажир же - ученый медик и может наложить тугую повязку при помощи своей рубашки.
+
+К кому за помощью Вы обратитесь? К прачке? Или к пассажиру? 
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 7 Text "Попросить о помощи пассажира, ведь традиционная медицина надежнее." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 8 Text "Довериться темной магии вуду и обратиться за помощью к прачке." SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 5
+	Node_Speech 
+	{
+		Text "Из всех троих выживших Вы, пожалуй, самый сильный человек в лодке. Ведь Вы - не просто прачка с затонувшего корабля. Вы обладаете черной магией вуду.
+
+Выход из сложившейся ситуации у Вас только один: нужно принести в жертву великому Папе Легба, посреднику между миром живых и миром духов, кого-то из оставшихся в лодке. Ведь тогда великий и могучий Папа Легба дарует Вам пищу и воду, которых хватит до конца путешествия.
+
+Убивать в одиночку - дело сложное. И вот Вы оказываетесь перед выбором. Вы можете объединиться с пассажиром, ведь в его силах сделать морскую воду пресной.Наличие запасов воды поможет заплатить Папе Легба меньшую цену за спасение, ведь необходимо будет попросить только еду. С другой стороны, Вы можете объединиться с матросом, ведь Вы давно в него тайно влюблены.
+
+Кого Вы выберете?"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 9 Text "Объединиться с пассажиром" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 10 Text "Объединиться с матросом" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 6
+	Node_Speech 
+	{
+		Text "Когда-то давно Вы посвятили свою жизнь науке и решили стать ученым-медиком. 
+
+В кармане у Вас есть марля и одному Богу известное вещество, при помощи которого можно морскую воду можно сделать пресной. И это Ваше главное преимущество. 
+
+К тому же, прачка делает Вам заманчивое предложение. Здесь стоит пояснить, что прачка - не простая мексиканская беженка, как может показаться на первый взгляд. Она обладает черной магией вуду. 
+
+Прачка предлагает Вам объединиться и принести в жертву Папе Легба, посреднику между миром живых и миром духов, матроса. Матрос все равно ранен и бесполезен. Зато взамен на его душу Папа Легба наградит вас двоих едой."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 11 Text "Согласиться" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 12 Text "Отказаться" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 7
+	Node_Speech 
+	{
+		Text "Вы обращаетесь за помощью к пассажиру. Ученый накладывает Вам тугую повязку из рукава своей рубашки, кровь остановлена. 
+
+Вам уже значительно легче, однако Вы все еще ограничены в своих действиях. К тому же, возникла новая проблема. Перед тем, как наложить повязку, ученому необходимо было промыть рану пресной водой. Ее запасы и без того были незначительны, а теперь катастрофически малы. Нужно срочно исправить эту ситуацию.
+
+Не чувствуете ли Вы своей вины в том, что запасы воды на исходе? Как бы то ни было, Вы снова решаете попросить о помощи. Но к кому обратиться на этот раз?"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 13 Text "Снова обратиться к ученому" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 14 Text "Довериться на этот раз прачке" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 8
+	Node_Speech 
+	{
+		Text "Темные силы излечили Вашу ногу, никогда Вы еще не чувствовал себя настолько хорошо.
+
+Но ведь магия вуду на то и темная магия. И теперь ведьма требуВыет плату за свою помощь: душу другого человека. У Вас не остается выбора кроме как убить пассажира первого класса.
+
+Убийство - тяжелое решение. Тяжело решиться на такое, не правда ли? Как Вы поступите: убьете пассажира немедленно или поспите ночь и наберетесь уверенности?
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 15 Text "Убить пассажира сразу же" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 16 Text "Отдохнуть" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 9
+	Node_Speech 
+	{
+		Text "Вы решаете пожертвовать своим любимым и объединиться с ученым. Собственная жизнь Вам все же дороже. 
+
+Теперь матрос убит. Папа Легба, как и обещал, за одну душу преподнес Вам один дар: еду. Ученый же при помощи марли и одному Богу известного вещества в его кармане смог сделать морскую воду пресной. 
+
+Казалось бы, все беды позади. У Вас есть и еда, и вода в достаточном количестве, чтобы доплыть до земли.
+
+Однако на пути Вам попадается пиратский корабль. Пираты берут в плен Вас и ученого. Нужно выбираться. 
+
+Сейчас Вам необходимо принять, пожалуй, самое важное решение в жизни: выбрать дружбу с пиратами или бой?"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 17 Text "Дружба" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 18 Text "Война" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 10
+	Node_Speech 
+	{
+		Text "Вы решаете объединиться с матросом. Еще бы, ведь любовь сильна.
+
+Заботливо, при помощи своей магии, Вы лечите его раненную ногу. Матрос еще никогда не чувствовал себя хорошо.
+
+Теперь Вам предстоит решить не самую приятную задачу. Дело в том, что Папа Легба дарует Вам еду только в том случае, если жертва будет убита не руками просящего. Получается, что Вам нужно заставить матроса убить пассажира.
+
+Вы посвящаете матроса в свой план. Он, в порыве благодарности, согласен на все. Осталось только выбрать способ: задушить пассажира веревкой или зарезать ножом, который лежит у Вас в кармане?"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 19 Text "Воспользоваться веревкой" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 20 Text "Воспользоваться ножом" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 11
+	Node_Speech 
+	{
+		Text "Вы соглашаетесь. 
+
+Теперь Вы при помощи марли и одному Богу известного вещества в Вашем кармане делаете сделать морскую воду пресной. А Папа Легба, как и обещал, дарует вам еду.
+
+Казалось бы, все беды позади. Однако на пути Вам попадается пиратский корабль. Пираты берут в плен Вас и прачку. Нужно выбираться. 
+
+Сейчас Вам необходимо принять, пожалуй, самое важное решение в жизни: выбрать дружбу с пиратами или бой?"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 21 Text "Дружба" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 22 Text "Война" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 12
+	Node_Speech 
+	{
+		Text "Вы предлагаете прачке повременить с жертвоприношением. Но в душе Вы понимаете, что никогда не согласитесь на эту антинаучную ересь. 
+
+Продумывая дальнейший план действий, Вы сталкиваетесь с серьезным выбором. С одной стороны, можно договориться с матросом. Ведь в лодке есть веревка. Матрос может сплести из нее сеть и ловить рыбу. Вы вылечите его ногу, и тогда он будет добывать еду, а Вы - пресную воду. 
+
+Или можно убить прачку и питаться ее останками. 
+
+Что Вы выберете?
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 23 Text "Договориться с матросом" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 24 Text "Убить прачку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 13
+	Node_Speech 
+	{
+		Text "Вы снова решаете довериться ученому. И не зря. Ученый при помощи марли и одному Богу известного вещества в его кармане смог сделать морскую воду пресной. Теперь в лодке достаточный запас пресной воды, чтобы добраться до суши. Самое время подумать о еде. 
+
+В лодке есть веревка, из которой Вы можете сплести рыболовную сеть и наловить рыбы, которой хватит на всех. Вы больше не истекаете кровью, однако все еще достаточно слабы, чтобы сделать это самостоятельно. Нужно кого-то обучить ловле рыбы.
+
+Перед Вами снова стоит выбор: обучать ловле рыбы пассажира или прачку?"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 25 Text "Обучить пассажира" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 26 Text "Обучить прачку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 14
+	Node_Speech 
+	{
+		Text "Вы выбираете прачку, понадеявшись на ее магию. И все было бы хорошо, если бы не одно но. Чтобы сработала магия вуду и морская вода стала пресной, ведьме нужна слюнка единорога. А где посреди огромного океана ее взять? Теперь все умрут от жажды."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 27 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 15
+	Node_Speech 
+	{
+		Text "Вы решаете разобраться с этим немедленно. И это очень большая ошибка.
+
+Запасов воды у Вас хватит всего на пять дней, а сделать пресную воду из морской мог только пассажир. Почему? Ведь он никто иной, как ученый-медик. А где медицин, там и химия. 
+
+Теперь Вы умрете от жажды."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 27 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 16
+	Node_Speech 
+	{
+		Text "Вы решаете для начала немного отдохнуть и поспать, ведь убийство человека – не простое дело. Травма на всю жизнь, как-никак.
+
+Утром Вы просыпаетесь, а Вас ожидает неожиданное приятное известие. Ученый при помощи марли и одному Богу известного вещества в его кармане смог сделать морскую воду пресной. Вот видите, и Вы выспались, и запасы воды теперь есть. Можно и убивать его спокойно. 
+
+Осталось принять всего одно неприятное решение: способ убийства. Что Вы предпочтете: задушить пассажира веревкой или зарезать ножом, который лежит у Вас в кармане?"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 28 Text "Воспользоваться веревкой" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 29 Text "Воспользоваться ножом" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 17
+	Node_Speech 
+	{
+		Text "Вы выбираете дружбу с пиратами. Всем известно, что дружба – это магия. Но не в случае с пиратами. 
+
+Пираты продают Вас в рабство. И даже Ваша сильнейшая магия вуду здесь бессильна."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 30 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 18
+	Node_Speech 
+	{
+		Text "Вы решаете сражаться с пиратами. Отлично. Но чем же их одолеть?
+
+С одной стороны, Вы можете попытаться воспользоваться своей темной магией вуду. Она Вас еще ни разу не подводила.
+
+С другой стороны, Вы ведь на пиратском судне. Ненужные мечи валяются здесь повсюду. Так почему бы не воспользоваться старым добрым методом: просто отрубить всем головы?
+
+Решение за Вами."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 31 Text "Меч" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 32 Text "Магия" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 19
+	Node_Speech 
+	{
+		Text "Вы настаиваете на том, чтобы матрос выбрал веревку. Что ж, не самый плохой выбор. Пассажир мертв, с Папой Легба Вы в рассчете. Казалось бы, теперь все должно наладиться.
+
+Но.
+
+Папа Легба ясно дал понять: одна душа - один дар. За душу пассажира он наградил Вас запасами пресной воды. А еды в лодке по-прежнему нет. Единственным возможным способом ее добычи для Вас было сплести сеть из той самой веревки и наловить рыбы. Однако, Вы испортили ее в процессе удушья.
+
+Вы погибли."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 30 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 20
+	Node_Speech 
+	{
+		Text "Вы настаиваете на том, чтобы матрос выбрал нож. Прекрасно. Пассажир умирает, медленно истекая кровью. Вы довольны. Папа Легба доволен. За одну душу он даровал Вам пресную воду, которой хватит до конца путешествия.
+
+Теперь Вы столкнулись с новой проблемой: на запах крови приплыли акулы. Вам срочно нужно что-то с этим делать. Ведь находиться в маленькой лодке посреди океана, которая к тому же окружена акулами, - сомнительное удовольствие.
+
+У Вас есть два варианта. Вы можете вырвать доску из лодки и отбиваться ею от акул или попытаться поймать акул веревкой. Ваши действия?"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 33 Text "Отбиваться доской" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 34 Text "Ловить акул веревкой" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 21
+	Node_Speech 
+	{
+		Text "Вы выбираете дружбу с пиратами. Всем известно, что дружба – это магия. Но не в случае с пиратами. 
+
+Пираты продают Вас в рабство. И даже Ваш сильнейший ум здесь бессилен."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 35 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 22
+	Node_Speech 
+	{
+		Text "Вы решаете сражаться с пиратами. Отлично. Но чем же их одолеть?
+
+С одной стороны, Вы можете попытаться уговорить прачку воспользоваться темной магией вуду. Она прачку еще ни разу не подводила.
+
+С другой стороны, Вы ведь на пиратском судне. Ненужные мечи валяются здесь повсюду. Так почему бы не воспользоваться старым добрым методом: просто отрубить всем головы?
+
+Решение за Вами."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 36 Text "Меч" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 37 Text "Магия" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 23
+	Node_Speech 
+	{
+		Text "Вы решаете договориться с матросом. 
+
+В первое время все шло по плану: матрос ловил рыбу, вы создали большие запасы пресной воды. 
+
+Но однажды ночью обозлившаяся прачка принесла Вас и матроса в жертву Папе Легба, получив взамен и воду, и еду. Ей было неприятно, что в самом начале путешествия Вы не согласились на ее предложение."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 38 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 24
+	Node_Speech 
+	{
+		Text "Вы решаете убить прачку. Неплохое решение.
+
+Теперь у Вас есть еда в достаточном количестве, Вы создали большие запасы пресной воды.
+
+Но давайте посмотрим на эту ситуацию под другим углом. Ведьма вуду своей черной магией оберегает себя не только во время жизни, но и после нее. Именно поэтому ее кровь содердит яд. Так что, недолго Вам плыть осталось."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 38 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 25
+	Node_Speech 
+	{
+		Text "Вы решаете обучать пассажира. Пассажир ученый, поэтому он быстро понимает, что нужно делать. Теперь рыбы хватит на всех. Казалось бы, что может быть лучше? Вода есть, еда есть. 
+Но. 
+Вы забыли рассказать ученому о ядовитых видах рыбы, и теперь все отравились. 
+
+Все в лодке погибли."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 39 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 26
+	Node_Speech 
+	{
+		Text "Вы решаете обучать прачку. 
+
+Прачка старалась изо всех сил. Но ведь не просто так она не добилась в жизни ничего и работает обычной прачкой на корабле. Она не очень сообразительна, у нее недостаточно навыков. Поэтому, рыбы оказалось совсем немного, только двое смогут поесть.
+
+Теперь Вам предстоит принять непростое решение: оставить без еды пассажира или прачку?"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 40 Text "Оставить без еды пассажира" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 41 Text "Оставить без еды прачку" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 27
+	Node_End 
+	{
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Shipwreck" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 28
+	Node_Speech 
+	{
+		Text "Вы выбираете веревку. Что ж, не самый плохой выбор. Пассажир мертв, с ведьмой Вы рассчитались. Казалось бы, теперь все должно наладиться.
+
+Но.
+
+Еды в лодке по-прежнему нет. Единственным возможным способом ее добычи для Вас было сплести сеть из той самой веревки и наловить рыбы. Однако, Вы испортили ее в процессе удушья.
+
+Вы погибли."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 27 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 29
+	Node_Speech 
+	{
+		Text "Вы выбираете нож. Прекрасно. Пассажир умирает, медленно истекая кровью. Ведьма довольна.
+
+Теперь Вы столкнулись с новой проблемой: на запах крови приплыли акулы. Вам срочно нужно что-то с этим делать. Ведь находиться в маленькой лодке посреди океана, которая к тому же окружена акулами, - сомнительное удовольствие.
+
+У Вас есть два варианта. Вы можете вырвать доску из лодки и отбиваться ею от акул или попытаться поймать акул веревкой. Ваши действия?"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 42 Text "Отбиваться доской" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 43 Text "Ловить акул веревкой" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 30
+	Node_End 
+	{
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Shipwreck" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 31
+	Node_Speech 
+	{
+		Text "Вы выбираете мечь. И действительно, пираты хоть и опытные захватчики, но вчера ночью они отмечали очередную победу. Поэтому в их организмах сейчас слишком большое количество рома. Сейчас они не способны не то что сражаться. Они не способны даже просто встать. 
+
+Убив всех пиратов, Вы осознаете один очень приятный факт: теперь до суши Вы поплывете не в маленькой и неудобной шлюпке, а на роскошном пиратском корабле. Невольно Вы задумываетесь, а так ли Вам хочется домой? Может, бросить все и стать пиратом?"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 30 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 32
+	Node_Speech 
+	{
+		Text "Вы выбрираете магию. Однако, пираты и сами не дураки поколдовать. Вспомните легенды о бессмертии и сундуке мертвеца. 
+
+Все они давно продали свои души в дьяволу, магией их не одолеешь. А вот отрубить им головы при помощи меча и выкинуть их в океан – это да, это работает."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 30 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 33
+	Node_Speech 
+	{
+		Text "Вы вырываете доску из лодки. Действительно, на первый взгляд это решение выглядит сомнительным. Теперь в Вашей лодке пробоина, все вокруг стремительно наполняется водой. 
+
+Именно в этот момент Вы вспоминаете древнее заклинание защиты. Вы используете кровь убитого пассажира и создаете магический щит, который затыкает пробоину. 
+
+Вы спасены. Более того, у Вас осталась веревка, при помощи которой матрос сможет сплести сеть и ловить рыбу. Теперь у Вас есть пресная вода, а в скором времени появится и еда. Ничто не угрожает Вашему путешествию домой."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 30 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 34
+	Node_Speech 
+	{
+		Text "В качестве защиты от акул Вы выбираете веревку и делаете из нее лассо-виселицу.
+
+Поначалу у Вас отлично получается накидывать ваше изобретение на акул и душить их. В перспективе Вы даже смогли бы отловить их трупы и питаться ими, пока не достигнете суши. 
+
+Однако с последней акулой что-то пошло не так. Она утягивает Вас в океан и съедает, даже не подавившись. Вы мертвы.
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 30 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 35
+	Node_End 
+	{
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Shipwreck" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 36
+	Node_Speech 
+	{
+		Text "Вы выбираете мечь. И действительно, пираты хоть и опытные захватчики, но вчера ночью они отмечали очередную победу. Поэтому в их организмах сейчас слишком большое количество рома. Сейчас они не способны не то что сражаться. Они не способны даже просто встать. 
+
+Убив всех пиратов, Вы осознаете один очень приятный факт: теперь до суши Вы поплывете не в маленькой и неудобной шлюпке, а на роскошном пиратском корабле. Вы станете лучшим отцом на земле. Ведь обычно своим дочерям отцы из поездок привозят красивых кукол. А Вы своей подарите роскошный пиратский корабль."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 35 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 37
+	Node_Speech 
+	{
+		Text "Вы просите прачку воспользоваться магией. Однако, пираты и сами не дураки поколдовать. Вспомните легенды о бессмертии и сундуке мертвеца. 
+
+Все они давно продали свои души в дьяволу, магией их не одолеешь. А вот отрубить им головы при помощи меча и выкинуть их в океан – это да, это работает."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 35 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 38
+	Node_End 
+	{
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Shipwreck" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 39
+	Node_End 
+	{
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Shipwreck" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 40
+	Node_Speech 
+	{
+		Text "Вы решаете не делиться едой с пассажиром. Теперь он в буквальном смысле умирает от голода. 
+
+Прачка бесконечно Вам благодарна за помощь. В знак признательности она предлагает Вам бессмертие, ведь темные ведьмы вуду вполне способны на такое, не так ли? Для этого нужно принести душу в жертву Папе Легба, посреднику между миром живых и миром духов.
+
+Заманчивое предложение, что скажете? Особенно учитывая, что пассажир умрет в любом случае, а так хоть с пользой для Вас. Но решать Вам, конечно же."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 44 Text "Принести пассажира в жертву" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 45 Text "Оставить его спокойно умирать" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 41
+	Node_Speech 
+	{
+		Text "Вы решаете оставить без еды прачку. 
+
+Но ведь прачка – ведьма, которая обладает черной магией вуду. А Вы посмели ее обидеть. Как думаете, сможете дальше жить? Вот-вот. Вы мертвы."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 46 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 42
+	Node_Speech 
+	{
+		Text "Вы вырываете доску из лодки. Действительно, на первый взгляд это решение выглядит сомнительным. Теперь в Вашей лодке пробоина, все вокруг стремительно наполняется водой. 
+
+Но ведьме вуду тоже не выгодно умирать. Кто вообще хочет умирать? Поэтому она использует кровь убитого пассажира и создает магический щит, который затыкает пробоину. 
+
+Вы спасены. Более того, у Вас осталась веревка, при помощи которой Вы сможете сплести сеть и ловить рыбу. Теперь ничто не угрожает Вашему путешествию домой."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 47 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 43
+	Node_Speech 
+	{
+		Text "В качестве защиты от акул Вы выбираете веревку и делаете из нее лассо-виселицу.
+
+Поначалу у Вас отлично получается накидывать ваше изобретение на акул и душить их. В перспективе Вы даже смогли бы отловить их трупы и питаться ими, пока не достигнете суши. 
+
+Однако с последней акулой что-то пошло не так. Она утягивает Вас в океан и съедает, даже не подавившись. Вы мертвы."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 47 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 44
+	Node_Speech 
+	{
+		Text "Вы соглашаетесь на предложение прачки. Но давайте рассуждать логично. Магия вуду – черная магия, от нее ничего хорошего не ждут. 
+
+И что же теперь? 
+
+Вместе с душой пассажира Вы продали и свою душу тоже, прачка попросту Вас обманула. Вы попали в личный ад Папы Легба и будете служить ему до конца вечности. Зато и жить будете вечно. Только не на земле. 
+
+А ведьма получила дары в виде пищи и сможет доплыть до земли."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 39 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 45
+	Node_Speech 
+	{
+		Text "Что ж, давайте рассуждать логично. Магия вуду – черная магия, от нее ничего хорошего не ждут. 
+
+Согласившись, вместе с душой пассажира Вы бы продали и свою душу тоже, прачка попросту Вас обманула. Вы попали бы в личный ад Папы Легба и служили бы ему до конца вечности. А ведьма получила бы дары в виде пищи и смогла бы доплыть до земли.
+
+Но Вы отказались, не поддавшись на этот жуткий обман. Теперь Вы можете спокойно плыть дальше: вода есть, еда есть. Злой замысел прачки Вы раскрыли, больше она Вас не побеспокоит. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 39 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 46
+	Node_End 
+	{
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Shipwreck" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 47
+	Node_End 
+	{
+		OwnerName "Shipwreck"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Shipwreck" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
 }
