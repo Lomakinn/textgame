@@ -10,4 +10,725 @@ Node_Speech StartNode
 	bCheckChildrenOnEvaluation False
 	VoiceSoundWave ""
 	VoiceDialogueWave ""
+	Children { {  TargetIndex 0 Text "Next" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+}
+DlgParticipantClasses { {  ParticipantName "Monastery Murder" ParticipantClass "/Game/Blueprints/Parcipiant.Parcipiant_C" } }
+Node Nodes
+{
+	// 0
+	Node_Speech 
+	{
+		Text "Раннее средневековье. Вы - папский нунций, прибывший в провинциальный монастырь. Во время вашего ночлега происходит убийство. Заколота настояьельница монастыря. Вы решаете разобраться во всём и раскрыть убийство. Виновник не уйдёт безнаказанным, ведь господь смотрит за вами, а папа Пий VI не потерпит неудачи!
+
+Соберите достаточно доказательств для обвинения кого-либо.
+
+Первым делом Вы решаете:
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		EnterEvents { {  ParticipantName "Monastery Murder" EventType "EDlgEventType::DlgEventModifyInt" EventName "GetAxe" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+		Children
+		{
+			{  TargetIndex 1 Text "Осмотреть труп" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 2 Text "Опросить свидетелей убийства" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 1
+	Node_Speech 
+	{
+		Text "Убийство было совершено рано утром и тело настоятельницы ещё не успели убрать. Рядом с покойной лежит окровавленный кухонный тесак. Наличие кухонной утвари подозрительно. Возможно стоит зайти в трапезную и поговорить с кухаркой.
+
+Больше ничего интересного здесь нет. Вы распоряжаетесь убрать тело и проходите дальше."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		EnterEvents { {  ParticipantName "Monastery Murder" EventType "EDlgEventType::DlgEventModifyInt" EventName "Ulika1" IntValue 1 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+		Children { {  TargetIndex 3 Text "Выйти в холл" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 2
+	Node_Speech 
+	{
+		Text "Осталбеневшая монашка, которая нашла труп, при виде вас снова обретает дар речи. 
+"Вот, возьмите это, нунций. Сей клочок бумаги был зажат в руке нашёй настоятельницы, когда я нашла её бездыханное тело".
+
+Монашка протягивает вам листок. Кажется он вырван из книги по оккультизму и демонологии. Возможно в монастыре появились последователи запретного культа. Надо быть начеку. 
+
+Теперь стоит осмотреть место преступления."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		EnterEvents { {  ParticipantName "Monastery Murder" EventType "EDlgEventType::DlgEventModifyInt" EventName "Paper" IntValue 1 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+		Children { {  TargetIndex 1 Text "Осмотреть труп" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 3
+	Node_Speech 
+	{
+		Text "Вы входите в холл монастыря. Здесь тихо и безлюдно. Кажется всё живое вокруг вымерло или спряталось подальше от вашего взора. Вам предстоит выбрать, куда идти дальше."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 4 Text "Трапезная" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 5 Text "Сад" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 6 Text "Библиотека" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 7 Text "Спальня" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 8 Text "Пройти по черному ходу" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 4
+	Node_Speech 
+	{
+		Text "Вы входите в трапезную. Между столов протискивается тучная кухарка. Они собирает посуду, оставшуюсь после недавнего обеда.
+Завидев Вас, сестра спешит скрыться на кухне."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{
+				TargetIndex 9
+				Text "Потайная комната"
+				SpeakerState "None"
+				bIncludeInAllOptionListIfUnsatisfied True
+				Conditions { {  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionIntCall" ParticipantName "Monastery Murder" CallbackName "SecretRoom" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "Monastery Murder" OtherVariableName "SecretRoom" IntValue 1 FloatValue 0.0 NameValue "None" bBoolValue False bLongTermMemory True } }
+			}
+			{
+				TargetIndex 10
+				Text "Поговорить с кухаркой"
+				SpeakerState "None"
+				bIncludeInAllOptionListIfUnsatisfied True
+				Conditions { {  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionNodeVisited" ParticipantName "None" CallbackName "None" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "None" OtherVariableName "None" IntValue 10 FloatValue 0.0 NameValue "None" bBoolValue False bLongTermMemory True } }
+			}
+			{
+				TargetIndex 11
+				Text "Поговорить с кухаркой"
+				SpeakerState "None"
+				bIncludeInAllOptionListIfUnsatisfied True
+				Conditions { {  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionNodeVisited" ParticipantName "None" CallbackName "None" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "None" OtherVariableName "None" IntValue 10 FloatValue 0.0 NameValue "None" bBoolValue True bLongTermMemory True } }
+			}
+			{  TargetIndex 12 Text "Вернуться в холл" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 5
+	Node_Speech 
+	{
+		Text "Вы выходите на улицу и попадаете в монастырский сад. Здесь десятилетиями выращиваются причудливые деревья и цветы. 
+Узкая тропинка начигается здесь и ведёт к жилым домам сестёр. Сейчас свет горит только в одном из них."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 13 Text "Пройти в дом, где горит свеча" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 12 Text "Вернуться в холл" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 6
+	Node_Speech 
+	{
+		Text "Вы входите в величественный зал библиотеки. Колонны, украшенные золотыми узорами поддерживают своды монастыря. Между ними стоят деревянные стеллажи, уставленные древними книгами со священным знанием. 
+
+Около одного из них Вас встречает худая сестра-библиарий. Она опечалена смертью настоятельницы."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 12 Text "Вернуться в холл" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 14 Text "Поговорить с библиотекарем" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{
+				TargetIndex 15
+				Text "Осмотреть стеллаж с книгами"
+				SpeakerState "None"
+				bIncludeInAllOptionListIfUnsatisfied True
+				Conditions { {  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionIntCall" ParticipantName "Monastery Murder" CallbackName "Paper" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "None" OtherVariableName "None" IntValue 0 FloatValue 0.0 NameValue "None" bBoolValue True bLongTermMemory True } }
+			}
+			{
+				TargetIndex 16
+				Text "Осмотреть стеллаж с книгами"
+				SpeakerState "None"
+				bIncludeInAllOptionListIfUnsatisfied True
+				Conditions { {  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionIntCall" ParticipantName "Monastery Murder" CallbackName "Paper" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "None" OtherVariableName "None" IntValue 1 FloatValue 0.0 NameValue "None" bBoolValue True bLongTermMemory True } }
+			}
+		}
+	}
+	// 7
+	Node_Speech 
+	{
+		Text "Вы входите в спальню настоятельницы. 
+Все вещи здесь неаккуратно разбросаны вокруг шкафа.
+Кажется, перед тем, как её убили она боролась с кем-то.
+
+На кровати валяются куски ткани. Возможно это части одежды, принадлежавшей убийце.
+
+Возле кровати стоит небольшой шкафчик, запертый на замок."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 12 Text "Вернуться в холл" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 17 Text "Изучить обрывки одежды" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{
+				TargetIndex 18
+				Text "Открыть шкаф"
+				SpeakerState "None"
+				bIncludeInAllOptionListIfUnsatisfied True
+				Conditions { {  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionIntCall" ParticipantName "Monastery Murder" CallbackName "KeyFind" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "Monastery Murder" OtherVariableName "Bush" IntValue 1 FloatValue 0.0 NameValue "None" bBoolValue False bLongTermMemory True } }
+			}
+			{
+				TargetIndex 19
+				Text "Открыть шкаф"
+				SpeakerState "None"
+				bIncludeInAllOptionListIfUnsatisfied True
+				Conditions { {  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionIntCall" ParticipantName "Monastery Murder" CallbackName "KeyFind" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "Monastery Murder" OtherVariableName "KeyFind" IntValue 0 FloatValue 0.0 NameValue "None" bBoolValue True bLongTermMemory True } }
+			}
+		}
+	}
+	// 8
+	Node_Speech 
+	{
+		Text "Вы нашли чёрный ход, который ведёт на задний двор храма. Неприметную дверь легко пропустить, если не знаешь, что она находится за этой колонной. Дорога от двери ведёт к калитке на заднем дворе. По ней кухарка ходит выбрасывать объедки в сточную канаву за территорией монастыря. 
+
+Вы нащупываете рукой в кармане старый ключ. Краска на нём потрескалась и местами облетела. Грузный замок болтается на дверной петле."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		EnterConditions { {  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionIntCall" ParticipantName "Monastery Murder" CallbackName "VisDoor" Operation "EDlgOperation::DlgGreater" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "None" OtherVariableName "None" IntValue 0 FloatValue 0.0 NameValue "None" bBoolValue True bLongTermMemory True } }
+		Children
+		{
+			{  TargetIndex 20 Text "Закрыть дверь на замок" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 21 Text "Оставить дверь открытой" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 9
+	Node_Speech 
+	{
+		Text "Вы нашли потайную комнату. Здесь сыро и темно."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+	}
+	// 10
+	Node_Speech 
+	{
+		Text "Вы упрекаете кухарку в том, что орудие убийство было взято на кухне. Ваша уверенность в причастности кухарки сильна и только чистая исповедь поможет исправить ситуацию.
+
+Взволнованная кухарка сначала не может связать и пары слов. Но после приходит в себя.
+
+"Я убежала на кухню, потому что боялась, что Вы обвините меня, нунций. Но я ни в чём не виновата. Мой нож пропал вчера, после завтрака, однако я не знаю, как это могло произойти... Я всегда была на кухне и выходила только в трапезную, никто не смог бы пройти мимо меня, а на кухню другого входа нет. Это какая-то магия.
+
+Вчера я слышала странные шорохи в монастыре. Возможно убийца пришёл с улицы. За колоннами в холле есть чёрный ход на улицу. Там я выбрасываю мусор. Вам стоит его проверить. Возможно, я была нерасторопна и оставила дверь открытой".
+
+Кухарка даёт Вам ключ от чёрного хода."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		EnterEvents
+		{
+			{  ParticipantName "Monastery Murder" EventType "EDlgEventType::DlgEventModifyInt" EventName "VisDoor" IntValue 1 FloatValue 0.0 NameValue "None" bDelta False bValue True }
+			{  ParticipantName "Monastery Murder" EventType "EDlgEventType::DlgEventModifyInt" EventName "KoohTalk" IntValue 1 FloatValue 0.0 NameValue "None" bDelta False bValue True }
+		}
+		Children
+		{
+			{  TargetIndex 22 Text "Обвинить кухарку в убийстве" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 4 Text "Вернуться в трапезную" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 11
+	Node_Speech 
+	{
+		Text ""Пожалуйста, не гневайтесь на меня. Я никого не убивала. Я больше ничего не знаю!""
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 22 Text "Обвинить кухарку в убийстве" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 4 Text "Вернуться в трапезную" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 12
+	Node_Speech 
+	{
+		Text "Вы вернулись в холл"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 4 Text "Трапезная" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 5 Text "Сад" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 6 Text "Библиотека" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 7 Text "Спальня" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 8 Text "Пройти по черному ходу" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 13
+	Node_Speech 
+	{
+		Text "Вы входите в маленький и милый дом. Посередине дома расположен камин, в котором тлеют угли, распространяя успокаивающее тепло.
+
+Поодаль камина в маленькой комнатке за столом сидит невысокая монашка. Тонким пером она пишет что-то на непонятном Вам языке. Это одна из церковных сестёр-переписчиц."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		EnterEvents { {  ParticipantName "Monastery Murder" EventType "EDlgEventType::DlgEventModifyInt" EventName "Bush" IntValue 1 FloatValue 0.0 NameValue "None" bDelta False bValue True } }
+		Children
+		{
+			{  TargetIndex 23 Text "Поговорить с монашкой" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{  TargetIndex 5 Text "Вернуься в сад" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{
+				TargetIndex 24
+				Text "Обвинить монашку"
+				SpeakerState "None"
+				bIncludeInAllOptionListIfUnsatisfied True
+				Conditions
+				{
+					{  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionIntCall" ParticipantName "Monastery Murder" CallbackName "Ulika1" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "None" OtherVariableName "None" IntValue 1 FloatValue 0.0 NameValue "None" bBoolValue True bLongTermMemory True }
+					{  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionIntCall" ParticipantName "Monastery Murder" CallbackName "Ulika2" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "None" OtherVariableName "None" IntValue 1 FloatValue 0.0 NameValue "None" bBoolValue True bLongTermMemory True }
+				}
+			}
+			{
+				TargetIndex 25
+				Text "Обвинить монашку"
+				SpeakerState "None"
+				bIncludeInAllOptionListIfUnsatisfied True
+				Conditions
+				{
+					{  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionIntCall" ParticipantName "Monastery Murder" CallbackName "Ulika2" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "None" OtherVariableName "None" IntValue 0 FloatValue 0.0 NameValue "None" bBoolValue True bLongTermMemory True }
+					{  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionIntCall" ParticipantName "Monastery Murder" CallbackName "Ulika1" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "None" OtherVariableName "None" IntValue 1 FloatValue 0.0 NameValue "None" bBoolValue True bLongTermMemory True }
+				}
+			}
+		}
+	}
+	// 14
+	Node_Speech 
+	{
+		Text "Сестра библиарий представляется Вам Аликреей.
+
+"Нет, я ничего не знаю об убийстве. Я очень напугана. Мой долг оставаться в библиотеке и присматривать за писаниями. Священными писаниями. Я ничего не знаю..."
+
+Монашка бегло отводит от вас взгляд.
+
+"Да храни нас бог. Да. Бог. Да воздастся верующему за его веру и заслуги. Сейчас мы не можем отступить. Надо быть храбрыми...."
+
+Библиарий ведёт себя странно и трусливо. Она поспешно удаляется протирать стеллажи с книгами."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{  TargetIndex 6 Text "Прекратить осмотр" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+			{
+				TargetIndex 26
+				Text "Обвинить в убийстве библиария"
+				SpeakerState "None"
+				bIncludeInAllOptionListIfUnsatisfied True
+				Conditions { {  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionIntCall" ParticipantName "Monastery Murder" CallbackName "Clothers" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "None" OtherVariableName "None" IntValue 1 FloatValue 0.0 NameValue "None" bBoolValue True bLongTermMemory True } }
+			}
+		}
+	}
+	// 15
+	Node_Speech 
+	{
+		Text "Вы осматриваете книги на стеллажах, но не находите среди них ничего интересного. Кажется, библиарий переставляла их свосем недавно. Возможно это обычная процедура."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 6 Text "Прекратить осмотр" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 16
+	Node_Speech 
+	{
+		Text "Вы вспоминаете о листке, который получили от монашки-свидетельницы. Возможно книга, из которой он был вырван находится здесь.
+
+Спустя часы поиска вы находите старую потрёпанную книгу. Как нерасторопно, что убийца оставил её здесь. Возможно библиотекарь была не в курсе, что из её хранилища кто-то тайком выкрадывал книги. А возможно она заметает следы. Кто же убийца?"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		EnterEvents { {  ParticipantName "Monastery Murder" EventType "EDlgEventType::DlgEventModifyInt" EventName "Ulika2" IntValue 1 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+		Children { {  TargetIndex 6 Text "Прекратить осмотр" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 17
+	Node_Speech 
+	{
+		Text "Кусок монашеской рясы небольшого размера, оборванный от пояса до пола, попадается Вам на глаза. Его хозяйка, должно быть, невысокая худая девушка."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		EnterEvents { {  ParticipantName "Monastery Murder" EventType "EDlgEventType::DlgEventModifyInt" EventName "Clothers" IntValue 1 FloatValue 0.0 NameValue "None" bDelta False bValue True } }
+		Children { {  TargetIndex 7 Text "Вернуться к осмотру" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 18
+	Node_Speech 
+	{
+		Text "В шкафу лежит небольшой блокнот. 
+Это дневник настоятельницы. 
+
+Последняя запись гласит:
+
+"Кто-то в монастыре покланяется демонам. Мне предстоит выяснить, кто пал так низко. Этот человек должен уметь читать на древнем языке Калахари. 
+
+Все книги были под охраной сестры-библиотекаря и, хоть мой гнев ни раз проливался на неё, я всецело ей доверяю. Надо искать кого-то среди других сестёр."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		EnterEvents { {  ParticipantName "Monastery Murder" EventType "EDlgEventType::DlgEventModifyInt" EventName "Ulika2" IntValue 1 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+		Children { {  TargetIndex 7 Text "Закрыть шкафчик" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 19
+	Node_Speech 
+	{
+		Text "Вы дёргаете за дверцу шкафа, но она не поддаётся"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 7 Text "Назад" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 20
+	Node_Speech 
+	{
+		Text "Возможно убийца знает об этом выходе. Нельзя быть расторопным.
+Вы закрываете дверь на замок и прячете ключ в своей рясе."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		EnterEvents
+		{
+			{  ParticipantName "Monastery Murder" EventType "EDlgEventType::DlgEventModifyInt" EventName "VisDoor" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False }
+			{  ParticipantName "Monastery Murder" EventType "EDlgEventType::DlgEventModifyInt" EventName "CloseDoor" IntValue 1 FloatValue 0.0 NameValue "None" bDelta False bValue True }
+		}
+		Children { {  TargetIndex 3 Text "Вернуться в холл" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 21
+	Node_Speech 
+	{
+		Text "Возможно этот выход ещё пригодится Вам. 
+Вы оставляете дверь открытой. "
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		EnterEvents
+		{
+			{  ParticipantName "Monastery Murder" EventType "EDlgEventType::DlgEventModifyInt" EventName "VisDoor" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False }
+			{  ParticipantName "Monastery Murder" EventType "EDlgEventType::DlgEventModifyInt" EventName "CloseDoor" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False }
+		}
+		Children { {  TargetIndex 3 Text "Вернуться в холл" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 22
+	Node_Speech 
+	{
+		Text "Вы говорите кухарке, что кухонный нож, найденный на месте убийства явно указывает на вину этой женщины!
+Она слёзно молит Вас пощадить её, и просит милости у господа.
+"Я ни в чём не виновата, я бы никогда в жизни не лишила жизни человека!"
+Но Вы остаётесь непоколебимым."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 27 Text "Далее" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 23
+	Node_Speech 
+	{
+		Text "Монашка, сидящая за столом поворачивается к Вам и говорит, что её зовут Мария. Вы просите рассказать её всё, что известно об убийстве.
+Она откладывает красный лист бумаги. Складывает руки, покрытые красно-рубиновой пылью, в жест мольбы.
+
+"Да храниит Вас бог и да будут долгими Ваши дни, нунций. Да, я слышала об убийстве нашей настоятельницы. Я очень скорблю по ней. Она была нашей опорой и поддержкой. Надеюсь Вам удастся раскрыть это убийство.
+
+Сестра-библиарий с давних времён питала ненависть к нашей настоятельнице за отказ хранить в библиотеке книги других религий.
+
+К сожалению больше я ничем не смогу вам больше помочь.""
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 28 Text "Вернуься в сад" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 24
+	Node_Speech 
+	{
+		Text "Вы ,выкладываете всё, что знаете монашке. Она пристально смотрит на вас, а затем пытается сбежать."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children
+		{
+			{
+				TargetIndex 29
+				Text "Броситься в погоню"
+				SpeakerState "None"
+				bIncludeInAllOptionListIfUnsatisfied True
+				Conditions
+				{
+					{  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionIntCall" ParticipantName "Monastery Murder" CallbackName "GetAxe" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "None" OtherVariableName "None" IntValue 1 FloatValue 0.0 NameValue "None" bBoolValue True bLongTermMemory True }
+					{  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionIntCall" ParticipantName "Monastery Murder" CallbackName "CloseDoor" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "None" OtherVariableName "None" IntValue 0 FloatValue 0.0 NameValue "None" bBoolValue True bLongTermMemory True }
+				}
+			}
+			{
+				TargetIndex 30
+				Text "Броситься в погоню"
+				SpeakerState "None"
+				bIncludeInAllOptionListIfUnsatisfied True
+				Conditions { {  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionIntCall" ParticipantName "Monastery Murder" CallbackName "CloseDoor" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "None" OtherVariableName "None" IntValue 1 FloatValue 0.0 NameValue "None" bBoolValue True bLongTermMemory True } }
+			}
+			{
+				TargetIndex 31
+				Text "Броситься в погоню"
+				SpeakerState "None"
+				bIncludeInAllOptionListIfUnsatisfied True
+				Conditions { {  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionIntCall" ParticipantName "Monastery Murder" CallbackName "GetAxe" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToConst" OtherParticipantName "None" OtherVariableName "None" IntValue 0 FloatValue 0.0 NameValue "None" bBoolValue True bLongTermMemory True } }
+			}
+		}
+	}
+	// 25
+	Node_Speech 
+	{
+		Text ""И это всё, что у Вас есть? По вашему это доказывает мою вину, нунций? Это возмутительно!"
+
+Вы понимаете, что этих улик недостаточно, чтобы обвинить сестру Марию в убийстве.
+"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 28 Text "Вернуься в сад" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 26
+	Node_Speech 
+	{
+		Text "Поведение библиария и её трусость не вызывают сомнений, что она замешана в убийстве, а возможно, в ещё более страшных деяниях. Вы принимаете решение о немедленном взятии под арест этой монашки и отправке её в отделение инквизиции!
+
+
+"Занчит на то воли божья", говорит монашка."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 32 Text "Арестовать библиария" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 27
+	Node_Speech 
+	{
+		Text "Пока вы готовили кухарку к отправке на эшафот, настоящий демонопоклонник успел скрыться. Он похитил оккультную книгу из библиотеки и вскоре наслал на монастырь древнее проклятие. Вокруг бывшего храма на долгие века воцарилась аура чумы и смерти."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 33 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 28
+	Node_Speech 
+	{
+		Text "Вы выходите на улицу и попадаете в монастырский сад. Здесь десятилетиями выращиваются причудливые деревья и цветы. 
+Узкая тропинка начигается здесь и ведёт к жилым домам сестёр. Сейчас свет горит только в одном из них.
+
+Пройдя чуть дальше по тропинке, Вы замечаете, что блестящее в кустах."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 34 Text "Обыскать кусты" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 29
+	Node_Speech 
+	{
+		Text "Вы не успели схватить монашку. Быстрая и проворная она успела выскочить из кельи. Хвала богу демоническая книга осталась нетронутой в библиотеке, но ваше упущение пришлось не по вкусу Папе Пию VI. За провал расследования вас лишили сана нунция.
+
+ПОРАЖЕНИЕ!"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 35 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 30
+	Node_Speech 
+	{
+		Text "Вы раскрыли убийство и поймали монашку-демонопоклонницу!
+
+ПОБЕДА!"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 35 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 31
+	Node_Speech 
+	{
+		Text "Вместо того, чтобы бежать к двери, монашка кидается к своей кровати и вытаскивает оттуда огромный топор. Он кажется вам знакомым.
+
+Пока вы на секунду задумываетесь, монашка прорубает вам череп и сбегает.
+
+Забрав с собой оккультную книгу, она насылает на монастырь проклятие и возраждает культ Нургла. В округе над храмом теперь вечно будет висеть атмосфера чумы и разложения.
+
+ПОРАЖЕНИЕ!"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 35 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 32
+	Node_Speech 
+	{
+		Text "Пока вы готовили сестру-библиария к отправке на эшафот, настоящий демонопоклонник успел скрыться. Он похитил оккультную книгу из библиотеки и вскоре наслал на монастырь древнее проклятие. Вокруг бывшего храма на долгие века воцарилась аура чумы и смерти.
+
+ПОРАЖЕНИЕ!"
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 35 Text "Finish" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 33
+	Node_End 
+	{
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Monastery Murder" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 34
+	Node_Selector 
+	{
+		SelectorType "EDlgNodeSelectorType::DlgNodeSelectorFirst"
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation True
+		Children
+		{
+			{
+				TargetIndex 36
+				Text "Next"
+				SpeakerState "None"
+				bIncludeInAllOptionListIfUnsatisfied True
+				Conditions { {  Strength "EDlgConditionStrength::DlgConditionStrengthStrong" ConditionType "EDlgConditionType::DlgConditionBoolCall" ParticipantName "Monastery Murder" CallbackName "BushShow" Operation "EDlgOperation::DlgEqual" CompareType "EDlgCompareType::DlgCompareToVariable" OtherParticipantName "Monastery Murder" OtherVariableName "BushShow" IntValue 0 FloatValue 0.0 NameValue "None" bBoolValue True bLongTermMemory True } }
+			}
+			{  TargetIndex 37 Text "" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True }
+		}
+	}
+	// 35
+	Node_End 
+	{
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		EnterEvents { {  ParticipantName "Monastery Murder" EventType "EDlgEventType::DlgEventEvent" EventName "EndStory" IntValue 0 FloatValue 0.0 NameValue "None" bDelta False bValue False } }
+	}
+	// 36
+	Node_Speech 
+	{
+		Text "В кустах вы находите маленький золотой ключик. Возможно он поможет вам в раскрытии убийства. Осталось найти, что он открывает."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		EnterEvents { {  ParticipantName "Monastery Murder" EventType "EDlgEventType::DlgEventModifyInt" EventName "KeyFind" IntValue 1 FloatValue 0.0 NameValue "None" bDelta False bValue True } }
+		Children { {  TargetIndex 5 Text "Вернуться в сад" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
+	// 37
+	Node_Speech 
+	{
+		Text "Этот блеск был всего лишь игрой вашего воображения. Здесь больше ничего нет."
+		SpeakerState "None"
+		bIsVirtualParent False
+		OwnerName "Monastery Murder"
+		bCheckChildrenOnEvaluation False
+		VoiceSoundWave ""
+		VoiceDialogueWave ""
+		Children { {  TargetIndex 5 Text "Вернуться в сад" SpeakerState "None" bIncludeInAllOptionListIfUnsatisfied True } }
+	}
 }
